@@ -9,117 +9,123 @@
         :root {
             --primary: #002b5c;
             --secondary: #00d4ff;
-            --dark: #1a1a1a;
-            --light: #f8f9fa;
+            --accent: #e6f7ff;
+            --dark: #0a192f;
+            --text: #333;
         }
-        body { font-family: 'Inter', sans-serif; margin: 0; color: #333; background-color: var(--light); scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; margin: 0; color: var(--text); background-color: #f4f7f6; line-height: 1.6; }
         
         /* Hero Section */
         header { 
-            background: linear-gradient(135deg, var(--primary) 0%, #004a99 100%);
+            background: linear-gradient(135deg, var(--dark) 0%, var(--primary) 100%);
             color: white; 
-            padding: 100px 20px; 
+            padding: 120px 20px; 
             text-align: center;
-            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
         }
-        header h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: -1px; }
-        header p { font-size: 1.2rem; opacity: 0.9; font-weight: 300; }
+        header h1 { font-size: 3.5rem; margin: 0; letter-spacing: -2px; font-weight: 700; }
+        header p { font-size: 1.25rem; opacity: 0.9; font-weight: 300; margin-top: 10px; }
 
-        .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
+        .container { max-width: 1100px; margin: auto; padding: 60px 20px; }
         
-        h2 { text-align: center; color: var(--primary); font-size: 2rem; margin-bottom: 40px; }
+        .section-title { text-align: center; color: var(--primary); font-size: 2.2rem; margin-bottom: 50px; position: relative; }
+        .section-title::after { content: ''; display: block; width: 50px; height: 4px; background: var(--secondary); margin: 10px auto; }
 
-        /* Project Cards */
-        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        /* Project Grid */
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
         
         .project-card { 
             background: white; 
-            border: none; 
-            padding: 30px; 
-            border-radius: 12px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 40px; 
+            border-radius: 16px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             display: flex;
             flex-direction: column;
+            border: 1px solid #eee;
         }
         .project-card:hover { 
-            transform: translateY(-10px); 
+            transform: translateY(-12px); 
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            border-color: var(--secondary);
         }
-        .project-card h3 { color: var(--primary); margin-top: 0; font-size: 1.4rem; }
-        .project-card p { flex-grow: 1; color: #666; font-size: 0.95rem; }
+        .project-card h3 { color: var(--primary); margin-top: 0; font-size: 1.5rem; }
+        .project-card p { flex-grow: 1; color: #666; font-size: 1rem; margin-bottom: 25px; }
 
         /* Buttons */
         .btn { 
             background: var(--primary); 
             color: white; 
-            padding: 12px 20px; 
+            padding: 14px 24px; 
             text-decoration: none; 
-            border-radius: 6px; 
+            border-radius: 8px; 
             font-weight: 600;
             text-align: center;
-            transition: background 0.3s;
-            margin-top: 20px;
+            transition: 0.3s ease;
         }
-        .btn:hover { background: var(--secondary); color: var(--primary); }
+        .btn:hover { background: var(--secondary); color: var(--dark); }
 
-        /* Toolkit Section */
-        .toolkit { 
-            margin-top: 60px; 
+        /* Modern Toolkit Tags */
+        .toolkit-box { 
+            margin-top: 80px; 
             background: var(--dark); 
             color: white; 
-            padding: 40px; 
-            border-radius: 12px;
+            padding: 50px; 
+            border-radius: 20px;
             text-align: center;
         }
+        .tag-container { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px; }
         .tag {
-            display: inline-block;
-            background: rgba(255,255,255,0.1);
-            padding: 5px 15px;
-            border-radius: 20px;
-            margin: 5px;
-            font-size: 0.85rem;
-            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.08);
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: 0.3s;
         }
+        .tag:hover { background: var(--secondary); color: var(--dark); border-color: var(--secondary); }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Jatin Chotoo</h1>
-    <p>Financial Technology | Big Data Automation | Executive Intelligence</p>
+    <p>Financial Technology | Data Automation | Executive Intelligence</p>
 </header>
 
 <div class="container">
-    <h2>Strategic Portfolio</h2>
+    <h2 class="section-title">Strategic Portfolio</h2>
 
     <div class="project-grid">
         <div class="project-card">
             <h3>Executive SaaS Dashboard</h3>
-            <p>High-level Power BI platform visualizing unit economics, MRR, and liquidity risk for SaaS stakeholders.</p>
+            <p>Advanced Power BI architecture transforming raw multi-source billing data into CFO-ready KPIs using Star Schema and optimized DAX.</p>
             <a href="https://github.com/jatinchotoo/Project-1-Executive-Dashboard" class="btn">Examine Logic</a>
         </div>
 
         <div class="project-card">
             <h3>Global Finance Automation</h3>
-            <p>Python engine handling R1.2bn FX consolidation and automated subsidiary reporting across multi-currency ledgers.</p>
-            <a href="https://github.com/jatinchotoo/Global-Finance-Automation" class="btn">View Engine</a>
+            <p>Full-scale Python engine automating complex FX consolidation and multi-subsidiary ledger reporting for group-level R1.2bn financial visibility.</p>
+            <a href="https://github.com/jatinchotoo/Global-Finance-Automation" class="btn">View Engine Architecture</a>
         </div>
 
         <div class="project-card">
             <h3>Alpha-Sentinel Market Engine</h3>
-            <p>Analyzing 100k+ rows of high-frequency sentiment data to correlate market panic with price dips.</p>
-            <a href="https://github.com/jatinchotoo/Project-3-Sentiment-Engine" class="btn">System Architecture</a>
+            <p>High-frequency Big Data solution correlating 100k+ rows of real-time market sentiment with price volatility via Excel Power Pivot.</p>
+            <a href="https://github.com/jatinchotoo/Project-3-Sentiment-Engine" class="btn">Technical Breakdown</a>
         </div>
     </div>
 
-    <div class="toolkit">
-        <h3>Expertise & Toolkit</h3>
-        <span class="tag">Python (Pandas/NumPy)</span>
-        <span class="tag">Power BI (DAX)</span>
-        <span class="tag">Advanced Excel (Power Pivot)</span>
-        <span class="tag">Financial Modeling</span>
-        <span class="tag">Big Data Engineering</span>
+    <div class="toolkit-box">
+        <h3>Core Technical Stack</h3>
+        <div class="tag-container">
+            <span class="tag">Python (Pandas / NumPy)</span>
+            <span class="tag">Power BI (Advanced DAX)</span>
+            <span class="tag">Financial Modeling</span>
+            <span class="tag">Big Data Automation</span>
+            <span class="tag">Excel Power Pivot</span>
+            <span class="tag">SQL & Data Architecting</span>
+        </div>
     </div>
 </div>
 
