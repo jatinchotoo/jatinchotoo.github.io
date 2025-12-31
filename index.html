@@ -2,49 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jatin Chotoo | Finance Data Architect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Chotoo | Financial Data Architect</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; color: #333; line-height: 1.6; background-color: #f9f9f9; }
-        header { background: #002b5c; color: white; padding: 80px 20px; text-align: center; }
-        .container { max-width: 900px; margin: auto; padding: 40px 20px; }
-        .project-card { background: white; border: 1px solid #ddd; padding: 30px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        .project-card h3 { color: #002b5c; margin-top: 0; }
-        .btn { background: #002b5c; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; font-weight: bold; }
-        .btn:hover { background: #004080; }
-        .toolkit { background: #eee; padding: 20px; border-radius: 8px; }
+        :root {
+            --primary: #002b5c;
+            --secondary: #00d4ff;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+        }
+        body { font-family: 'Inter', sans-serif; margin: 0; color: #333; background-color: var(--light); scroll-behavior: smooth; }
+        
+        /* Hero Section */
+        header { 
+            background: linear-gradient(135deg, var(--primary) 0%, #004a99 100%);
+            color: white; 
+            padding: 100px 20px; 
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+        header h1 { font-size: 3rem; margin-bottom: 10px; letter-spacing: -1px; }
+        header p { font-size: 1.2rem; opacity: 0.9; font-weight: 300; }
+
+        .container { max-width: 1000px; margin: auto; padding: 60px 20px; }
+        
+        h2 { text-align: center; color: var(--primary); font-size: 2rem; margin-bottom: 40px; }
+
+        /* Project Cards */
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        
+        .project-card { 
+            background: white; 
+            border: none; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .project-card:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .project-card h3 { color: var(--primary); margin-top: 0; font-size: 1.4rem; }
+        .project-card p { flex-grow: 1; color: #666; font-size: 0.95rem; }
+
+        /* Buttons */
+        .btn { 
+            background: var(--primary); 
+            color: white; 
+            padding: 12px 20px; 
+            text-decoration: none; 
+            border-radius: 6px; 
+            font-weight: 600;
+            text-align: center;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+        .btn:hover { background: var(--secondary); color: var(--primary); }
+
+        /* Toolkit Section */
+        .toolkit { 
+            margin-top: 60px; 
+            background: var(--dark); 
+            color: white; 
+            padding: 40px; 
+            border-radius: 12px;
+            text-align: center;
+        }
+        .tag {
+            display: inline-block;
+            background: rgba(255,255,255,0.1);
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Jatin Chotoo</h1>
-    <p>Financial Technology | Big Data Automation | Executive Reporting</p>
+    <p>Financial Technology | Big Data Automation | Executive Intelligence</p>
 </header>
 
 <div class="container">
-    <h2>Strategic Data Portfolio</h2>
+    <h2>Strategic Portfolio</h2>
 
-    <div class="project-card">
-        <h3>Project 1: Executive SaaS Dashboard</h3>
-        <p>A Power BI platform transforming raw billing data into CFO-ready insights using Star Schema and DAX logic.</p>
-        <a href="https://github.com/jatinchotoo/Project-1-Executive-Dashboard" class="btn">View Logic & Data Model</a>
-    </div>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Executive SaaS Dashboard</h3>
+            <p>High-level Power BI platform visualizing unit economics, MRR, and liquidity risk for SaaS stakeholders.</p>
+            <a href="https://github.com/jatinchotoo/Project-1-Executive-Dashboard" class="btn">Examine Logic</a>
+        </div>
 
-    <div class="project-card">
-        <h3>Project 2: Global Finance Automation (R1.2bn)</h3>
-        <p>A Python-driven engine automating complex FX consolidation and multi-subsidiary ledger reporting.</p>
-        <a href="https://github.com/jatinchotoo/Global-Finance-Automation" class="btn">View Automation Engine</a>
-    </div>
+        <div class="project-card">
+            <h3>Global Finance Automation</h3>
+            <p>Python engine handling R1.2bn FX consolidation and automated subsidiary reporting across multi-currency ledgers.</p>
+            <a href="https://github.com/jatinchotoo/Global-Finance-Automation" class="btn">View Engine</a>
+        </div>
 
-    <div class="project-card">
-        <h3>Project 3: Alpha-Sentinel Sentiment Engine</h3>
-        <p>A Big Data solution correlating 100k+ rows of market sentiment with price volatility via Excel Power Pivot.</p>
-        <a href="https://github.com/jatinchotoo/Project-3-Sentiment-Engine" class="btn">View Big Data System</a>
+        <div class="project-card">
+            <h3>Alpha-Sentinel Market Engine</h3>
+            <p>Analyzing 100k+ rows of high-frequency sentiment data to correlate market panic with price dips.</p>
+            <a href="https://github.com/jatinchotoo/Project-3-Sentiment-Engine" class="btn">System Architecture</a>
+        </div>
     </div>
 
     <div class="toolkit">
-        <h3>Technical Toolkit</h3>
-        <p>Python (Pandas, NumPy), Power BI, Advanced Excel (Power Pivot), DAX, Data Modeling.</p>
+        <h3>Expertise & Toolkit</h3>
+        <span class="tag">Python (Pandas/NumPy)</span>
+        <span class="tag">Power BI (DAX)</span>
+        <span class="tag">Advanced Excel (Power Pivot)</span>
+        <span class="tag">Financial Modeling</span>
+        <span class="tag">Big Data Engineering</span>
     </div>
 </div>
 
