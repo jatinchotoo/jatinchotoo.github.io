@@ -1,59 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Jatin Chotoo | Finance & Analytics Portfolio</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Jatin Chotoo | Finance, Risk & Analytics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --bg-card: #111827;
+            --accent: #38bdf8;
+            --text-main: #e5e7eb;
+            --text-muted: #9ca3af;
+            --border-soft: #1f2937;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(180deg, #020617, #020617);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 80px 10%;
+            border-bottom: 1px solid var(--border-soft);
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        header h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            max-width: 720px;
+        }
+
+        nav {
+            margin-top: 30px;
+        }
+
+        nav a {
+            margin-right: 24px;
+            text-decoration: none;
+            color: var(--accent);
+            font-weight: 500;
+        }
+
+        section {
+            padding: 70px 10%;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+
+        .project-card {
+            background: linear-gradient(180deg, #020617, #020617);
+            border: 1px solid var(--border-soft);
+            border-radius: 14px;
+            padding: 28px;
+            transition: transform 0.25s ease, border 0.25s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent);
+        }
+
+        .project-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+        }
+
+        .project-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 22px;
+        }
+
+        .project-card a {
+            text-decoration: none;
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        footer {
+            padding: 50px 10%;
+            border-top: 1px solid var(--border-soft);
+        }
+
+        footer h3 {
+            font-size: 1.4rem;
+            margin-bottom: 14px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
 </head>
+
 <body>
+
 <header>
-  <h1>Jatin Chotoo</h1>
-  <p>Finance, Risk & Analytics | FP&A | Portfolio & Dashboard Solutions</p>
+    <h1>Jatin Chotoo</h1>
+    <h2>
+        Finance, Risk & Analytics | FP&A | Decision Intelligence Platforms  
+        <br>
+        15+ years delivering executive-grade financial insight, risk frameworks, and analytics solutions across corporate and fintech environments.
+    </h2>
+
+    <nav>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="projects.html">Projects</a> |
-  <a href="#contact">Contact</a>
-</nav>
+<section id="projects">
+    <h2 class="section-title">Selected Projects</h2>
 
-<section id="intro">
-  <h2>Welcome</h2>
-  <p>Over 15 years of finance experience, building dashboards, risk tools, and decision intelligence engines for corporate and fintech environments.</p>
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Axiom-Zero</h3>
+            <p>
+                Pre-execution liquidity and settlement risk engine designed to flag capital, timing,
+                and counterparty exposure before transaction execution using automated
+                traffic-light dashboards.
+            </p>
+            <a href="#">View Project →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Executive FP&A Dashboard</h3>
+            <p>
+                CFO-level performance dashboard consolidating revenue, margin, cost drivers,
+                and trend analytics to support strategic planning and executive decision-making.
+            </p>
+            <a href="#">View Project →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Financial Statement Analysis Engine</h3>
+            <p>
+                Automated comparative analysis of multi-entity financial statements with ratio
+                diagnostics, variance analysis, and visualization outputs.
+            </p>
+            <a href="#">View Project →</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Credit & Risk Intelligence Dashboard</h3>
+            <p>
+                Credit risk monitoring platform integrating exposure metrics, early-warning indicators,
+                and predictive risk flags for portfolio oversight.
+            </p>
+            <a href="#">View Project →</a>
+        </div>
+
+    </div>
 </section>
 
-<section id="projects-preview">
-  <h2>Key Projects</h2>
-  <div class="project-card">
-    <img src="assets/Axiom_Dashboard_Green.png" alt="Axiom-Zero">
-    <h3>Axiom-Zero</h3>
-    <p>Pre-execution liquidity and settlement risk engine with automated traffic-light dashboards.</p>
-    <a href="https://github.com/jatinchotoo/Project_4_Axiom-Zero-Global-Settlement" target="_blank">View Project</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/Project_1_Dashboard.png" alt="Project 1">
-    <h3>Executive Dashboard</h3>
-    <p>FP&A executive dashboard with KPIs, comparative analytics, and visuals.</p>
-    <a href="https://github.com/jatinchotoo/Project_1_Executive_Dashboard" target="_blank">View Project</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/Project_2_Dashboard.png" alt="Project 2">
-    <h3>Financial Statement Analysis</h3>
-    <p>Automated comparative analysis of multi-entity financials with visualization outputs.</p>
-    <a href="https://github.com/jatinchotoo/Project_2_Financials" target="_blank">View Project</a>
-  </div>
-  <div class="project-card">
-    <img src="assets/Project_3_Dashboard.png" alt="Project 3">
-    <h3>Credit & Risk Dashboard</h3>
-    <p>Credit risk insights dashboard with predictive metrics and risk flags.</p>
-    <a href="https://github.com/jatinchotoo/Project_3_Credit_Risk" target="_blank">View Project</a>
-  </div>
-</section>
+<footer id="contact">
+    <h3>Contact</h3>
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank">
+            linkedin.com/in/jatin-chotoo
+        </a>
+    </p>
+</footer>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/jatin-chotoo/" target="_blank">linkedin.com/in/jatin-chotoo</a></p>
-</section>
 </body>
 </html>
 
