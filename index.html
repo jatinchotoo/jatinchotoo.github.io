@@ -13,7 +13,6 @@
         body { font-family: 'Inter', sans-serif; background-color: #050505; color: #fafafa; }
         .serif { font-family: 'Playfair Display', serif; }
         
-        /* The Robotic/Neural UI Touches */
         .glass-panel { 
             background: rgba(255, 255, 255, 0.02); 
             backdrop-filter: blur(12px); 
@@ -27,16 +26,11 @@
         }
         .glow-text { text-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
         .scanline {
-            width: 100%;
-            height: 100px;
-            z-index: 10;
+            width: 100%; height: 100px; z-index: 10;
             background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(59,130,246,0.05) 50%, rgba(0,0,0,0) 100%);
-            position: absolute;
-            animation: scan 8s linear infinite;
+            position: absolute; animation: scan 8s linear infinite;
         }
         @keyframes scan { from { top: -100px; } to { top: 100%; } }
-        
-        /* Grid Background */
         .grid-bg {
             background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0);
             background-size: 40px 40px;
@@ -54,18 +48,17 @@
 
     <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 relative">
         <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-900/10 blur-[120px] rounded-full"></div>
-        
         <div class="relative z-10">
             <h2 class="text-blue-500 font-bold mb-4 tracking-[0.4em] uppercase text-[10px]" data-aos="fade-right">System_Initialization // Capital Stewardship</h2>
             <h1 class="text-6xl md:text-8xl serif mb-8 leading-none" data-aos="fade-up">
                 Engineering <span class="italic text-blue-400">Clarity</span><br>
                 <span class="opacity-30">For High-Stakes Decisions.</span>
             </h1>
-            <p class="max-w-xl text-lg text-gray-400 font-light mb-12 border-l-2 border-blue-500/30 pl-6" data-aos="fade-up" data-aos-delay="200">
+            <p class="max-w-xl text-lg text-gray-400 font-light mb-12 border-l-2 border-blue-500/30 pl-6" data-aos="fade-up">
                 Strategic Finance Leader protecting capital and anticipating risk in high-growth enterprise environments.
             </p>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl" data-aos="fade-up" data-aos-delay="400">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl" data-aos="fade-up">
                 <div class="glass-panel p-8 rounded-xl">
                     <div class="text-xs text-gray-500 mb-2 uppercase tracking-widest">Capital Recovery</div>
                     <div class="text-4xl font-light glow-text" data-target="107" data-prefix="R" data-suffix="M">R0M</div>
@@ -83,77 +76,94 @@
     </section>
 
     <section id="projects" class="py-32 px-8 md:px-24">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
-            <div class="max-w-xl">
-                <h3 class="text-4xl serif mb-4 italic">Decision Intelligence.</h3>
-                <p class="text-gray-500 font-light">Deconstructing complex financial telemetry into precise CFO-level action signals.</p>
-            </div>
-            <div class="text-[10px] text-blue-500 font-mono">STATUS: SYSTEMS_NOMINAL</div>
-        </div>
-
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
-                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative">
+                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
                     <img src="assets/Project_1_images/Executive_summary.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
                 </div>
-                <div class="p-4 pt-0">
-                    <span class="text-[9px] text-blue-500 font-mono tracking-widest uppercase mb-2 block">Analytical Model 01</span>
-                    <h4 class="text-xl font-semibold mb-3">SaaS Performance Intelligence</h4>
+                <div class="p-4">
+                    <h4 class="text-xl font-semibold mb-3">Project 1: SaaS Performance Intelligence</h4>
                     <p class="text-sm text-gray-500 font-light">Identified 12% yield leakage in subscriber retention via granular churn modeling.</p>
                 </div>
             </div>
-
-            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative">
+            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
+                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
                     <img src="assets/Project_2_images/roic_results.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
                 </div>
-                <div class="p-4 pt-0">
-                    <span class="text-[9px] text-blue-500 font-mono tracking-widest uppercase mb-2 block">System Automation 02</span>
-                    <h4 class="text-xl font-semibold mb-3">Global Alpha Engine</h4>
-                    <p class="text-sm text-gray-500 font-light">Collapsed reporting latency by 90% (from 5 days to 8 hours) via automated multi-currency consolidation.</p>
+                <div class="p-4">
+                    <h4 class="text-xl font-semibold mb-3">Project 2: Global Alpha Engine</h4>
+                    <p class="text-sm text-gray-500 font-light">Collapsed reporting latency by 90% via automated multi-currency consolidation.</p>
                 </div>
             </div>
-
             <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
-                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative">
+                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
                     <img src="assets/Project_3_images/Lumina_Main_Dashboard.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
                 </div>
-                <div class="p-4 pt-0">
-                    <span class="text-[9px] text-blue-500 font-mono tracking-widest uppercase mb-2 block">Technical Audit 03</span>
-                    <h4 class="text-xl font-semibold mb-3">Lumina Cloud Economics</h4>
+                <div class="p-4">
+                    <h4 class="text-xl font-semibold mb-3">Project 3: Lumina Cloud Economics</h4>
                     <p class="text-sm text-gray-500 font-light">Technical waste audit identifying R107M in annual capital recovery potential.</p>
                 </div>
             </div>
-
-            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative">
+            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
+                <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
                     <img src="assets/Project_4_images/Axiom_Dashboard_Green.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
                 </div>
-                <div class="p-4 pt-0">
-                    <span class="text-[9px] text-blue-500 font-mono tracking-widest uppercase mb-2 block">Risk Governance 04</span>
-                    <h4 class="text-xl font-semibold mb-3">Axiom Settlement Risk</h4>
-                    <p class="text-sm text-gray-500 font-light">Achieved 99.57% successful settlement rate using pre-execution risk gating circuits.</p>
+                <div class="p-4">
+                    <h4 class="text-xl font-semibold mb-3">Project 4: Axiom Settlement Risk</h4>
+                    <p class="text-sm text-gray-500 font-light">Achieved 99.57% successful settlement rate using pre-execution risk gating.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="ai-advisor" class="py-32 px-8 md:px-24 bg-[#080808]/50">
+    <section id="ai-advisor" class="py-32 px-8 md:px-24">
         <div class="max-w-4xl mx-auto glass-panel p-12 rounded-[40px] relative overflow-hidden">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 blur-3xl"></div>
-            
             <h3 class="text-3xl serif italic mb-6">Neural Strategic Advisor</h3>
-            <p class="text-gray-500 mb-10 font-light">Query the system logic behind capital stewardship methodologies.</p>
-            
             <div class="flex flex-wrap gap-3 mb-12">
                 <button onclick="fillPrompt('Tell me about Lumina R107M recovery')" class="px-5 py-2 rounded-full border border-white/5 text-[10px] tracking-widest uppercase hover:bg-white/5 transition">Lumina Analysis</button>
                 <button onclick="fillPrompt('Explain Axiom Risk Governance')" class="px-5 py-2 rounded-full border border-white/5 text-[10px] tracking-widest uppercase hover:bg-white/5 transition">Axiom Risk</button>
-                <button onclick="fillPrompt('How did you reduce latency by 90%?')" class="px-5 py-2 rounded-full border border-white/5 text-[10px] tracking-widest uppercase hover:bg-white/5 transition">Latency System</button>
             </div>
-
             <div class="relative mb-8">
-                <input type="text" id="aiInput" placeholder="System inquiry..." class="w-full bg-transparent border-b border-white/10 pb-4 focus:outline-none focus:border-blue-
+                <input type="text" id="aiInput" placeholder="System inquiry..." class="w-full bg-transparent border-b border-white/10 pb-4 focus:outline-none focus:border-blue-500 transition font-light italic text-white">
+                <button onclick="generateAIResponse()" class="absolute right-0 bottom-4 text-blue-500 text-[10px] font-bold tracking-[0.2em] uppercase">Compute</button>
+            </div>
+            <div id="aiOutput" class="p-8 rounded-2xl bg-white/[0.02] border border-white/5 min-h-[120px] text-sm text-gray-400 font-light leading-relaxed">Waiting for system entry...</div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center text-[9px] tracking-[0.4em] text-gray-600 uppercase">© 2026 Jatin Chotoo // System Secure // Decision Intelligence Core</footer>
+
+    <script>
+        AOS.init({ duration: 1200, once: true });
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = entry.target;
+                    const countTo = parseInt(target.getAttribute('data-target'));
+                    const prefix = target.getAttribute('data-prefix') || '';
+                    const suffix = target.getAttribute('data-suffix') || '';
+                    let count = 0;
+                    const timer = setInterval(() => {
+                        count += Math.ceil(countTo / 50);
+                        if (count >= countTo) { clearInterval(timer); count = countTo; }
+                        target.innerText = prefix + count.toLocaleString() + suffix;
+                    }, 30);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('[data-target]').forEach(el => observer.observe(el));
+
+        function fillPrompt(t) { document.getElementById('aiInput').value = t; }
+        function generateAIResponse() {
+            const input = document.getElementById('aiInput').value.toLowerCase();
+            const output = document.getElementById('aiOutput');
+            output.innerHTML = "<span class='text-blue-500 font-mono'>Accessing Secure Methodology Core...</span>";
+            setTimeout(() => {
+                if (input.includes('axiom')) output.innerHTML = "<strong>System Log: Axiom-Zero Framework</strong><br>Ensuring 99.57% settlement reliability via pre-execution gating.";
+                else if (input.includes('lumina')) output.innerHTML = "<strong>System Log: Lumina Cloud Economics</strong><br>Audit identifies R107M capital recovery across 10,000+ nodes.";
+                else output.innerHTML = "Awaiting valid system query...";
+            }, 800);
+        }
+    </script>
+</body>
+</html>
