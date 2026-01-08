@@ -14,6 +14,7 @@
         .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
         .gradient-text { background: linear-gradient(45deg, #fff, #999); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .accent-border { border-left: 4px solid #3b82f6; }
+        img { max-width: 100%; height: auto; object-fit: cover; }
     </style>
 </head>
 <body class="overflow-x-hidden">
@@ -80,7 +81,7 @@
                     <div>
                         <span class="text-xs text-blue-400 font-mono">Python / Automation</span>
                         <h4 class="text-2xl mt-2 mb-2">Project 2: Global Alpha Engine</h4>
-                        <p class="opacity-50 text-sm max-w-md">Collapsed reporting latency by 90% (from 5 days to 8 hours) via automated multi-currency consolidation.</p>
+                        <p class="opacity-50 text-sm max-w-md">Collapsed reporting latency by 90% (from 5 days to 8 hours) via automated consolidation.</p>
                     </div>
                 </div>
             </div>
@@ -140,9 +141,10 @@
     </footer>
 
     <script>
+        // Animations
         AOS.init({ duration: 1000, once: true });
 
-        // Counter Logic
+        // Counter Animation Logic
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -161,6 +163,7 @@
         });
         document.querySelectorAll('[data-target]').forEach(el => observer.observe(el));
 
+        // AI Logic
         function fillPrompt(t) { document.getElementById('aiInput').value = t; }
 
         function generateAIResponse() {
@@ -169,5 +172,19 @@
             output.innerHTML = "<em>Analyzing methodology...</em>";
 
             setTimeout(() => {
-                if (
-                    
+                if (input.includes('axiom')) {
+                    output.innerHTML = "<strong>Axiom-Zero Framework:</strong><br>• Goal: Protect liquidity via pre-execution gating.<br>• Logic: Statistical variance thresholds for settlement.<br>• Result: 99.57% success rate in high-volatility environments.";
+                } else if (input.includes('lumina')) {
+                    output.innerHTML = "<strong>Lumina Cloud Economics:</strong><br>• Focus: FinOps & Technical Waste.<br>• Scope: 10,000+ nodes audited.<br>• Impact: Identified R107M in potential annual capital recovery.";
+                } else if (input.includes('latency') || input.includes('alpha')) {
+                    output.innerHTML = "<strong>Global Alpha Engine:</strong><br>• Focus: Automated multi-currency consolidation.<br>• Logic: Python-based pipelines replacing manual Excel legers.<br>• Result: 90% time saving (5 days down to 8 hours).";
+                } else if (input.includes('saas')) {
+                    output.innerHTML = "<strong>SaaS Intelligence:</strong><br>• Focus: Yield leakage & Churn.<br>• Result: Identified 12% leakage through granular cohort diagnostics in Power BI.";
+                } else {
+                    output.innerHTML = "I am Jatin's Digital Twin. I can explain the logic behind Axiom-Zero, the Lumina Cloud Economics recovery (R107M), or our SaaS yield diagnostics. What would you like to dive into?";
+                }
+            }, 800);
+        }
+    </script>
+</body>
+</html>
