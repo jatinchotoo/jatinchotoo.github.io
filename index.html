@@ -4,137 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jatin Chotoo | Strategic Finance & Decision Intelligence</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <meta name="description" content="Strategic Finance Leader specializing in Decision Intelligence, capital efficiency, and risk governance for high-growth enterprise environments.">
+    <meta name="author" content="Jatin Chotoo">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    
     <style>
-        :root { --accent: #3b82f6; --neon: #10b981; }
-        body { font-family: 'Inter', sans-serif; background-color: #050505; color: #fafafa; }
-        .serif { font-family: 'Playfair Display', serif; }
-        
-        .glass-panel { 
-            background: rgba(255, 255, 255, 0.02); 
-            backdrop-filter: blur(12px); 
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        .glass-panel:hover { 
-            background: rgba(255, 255, 255, 0.05); 
-            border-color: var(--accent);
-            transform: translateY(-5px);
-        }
-        .glow-text { text-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
-        .scanline {
-            width: 100%; height: 100px; z-index: 10;
-            background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(59,130,246,0.05) 50%, rgba(0,0,0,0) 100%);
-            position: absolute; animation: scan 8s linear infinite;
-        }
-        @keyframes scan { from { top: -100px; } to { top: 100%; } }
-        .grid-bg {
-            background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.03) 1px, transparent 0);
-            background-size: 40px 40px;
-        }
+        :root { --bg: #030303; --accent: #3b82f6; }
+        body { background: var(--bg); color: #fff; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.3s ease; }
+        .glass-panel:hover { border-color: var(--accent); background: rgba(255, 255, 255, 0.05); }
+        .neural-grid { background-image: radial-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px); background-size: 40px 40px; }
+        .scanline { width: 100%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); animation: scan 4s linear infinite; position: absolute; pointer-events: none; }
+        @keyframes scan { 0% { top: -10%; opacity: 0; } 50% { opacity: 0.5; } 100% { top: 110%; opacity: 0; } }
     </style>
 </head>
-<body class="overflow-x-hidden grid-bg">
-    <div class="scanline"></div>
+<body class="neural-grid overflow-x-hidden">
 
     <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-6 py-3 glass-panel rounded-full flex gap-8 text-[10px] uppercase tracking-[0.3em] font-bold">
-        <a href="#projects" class="hover:text-blue-400 transition">Intelligence</a>
-        <a href="#ai-advisor" class="hover:text-blue-400 transition">Neural Advisor</a>
-        <a href="https://github.com/jatinchotoo" target="_blank" class="hover:text-blue-400 transition">System.Core</a>
+        <a href="#projects" class="hover:text-blue-400 transition" aria-label="View financial intelligence projects">Intelligence</a>
+        <a href="#ai-advisor" class="hover:text-blue-400 transition" aria-label="Interact with Neural Strategic Advisor">Neural Advisor</a>
+        <a href="https://github.com/jatinchotoo" target="_blank" class="hover:text-blue-400 transition" aria-label="View GitHub Repository">System.Core</a>
     </nav>
 
-    <section class="min-h-screen flex flex-col justify-center px-8 md:px-24 relative">
-        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-900/10 blur-[120px] rounded-full"></div>
-        <div class="relative z-10">
-            <h2 class="text-blue-500 font-bold mb-4 tracking-[0.4em] uppercase text-[10px]" data-aos="fade-right">System_Initialization // Capital Stewardship</h2>
-            <h1 class="text-6xl md:text-8xl serif mb-8 leading-none" data-aos="fade-up">
-                Engineering <span class="italic text-blue-400">Clarity</span><br>
-                <span class="opacity-30">For High-Stakes Decisions.</span>
+    <section class="min-h-screen flex flex-col items-center justify-center relative px-6 text-center">
+        <div class="scanline"></div>
+        <div data-aos="fade-up" data-aos-duration="1200">
+            <h2 class="text-blue-500 font-mono text-sm tracking-[0.5em] mb-4">SYSTEM_INITIALIZATION // CAPITAL STEWARDSHIP</h2>
+            <h1 class="text-6xl md:text-8xl font-extralight tracking-tighter leading-none mb-8">
+                Engineering <span class="font-semibold italic text-blue-500">Clarity</span><br>For High-Stakes Decisions.
             </h1>
-            <p class="max-w-xl text-lg text-gray-400 font-light mb-12 border-l-2 border-blue-500/30 pl-6" data-aos="fade-up">
+            <p class="text-gray-400 max-w-xl mx-auto font-light leading-relaxed mb-12">
                 Strategic Finance Leader protecting capital and anticipating risk in high-growth enterprise environments.
             </p>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl" data-aos="fade-up">
-                <div class="glass-panel p-8 rounded-xl">
-                    <div class="text-xs text-gray-500 mb-2 uppercase tracking-widest">Capital Recovery</div>
-                    <div class="text-4xl font-light glow-text" data-target="107" data-prefix="R" data-suffix="M">R0M</div>
+            <div class="grid grid-cols-3 gap-12 max-w-3xl mx-auto border-t border-white/10 pt-12">
+                <div>
+                    <div class="text-3xl font-light mb-2 counter" data-target="107" data-prefix="R" data-suffix="M">0</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest">Capital Recovery</div>
                 </div>
-                <div class="glass-panel p-8 rounded-xl">
-                    <div class="text-xs text-gray-500 mb-2 uppercase tracking-widest">Latency Optimization</div>
-                    <div class="text-4xl font-light glow-text" data-target="90" data-suffix="%">0%</div>
+                <div>
+                    <div class="text-3xl font-light mb-2 counter" data-target="90" data-suffix="%">0</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest">Latency Optimization</div>
                 </div>
-                <div class="glass-panel p-8 rounded-xl">
-                    <div class="text-xs text-gray-500 mb-2 uppercase tracking-widest">Node Audits</div>
-                    <div class="text-4xl font-light glow-text" data-target="10000" data-suffix="+">0+</div>
+                <div>
+                    <div class="text-3xl font-light mb-2 counter" data-target="10000" data-suffix="+">0</div>
+                    <div class="text-[10px] text-gray-500 uppercase tracking-widest">Node Audits</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="py-32 px-8 md:px-24">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <section id="projects" class="py-32 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+            
             <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
                 <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
-                    <img src="assets/Project_1_images/Executive_summary.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
+                    <img src="assets/Project_1_images/Executive_summary.png" alt="SaaS Intelligence dashboard showing 12% yield leakage" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="p-4">
                     <h4 class="text-xl font-semibold mb-3">Project 1: SaaS Performance Intelligence</h4>
                     <p class="text-sm text-gray-500 font-light">Identified 12% yield leakage in subscriber retention via granular churn modeling.</p>
                 </div>
             </div>
-            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
+
+            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
-                    <img src="assets/Project_2_images/roic_results.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
+                    <img src="assets/Project_2_images/roic_results.png" alt="Python automated consolidation for Global Alpha Engine" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="p-4">
-                    <h4 class="text-xl font-semibold mb-3">Project 2: Global Alpha Engine</h4>
-                    <p class="text-sm text-gray-500 font-light">Collapsed reporting latency by 90% via automated multi-currency consolidation.</p>
+                    <h4 class="text-xl font-semibold mb-3">Project 2: Global Alpha Python Engine</h4>
+                    <p class="text-sm text-gray-500 font-light">Collapsed reporting latency by 90% via automated multi-currency consolidation logic.</p>
                 </div>
             </div>
+
             <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
                 <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
-                    <img src="assets/Project_3_images/Lumina_Main_Dashboard.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
+                    <img src="assets/Project_3_images/Lumina_Main_Dashboard.png" alt="Lumina Cloud Economics dashboard showing R107M recovery" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="p-4">
                     <h4 class="text-xl font-semibold mb-3">Project 3: Lumina Cloud Economics</h4>
                     <p class="text-sm text-gray-500 font-light">Technical waste audit identifying R107M in annual capital recovery potential.</p>
                 </div>
             </div>
-            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
+
+            <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up" data-aos-delay="100">
                 <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
-                    <img src="assets/Project_4_images/Axiom_Dashboard_Green.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
+                    <img src="assets/Project_4_images/Axiom_Dashboard_Green.png" alt="Axiom Settlement Risk gating interface" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 opacity-80 group-hover:opacity-100">
                 </div>
                 <div class="p-4">
                     <h4 class="text-xl font-semibold mb-3">Project 4: Axiom Settlement Risk</h4>
-                    <p class="text-sm text-gray-500 font-light">Achieved 99.57% successful settlement rate using pre-execution risk gating.</p>
+                    <p class="text-sm text-gray-500 font-light">99.57% Gating accuracy achieved via pre-execution risk gating circuits.</p>
+                </div>
+            </div>
+
+            <div class="group glass-panel rounded-3xl overflow-hidden p-4 md:col-span-2 border-blue-500/30" data-aos="fade-up">
+                <div class="grid md:grid-cols-3 gap-8 p-6 items-center">
+                    <div class="md:col-span-1 bg-black rounded-xl p-6 font-mono text-[11px] text-blue-400">
+                        > system.equinox --active<br>
+                        > agent.logic.audit(Axiom)<br>
+                        > status: <span class="text-green-400">NOMINAL</span><br>
+                        > variance_check: 0.00%
+                    </div>
+                    <div class="md:col-span-2">
+                        <h4 class="text-2xl font-semibold mb-3">Project 5: Equinox Agentic Finance</h4>
+                        <p class="text-gray-500 font-light mb-4">Leveraging Gemini CLI and Firebase AI Logic to build autonomous "Sentinel" agents. This system monitors capital flow across all projects, identifying risk variances before they impact the bottom line.</p>
+                        <span class="text-[10px] bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full uppercase tracking-tighter">Autonomous Agentic Workflow</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="ai-advisor" class="py-32 px-6 bg-white/[0.01]">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-light mb-4 text-blue-400 italic">Neural Strategic Advisor</h3>
+                <p class="text-gray-500 text-sm uppercase tracking-widest">Query Methodology Core</p>
+            </div>
+            
+            <div class="glass-panel rounded-3xl p-8 min-h-[300px] flex flex-col shadow-2xl shadow-blue-500/5">
+                <div id="advisor-output" class="flex-grow font-mono text-sm text-blue-300 leading-relaxed">
+                    Awaiting system inquiry...
+                </div>
+                <div class="mt-8 flex gap-4 overflow-x-auto pb-4">
+                    <button onclick="queryAdvisor('lumina')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-500/20 transition whitespace-nowrap">Lumina R107M Logic</button>
+                    <button onclick="queryAdvisor('axiom')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-500/20 transition whitespace-nowrap">Axiom Gating</button>
+                    <button onclick="queryAdvisor('equinox')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-500/20 transition whitespace-nowrap">Equinox Agents</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="ai-advisor" class="py-32 px-8 md:px-24">
-        <div class="max-w-4xl mx-auto glass-panel p-12 rounded-[40px] relative overflow-hidden">
-            <h3 class="text-3xl serif italic mb-6">Neural Strategic Advisor</h3>
-            <div class="flex flex-wrap gap-3 mb-12">
-                <button onclick="fillPrompt('Tell me about Lumina R107M recovery')" class="px-5 py-2 rounded-full border border-white/5 text-[10px] tracking-widest uppercase hover:bg-white/5 transition">Lumina Analysis</button>
-                <button onclick="fillPrompt('Explain Axiom Risk Governance')" class="px-5 py-2 rounded-full border border-white/5 text-[10px] tracking-widest uppercase hover:bg-white/5 transition">Axiom Risk</button>
-            </div>
-            <div class="relative mb-8">
-                <input type="text" id="aiInput" placeholder="System inquiry..." class="w-full bg-transparent border-b border-white/10 pb-4 focus:outline-none focus:border-blue-500 transition font-light italic text-white">
-                <button onclick="generateAIResponse()" class="absolute right-0 bottom-4 text-blue-500 text-[10px] font-bold tracking-[0.2em] uppercase">Compute</button>
-            </div>
-            <div id="aiOutput" class="p-8 rounded-2xl bg-white/[0.02] border border-white/5 min-h-[120px] text-sm text-gray-400 font-light leading-relaxed">Waiting for system entry...</div>
-        </div>
-    </section>
+    <footer class="py-20 text-center text-[9px] tracking-[0.4em] text-gray-600 uppercase">
+        © 2026 Jatin Chotoo // System Secure // Decision Intelligence Core
+    </footer>
 
-    <footer class="py-20 text-center text-[9px] tracking-[0.4em] text-gray-600 uppercase">© 2026 Jatin Chotoo // System Secure // Decision Intelligence Core</footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-        AOS.init({ duration: 1200, once: true });
+        AOS.init({ duration: 1000, once: true });
+
+        // Optimized Counter Logic (Technical Review Fix: Stop observing after completion)
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -143,25 +157,35 @@
                     const prefix = target.getAttribute('data-prefix') || '';
                     const suffix = target.getAttribute('data-suffix') || '';
                     let count = 0;
+                    
                     const timer = setInterval(() => {
                         count += Math.ceil(countTo / 50);
-                        if (count >= countTo) { clearInterval(timer); count = countTo; }
+                        if (count >= countTo) { 
+                            clearInterval(timer); 
+                            count = countTo; 
+                        }
                         target.innerText = prefix + count.toLocaleString() + suffix;
                     }, 30);
+                    
+                    observer.unobserve(target); 
                 }
             });
         }, { threshold: 0.1 });
-        document.querySelectorAll('[data-target]').forEach(el => observer.observe(el));
 
-        function fillPrompt(t) { document.getElementById('aiInput').value = t; }
-        function generateAIResponse() {
-            const input = document.getElementById('aiInput').value.toLowerCase();
-            const output = document.getElementById('aiOutput');
-            output.innerHTML = "<span class='text-blue-500 font-mono'>Accessing Secure Methodology Core...</span>";
+        document.querySelectorAll('.counter').forEach(c => observer.observe(c));
+
+        function queryAdvisor(type) {
+            const output = document.getElementById('advisor-output');
+            output.innerHTML = "<span class='text-white animate-pulse'>ACCESSING SECURE CORE...</span>";
+            
             setTimeout(() => {
-                if (input.includes('axiom')) output.innerHTML = "<strong>System Log: Axiom-Zero Framework</strong><br>Ensuring 99.57% settlement reliability via pre-execution gating.";
-                else if (input.includes('lumina')) output.innerHTML = "<strong>System Log: Lumina Cloud Economics</strong><br>Audit identifies R107M capital recovery across 10,000+ nodes.";
-                else output.innerHTML = "Awaiting valid system query...";
+                if(type === 'lumina') {
+                    output.innerHTML = "<strong>System Log: Lumina Cloud Economics</strong><br>Capital recovery focused on identifying unallocated compute capacity and storage leakage. Deployed automated node-auditing resulting in R107M identified recovery.";
+                } else if(type === 'axiom') {
+                    output.innerHTML = "<strong>System Log: Axiom Gating Protocol</strong><br>Implemented pre-execution gating to verify counterparty liquidity against volatility curves. Achieved 99.57% successful settlement rate.";
+                } else if(type === 'equinox') {
+                    output.innerHTML = "<strong>System Log: Equinox Agentic Finance</strong><br>Autonomous monitors built on Gemini CLI and Firebase AI Logic. This layer automates the risk-reporting loop across the Axiom and Lumina pillars.";
+                }
             }, 800);
         }
     </script>
