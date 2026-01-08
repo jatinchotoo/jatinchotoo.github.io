@@ -1,46 +1,47 @@
-# Jatin Chotoo | Strategic Finance & Decision Intelligence Leader
+# Strategic Finance & Decision Intelligence | Jatin Chotoo
 
 ![Portfolio Status](https://img.shields.io/badge/Status-Executive_Grade-D4AF37?style=for-the-badge)
 ![Market Focus](https://img.shields.io/badge/Focus-Capital_Stewardship_%26_Risk-0f1115?style=for-the-badge)
 
 **Engineering Clarity for High-Stakes Decisions.**
 
-I am a Strategic Finance leader with 15+ years of experience protecting capital and anticipating risk in high-growth enterprise environments. I bridge the gap between complex data telemetry and CFO-level decision-making.
+Strategic Finance Leader with 15+ years of experience protecting capital and anticipating risk. I bridge the gap between complex data telemetry and CFO-level decision-making.
 
 [🌐 View Live Portfolio](https://jatinchotoo.github.io) | [LinkedIn](https://www.linkedin.com/in/jatin-chotoo)
 
 ---
 
-## 🏗️ The Four Pillars of Financial Intelligence
+## 🚀 How I Add Value
+I assist organizations in solving three critical modern financial challenges:
 
-My work is categorized into four architectural pillars, each representing a core competency in modern finance.
-
-### 1. Executive Analytics (SaaS Intelligence)
-* **Problem:** High-growth SaaS environments often suffer from "Metric Noise" and yield leakage.
-* **Solution:** CFO-grade Power BI analytics converting fragmented data into cohort, CAC, and retention diagnostics.
-* **Impact:** Identified 12% yield leakage in subscriber retention via granular churn modeling.
-
-### 2. Global Finance & ROIC (Capital Engine)
-* **Problem:** Manual ledger consolidation delaying capital allocation decisions.
-* **Solution:** Automated multi-currency consolidation engine tracking ROIC and Net Working Capital.
-* **Impact:** Collapsed reporting latency by 90% (from 5 days to 8 hours).
-
-### 3. Cloud Economics (Lumina AI)
-* **Problem:** Cloud infrastructure spend viewed as an "uncontrollable" technical cost.
-* **Solution:** FinOps audit platform analyzing 10,000+ nodes using deterministic financial logic.
-* **Impact:** Identified R8.9M monthly waste with a **R107M Annual Capital Recovery** potential.
-
-### 4. Treasury Risk (Axiom-Zero)
-* **Problem:** High-value settlements exposed to market volatility and execution failures.
-* **Solution:** Pre-execution risk circuit-breaker gating transactions based on liquidity variance.
-* **Impact:** Achieved 99.57% successful settlement rate under strict governance conditions.
+1. **Revenue Leakage:** Identifying "Metric Noise" in SaaS and subscription models to stop yield leakage.
+2. **Operational Latency:** Replacing slow, manual Excel consolidation (5-day cycles) with automated Python/SQL engines (8-hour cycles).
+3. **Capital Waste:** Treating Cloud and Infrastructure spend as a controllable financial variable, recovering capital from technical waste.
 
 ---
 
-## 🛠️ Technical Stack
-* **Systems:** Power BI (DAX), Excel (Power Pivot/VBA), SQL, Python.
-* **Domains:** FinOps, Capital Allocation, Risk Governance, FP&A Transformation.
+## 🏗️ Project Ecosystem
+
+### Project 1: SaaS Performance Intelligence
+* **Outcome:** Identified 12% yield leakage in subscriber retention via granular churn modeling.
+
+### Project 2: Global Alpha Engine (Python)
+* **Outcome:** Collapsed reporting latency by 90% via automated multi-currency asset consolidation.
+
+### Project 3: Lumina Cloud Economics (FinOps)
+* **Outcome:** Identified **R107M Annual Capital Recovery** potential through technical compute auditing.
+
+### Project 4: Axiom Settlement Risk
+* **Outcome:** Achieved 99.57% successful settlement rate via pre-execution risk gating.
+
+### Project 5: Equinox Agentic Finance (2026 Core)
+* **Outcome:** Built autonomous "Sentinel" agents using Gemini CLI to monitor system health and financial variance.
 
 ---
 
-> *"Protecting capital. Anticipating risk. Engineering clarity for decision-makers."*
+## 🛠️ Technical Stack & Governance
+* **Strategic:** Capital Allocation, ROIC Tracking, Risk Governance, IFRS.
+* **Technical:** Python, SQL, Power BI (DAX), Gemini CLI, Firebase AI Logic.
+
+---
+> *"I don't just report history; I engineer the systems that protect the future of capital."*
