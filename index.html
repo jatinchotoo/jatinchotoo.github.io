@@ -35,7 +35,7 @@
                 Engineering <span class="font-semibold italic text-blue-500">Clarity</span><br>For High-Stakes Decisions.
             </h1>
             <p class="text-gray-400 max-w-2xl mx-auto font-light leading-relaxed mb-12">
-                15+ years of experience driving financial transformation, investment analysis, and governance. 
+                15+ years of experience driving financial transformation, investment analysis, and governance[cite: 5]. 
                 <span class="block mt-4 text-blue-400/80 italic text-sm italic">Optimizing capital allocation, strengthening risk oversight, and improving profitability[cite: 6].</span>
             </p>
             
@@ -58,7 +58,6 @@
 
     <section id="projects" class="py-32 px-6 max-w-7xl mx-auto">
         <div class="grid md:grid-cols-2 gap-8">
-            
             <div class="group glass-panel rounded-3xl overflow-hidden p-4" data-aos="fade-up">
                 <div class="h-64 rounded-2xl overflow-hidden mb-6 relative bg-black">
                     <img src="assets/Project_1_images/Executive_summary.png" alt="SaaS Intelligence" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition duration-700 opacity-80">
@@ -85,7 +84,7 @@
                 </div>
                 <div class="p-4">
                     <h4 class="text-xl font-semibold mb-3">Project 3: Lumina Cloud Economics</h4>
-                    <p class="text-sm text-gray-500 font-light">Advanced capital allocation and cost optimization[cite: 4, 16]. Identifying technical waste to drive executive-level efficiency.</p>
+                    <p class="text-sm text-gray-500 font-light">Advanced capital allocation and cost optimization. Identifying technical waste to drive executive-level efficiency[cite: 11].</p>
                 </div>
             </div>
 
@@ -95,7 +94,7 @@
                 </div>
                 <div class="p-4">
                     <h4 class="text-xl font-semibold mb-3">Project 4: Axiom Settlement Risk</h4>
-                    <p class="text-sm text-gray-500 font-light">Strengthening risk oversight [cite: 6] and reducing portfolio exposure through pre-execution gating logic[cite: 13].</p>
+                    <p class="text-sm text-gray-500 font-light">Strengthening risk oversight and reducing portfolio exposure through pre-execution gating logic[cite: 13].</p>
                 </div>
             </div>
 
@@ -107,11 +106,28 @@
                     </div>
                     <div class="md:col-span-2">
                         <h4 class="text-2xl font-semibold mb-3 text-blue-400">Project 5: Equinox Agentic Finance</h4>
-                        <p class="text-gray-500 font-light mb-4 text-sm">Autonomous oversight utilizing Gemini CLI. Bridging the gap between legacy reporting and predictive, real-time decision intelligence.</p>
+                        <p class="text-gray-500 font-light mb-4 text-sm">Autonomous oversight utilizing Gemini CLI. Bridging the gap between legacy reporting and predictive, real-time decision intelligence[cite: 32, 36].</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section id="ai-advisor" class="py-32 px-6 bg-white/[0.01]">
+        <div class="max-w-4xl mx-auto text-center">
+            <h3 class="text-3xl font-light mb-4 text-blue-400 italic">Neural Strategic Advisor</h3>
+            <p class="text-gray-500 text-sm uppercase tracking-widest mb-16">Query Methodology Core</p>
+            
+            <div class="glass-panel rounded-3xl p-8 min-h-[250px] flex flex-col text-left">
+                <div id="advisor-output" class="font-mono text-sm text-blue-300 leading-relaxed">
+                    Awaiting system inquiry...
+                </div>
+                <div class="mt-8 flex gap-4 overflow-x-auto pb-4">
+                    <button onclick="queryAdvisor('lumina')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-400 hover:text-white transition whitespace-nowrap">Recovery Logic</button>
+                    <button onclick="queryAdvisor('latency')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-400 hover:text-white transition whitespace-nowrap">Latency Logic</button>
+                    <button onclick="queryAdvisor('equinox')" class="px-6 py-3 glass-panel rounded-xl text-[10px] uppercase tracking-widest hover:bg-blue-400 hover:text-white transition whitespace-nowrap">Equinox Agents</button>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -122,6 +138,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init({ duration: 1000, once: true });
+
+        // Counter Logic
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -139,6 +157,22 @@
             });
         }, { threshold: 0.1 });
         document.querySelectorAll('.counter').forEach(c => observer.observe(c));
+
+        // Neural Advisor Logic
+        function queryAdvisor(type) {
+            const output = document.getElementById('advisor-output');
+            output.innerHTML = "<span class='animate-pulse'>ACCESSING CORE...</span>";
+            
+            setTimeout(() => {
+                if(type === 'lumina') {
+                    output.innerHTML = "<strong>System Log: Recovery Logic</strong><br>Identifying R107M annual technical waste through compute auditing. Logic: Match compute node lifecycle to financial provisioning[cite: 11].";
+                } else if(type === 'latency') {
+                    output.innerHTML = "<strong>System Log: Latency Logic</strong><br>Strategy: Python-automated consolidation. Impact: Reducing 5-day manual cycles to 8-hour automated runs, improving decision speed[cite: 59, 63].";
+                } else if(type === 'equinox') {
+                    output.innerHTML = "<strong>System Log: Equinox Agents</strong><br>Strategy: Autonomous sentinel agents built on Gemini CLI. Goal: Move from reactive reporting to real-time predictive risk surfacing[cite: 32, 64].";
+                }
+            }, 800);
+        }
     </script>
 </body>
 </html>
