@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jatin Chotoo | Strategic Finance & Decision Intelligence Leader">
+    <title>Jatin Chotoo | Strategic Finance & Decision Intelligence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+        :root { --gold: #D4AF37; --charcoal: #0f1115; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--charcoal); color: #e5e7eb; scroll-behavior: smooth; overflow-x: hidden; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .gold-gradient { background: linear-gradient(90deg, #D4AF37, #F1D592); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); backdrop-filter: blur(12px); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .glass-card:hover { border-color: var(--gold); transform: translateY(-5px); background: rgba(212, 175, 55, 0.03); box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5); }
+        .project-image-container { height: 220px; overflow: hidden; border-bottom: 1px solid rgba(255,255,255,0.05); position: relative; }
+        .project-image-container img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; opacity: 0.9; }
+        .project-badge { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); border: 1px solid var(--gold); color: var(--gold); font-size: 10px; padding: 4px 8px; text-transform: uppercase; letter-spacing: 0.1em; z-index: 10; }
+        .impact-box { border-left: 3px solid var(--gold); background: rgba(255,255,255,0.03); }
+        .custom-input { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: white; transition: all 0.3s; }
+        .custom-input:focus { outline: none; border-color: var(--gold); background: rgba(255,255,255,0.1); }
+        .loader { border: 2px solid rgba(212, 175, 55, 0.1); border-left-color: #D4AF37; border-radius: 50%; width: 20px; height: 20px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 px-8 py-6 flex justify-between items-center bg-[#0f1115]/90 backdrop-blur-md border-b border-white/5">
+        <div class="text-xl font-bold tracking-tighter serif uppercase hover:text-[#D4AF37] transition cursor-pointer" onclick="window.scrollTo(0,0)">J. Chotoo</div>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-[0.2em] font-medium">
+            <a href="#intelligence" class="nav-link hover:text-[#D4AF37]">Projects</a>
+            <a href="#ai-consultant" class="text-[#D4AF37]">AI Consultant</a>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(circle at 2px 2px, #D4AF37 1px, transparent 0); background-size: 50px 50px;"></div>
+        <div class="max-w-5xl text-center z-10" data-aos="fade-up">
+            <h2 class="text-[#D4AF37] uppercase tracking-[0.5em] text-[10px] mb-6 font-bold">Capital Stewardship & Risk Governance</h2>
+            <h1 class="serif text-5xl md:text-8xl mb-8 leading-tight">Engineering Clarity <br>for <span class="gold-gradient">High-Stakes Decisions.</span></h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto mb-12 font-light leading-relaxed">
+                Strategic Finance Leader protecting capital and anticipating risk in high-growth enterprise environments.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <a href="#ai-consultant" class="bg-[#D4AF37] text-black px-10 py-4 font-bold rounded-sm shadow-[0_0_20px_rgba(212,175,55,0.2)]">✨ Ask AI Advisor</a>
+                <a href="#intelligence" class="border border-white/20 px-10 py-4 font-bold hover:bg-white hover:text-black transition rounded-sm">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-[#0f1115] border-y border-white/5">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="text-center" data-aos="zoom-in">
+                <div class="serif text-6xl text-[#D4AF37] mb-2 font-bold" data-target="107" data-prefix="R" data-suffix="M">0M</div>
+                <p class="text-gray-500 uppercase tracking-widest text-xs">Annual Capital Recovery Identified</p>
+            </div>
+            <div class="text-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="serif text-6xl text-[#D4AF37] mb-2 font-bold" data-target="90" data-suffix="%">0%</div>
+                <p class="text-gray-500 uppercase tracking-widest text-xs">Reporting Latency Reduction</p>
+            </div>
+            <div class="text-center" data-aos="zoom-in" data-aos-delay="200">
+                <div class="serif text-6xl text-[#D4AF37] mb-2 font-bold" data-target="10000" data-suffix="+">0+</div>
+                <p class="text-gray-500 uppercase tracking-widest text-xs">Infrastructure Nodes Audited</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="intelligence" class="py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="serif text-4xl mb-4 text-white">Strategic Decision Intelligence</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Converting complex telemetry into CFO-level decision signals.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="glass-card rounded-sm overflow-hidden group" data-aos="fade-up">
+                    <div class="project-image-container">
+                        <span class="project-badge">Power BI / DAX</span>
+                        <img src="assets/Project_1_images/Executive_summary.png" alt="SaaS Dashboard">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="serif text-2xl mb-2 text-white">SaaS Performance Intelligence</h3>
+                        <p class="text-xs uppercase tracking-widest text-gray-500 mb-6">Executive Analytics</p>
+                        <div class="impact-box p-4 mb-4">
+                            <p class="text-gray-200 text-sm">Identified 12% yield leakage in subscriber retention via granular churn modeling.</p>
+                        </div>
+                        <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="text-[#D4AF37] text-xs font-bold border-b border-[#D4AF37] pb-1">VIEW REPOSITORY →</a>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-sm overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image-container">
+                        <span class="project-badge">Python / Automation</span>
+                        <img src="assets/Project_2_images/roic_results.png" alt="Capital Engine">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="serif text-2xl mb-2 text-white">Global Capital Engine</h3>
+                        <p class="text-xs uppercase tracking-widest text-gray-500 mb-6">Finance Transformation</p>
+                        <div class="impact-box p-4 mb-4">
+                            <p class="text-gray-200 text-sm">Collapsed reporting latency by 90% (from 5 days to 8 hours) via automated consolidation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-sm overflow-hidden group" data-aos="fade-up">
+                    <div class="project-image-container">
+                        <span class="project-badge">FinOps / Systems</span>
+                        <img src="assets/Project_3_images/Lumina_Main_Dashboard.png" alt="Cloud Economics">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="serif text-2xl mb-2 text-white">Lumina Cloud Economics</h3>
+                        <p class="text-xs uppercase tracking-widest text-gray-500 mb-6">Capital Recovery</p>
+                        <div class="impact-box p-4 mb-4">
+                            <p class="text-gray-200 text-sm">Identified R107M Annual Capital Recovery potential through technical waste audits.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-sm overflow-hidden group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image-container">
+                        <span class="project-badge">SQL / Risk</span>
+                        <img src="assets/Project_4_images/Axiom_Dashboard_Green.png" alt="Axiom Zero">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="serif text-2xl mb-2 text-white">Axiom-Zero Treasury Risk</h3>
+                        <p class="text-xs uppercase tracking-widest text-gray-500 mb-6">Risk Governance</p>
+                        <div class="impact-box p-4 mb-4">
+                            <p class="text-gray-200 text-sm">Achieved 99.57% successful settlement rate using pre-execution risk gating.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-consultant" class="py-32 px-6 bg-[#0f1115]">
+        <div class="max-w-4xl mx-auto glass-card p-12 rounded-lg">
+            <h2 class="serif text-4xl mb-4 text-center">AI Strategic Consultation</h2>
+            <textarea id="aiInput" rows="3" placeholder="Ask about capital recovery or risk governance..." class="w-full p-4 custom-input mb-4 rounded"></textarea>
+            <div class="flex justify-between items-center">
+                <button onclick="fillPrompt('How does Axiom-Zero prevent settlement failure?')" class="text-xs text-gray-500">Axiom-Zero?</button>
+                <button onclick="generateAIResponse()" class="bg-[#D4AF37] text-black px-8 py-3 font-bold rounded">Generate Response</button>
+            </div>
+            <div id="aiOutput" class="mt-8 text-sm text-gray-300 font-mono"></div>
+        </div>
+    </section>
+
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        
+        // Counter Logic
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = entry.target;
+                    const countTo = parseInt(target.getAttribute('data-target'));
+                    const prefix = target.getAttribute('data-prefix') || '';
+                    const suffix = target.getAttribute('data-suffix') || '';
+                    let count = 0;
+                    const timer = setInterval(() => {
+                        count += Math.ceil(countTo / 50);
+                        if (count >= countTo) { clearInterval(timer); count = countTo; }
+                        target.innerText = prefix + count.toLocaleString() + suffix;
+                    }, 30);
+                }
+            });
+        });
+        document.querySelectorAll('[data-target]').forEach(el => observer.observe(el));
+
+        function fillPrompt(t) { document.getElementById('aiInput').value = t; }
+    </script>
+</body>
+</html>
