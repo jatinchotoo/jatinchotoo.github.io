@@ -1,47 +1,66 @@
 # Strategic Finance & Decision Intelligence | Jatin Chotoo
 
-![Portfolio Status](https://img.shields.io/badge/Status-Executive_Grade-D4AF37?style=for-the-badge)
-![Market Focus](https://img.shields.io/badge/Focus-Capital_Stewardship_%26_Risk-0f1115?style=for-the-badge)
+### **Engineering Clarity for High-Stakes Decisions.**
 
-**Engineering Clarity for High-Stakes Decisions.**
+Strategic Finance & FP&A leader delivering capital-efficient, analytics-driven decision systems for CFOs and executive teams. I bridge the gap between complex data telemetry and institutional-grade capital allocation.
 
-Strategic Finance Leader with 15+ years of experience protecting capital and anticipating risk. I bridge the gap between complex data telemetry and CFO-level decision-making.
-
-[🌐 View Live Portfolio](https://jatinchotoo.github.io) | [LinkedIn](https://www.linkedin.com/in/jatin-chotoo)
+[suspicious link removed] | **[LinkedIn](https://linkedin.com/in/yourprofile)**
 
 ---
 
-## 🚀 How I Add Value
-I assist organizations in solving three critical modern financial challenges:
+## 🚀 The Strategic Mandate
 
-1. **Revenue Leakage:** Identifying "Metric Noise" in SaaS and subscription models to stop yield leakage.
-2. **Operational Latency:** Replacing slow, manual Excel consolidation (5-day cycles) with automated Python/SQL engines (8-hour cycles).
-3. **Capital Waste:** Treating Cloud and Infrastructure spend as a controllable financial variable, recovering capital from technical waste.
+Stewardship is no longer about recording history—it's about engineering the future of capital. I combine the **integrity of the ledger** (SAICA/SAIPA foundation) with the **velocity of predictive analytics** to solve three critical financial challenges:
+
+* **Yield Protection:** Identifying "Metric Noise" in SaaS models to stop revenue leakage.
+* **Latency Alpha:** Replacing 5-day manual Excel cycles with 8-hour automated Python/SQL engines.
+* **Capital Recovery:** Treating technical spend (Cloud/FinOps) as a controllable financial variable.
 
 ---
 
-## 🏗️ Project Ecosystem
+## 🏗️ Intelligence Assets (Project Ecosystem)
 
-### Project 1: SaaS Performance Intelligence
-* **Outcome:** Identified 12% yield leakage in subscriber retention via granular churn modeling.
+### **1. SaaS Performance Intelligence**
 
-### Project 2: Global Alpha Engine (Python)
-* **Outcome:** Collapsed reporting latency by 90% via automated multi-currency asset consolidation.
+* **Mandate:** Yield Leakage & Revenue Protection.
+* **Outcome:** Engineered churn-modeling systems in **Power BI** to identify 12% yield leakage, driving the 25% growth targets identified in investment analysis.
 
-### Project 3: Lumina Cloud Economics (FinOps)
-* **Outcome:** Identified **R107M Annual Capital Recovery** potential through technical compute auditing.
+### **2. Global Alpha Engine (Python)**
 
-### Project 4: Axiom Settlement Risk
-* **Outcome:** Achieved 99.57% successful settlement rate via pre-execution risk gating.
+* **Mandate:** Multi-Currency Portfolio Oversight.
+* **Outcome:** Automated multi-currency asset consolidation using **Python** to collapse reporting latency by 90% across USD, GBP, EUR, and NGN operations.
 
-### Project 5: Equinox Agentic Finance (2026 Core)
-* **Outcome:** Built autonomous "Sentinel" agents using Gemini CLI to monitor system health and financial variance.
+### **3. Lumina Cloud Economics**
+
+* **Mandate:** Technical Waste & Capital Recovery.
+* **Outcome:** Identified **R107M Annual Capital Recovery** potential through deterministic compute auditing and FinOps logic.
+
+### **4. Axiom Settlement Risk**
+
+* **Mandate:** Pre-Execution Risk Governance.
+* **Outcome:** Achieved a **99.57% settlement accuracy** rate under high volatility by engineering strategic risk-gating systems.
+
+### **5. Equinox Agentic Finance (2026 Core)**
+
+* **Mandate:** Autonomous Governance.
+* **Outcome:** Deployment of AI "Sentinel" agents to monitor system health and financial variance in real-time.
 
 ---
 
 ## 🛠️ Technical Stack & Governance
-* **Strategic:** Capital Allocation, ROIC Tracking, Risk Governance, IFRS.
-* **Technical:** Python, SQL, Power BI (DAX), Gemini CLI, Firebase AI Logic.
+
+| Focus Area | Competencies |
+| --- | --- |
+| **Strategic** | Capital Allocation, ROIC Tracking, Risk Governance, IFRS Compliance. |
+| **Data Engineering** | Python (Automation), SQL, Power BI (Advanced DAX). |
+| **Intelligence** | Predictive Modeling, Gemini CLI, Agentic Workflows. |
 
 ---
+
+## 📈 Performance Benchmarks
+
+* **30%** Average Efficiency Gain in Reporting Cycles.
+* **20%** Alpha generated through Forecast Accuracy.
+* **R107M** Identified in Technical Capital Recovery.
+
 > *"I don't just report history; I engineer the systems that protect the future of capital."*
