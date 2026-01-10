@@ -4,7 +4,7 @@
 
 Strategic Finance & FP&A leader delivering capital-efficient, analytics-driven decision systems for CFOs and executive teams. I bridge the gap between complex data telemetry and institutional-grade capital allocation.
 
-[suspicious link removed] | **[LinkedIn](https://linkedin.com/in/yourprofile)**
+**[LinkedIn](https://linkedin.com/in/yourprofile)**
 
 ---
 
