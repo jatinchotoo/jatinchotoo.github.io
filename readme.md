@@ -1,43 +1,50 @@
 Strategic Finance & Decision Intelligence | Jatin Chotoo
   Engineering Clarity for High-Stakes Decisions.
 
-Strategic Finance Leader with 15+ years of experience protecting capital and anticipating risk. I bridge the gap between complex data telemetry and CFO-level decision-making.
+Finance Technologist & Strategic FP&A Leader. I deliver capital-efficient, analytics-driven decision systems for CFOs and executive teams, bridging the gap between complex financial data and high-confidence capital allocation.
 
 🌐 View Live Portfolio | LinkedIn
 
 🚀 How I Add Value
 I assist organizations in solving three critical modern financial challenges:
 
-Revenue Leakage: Identifying "Metric Noise" in SaaS and subscription models to stop yield leakage.
+Yield Protection: Identifying "Metric Noise" in SaaS models to stop revenue leakage.
 
-Operational Latency: Replacing slow, manual Excel consolidation (5-day cycles) with automated Python/SQL engines (8-hour cycles).
+Latency Alpha: Reducing 5-day manual Excel cycles to 8-hour automated Python/SQL workflows.
 
-Capital Waste: Treating Cloud and Infrastructure spend as a controllable financial variable, recovering capital from technical waste.
+Capital Recovery: Treating Cloud and Infrastructure spend as a controllable financial variable.
 
 🏗️ Project Ecosystem
 Project 1: SaaS Performance Intelligence
 
-Outcome: Identified 12% yield leakage in subscriber retention via granular churn modeling.
+Outcome: Identified 12% revenue leakage via Power BI churn analysis, driving 25% growth targets.
 
 Project 2: Global Alpha Engine (Python)
 
-Outcome: Collapsed reporting latency by 90% via automated multi-currency asset consolidation.
+Outcome: Automated asset consolidation across USD, GBP, EUR, and NGN, cutting reporting latency by 90%.
 
 Project 3: Lumina Cloud Economics (FinOps)
 
-Outcome: Identified R107M Annual Capital Recovery potential through technical compute auditing.
+Outcome: Identified R107M Annual Capital Recovery potential through deterministic compute audits.
 
 Project 4: Axiom Settlement Risk
 
-Outcome: Achieved 99.57% successful settlement rate via pre-execution risk gating.
+Outcome: Engineered risk-gating systems achieving 99.57% settlement accuracy under high volatility.
 
 Project 5: Equinox Agentic Finance (2026 Core)
 
-Outcome: Built autonomous "Sentinel" agents using Gemini CLI to monitor system health and financial variance.
+Outcome: Deployed AI “Sentinel” agents using Gemini CLI to monitor system health and financial variance in real-time.
 
 🛠️ Technical Stack & Governance
-Strategic: Capital Allocation, ROIC Tracking, Risk Governance, IFRS.
+Strategic: Capital Allocation, ROIC Tracking, Risk Governance, IFRS Compliance.
 
-Technical: Python, SQL, Power BI (DAX), Gemini CLI, Firebase AI Logic.
+Technical: Python (Automation), SQL, Power BI (Advanced DAX), Gemini CLI (AI Automation).
 
-"I don't just report history; I engineer the systems that protect the future of capital."
+📈 Performance Benchmarks
+30% Average Efficiency Gain in Reporting Cycles.
+
+20% Forecast Accuracy Improvement.
+
+R107M Technical Capital Recovery Identified.
+
+"I don’t just report history; I engineer systems that safeguard the future of capital."
