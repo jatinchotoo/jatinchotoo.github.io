@@ -1,66 +1,43 @@
-# Strategic Finance & Decision Intelligence | Jatin Chotoo
+Strategic Finance & Decision Intelligence | Jatin Chotoo
+  Engineering Clarity for High-Stakes Decisions.
 
-### **Engineering Clarity for High-Stakes Decisions.**
+Finance Technologist & Strategic FP&A Leader. I deliver capital-efficient, analytics-driven decision systems for CFOs and executive teams, bridging the gap between complex financial data and high-confidence capital allocation.
 
-Strategic Finance & FP&A leader delivering capital-efficient, analytics-driven decision systems for CFOs and executive teams. I bridge the gap between complex data telemetry and institutional-grade capital allocation.
+🌐 View Live Portfolio | LinkedIn
 
-**[LinkedIn](https://linkedin.com/in/yourprofile)**
+🚀 How I Add Value
+I assist organizations in solving three critical modern financial challenges:
 
----
+Yield Protection: Identifying "Metric Noise" in SaaS models to stop revenue leakage.
 
-## 🚀 The Strategic Mandate
+Latency Alpha: Reducing 5-day manual Excel cycles to 8-hour automated Python/SQL workflows.
 
-Stewardship is no longer about recording history—it's about engineering the future of capital. I combine the **integrity of the ledger** (SAICA/SAIPA foundation) with the **velocity of predictive analytics** to solve three critical financial challenges:
+Capital Waste: Treating Cloud and Infrastructure spend as a controllable financial variable.
 
-* **Yield Protection:** Identifying "Metric Noise" in SaaS models to stop revenue leakage.
-* **Latency Alpha:** Replacing 5-day manual Excel cycles with 8-hour automated Python/SQL engines.
-* **Capital Recovery:** Treating technical spend (Cloud/FinOps) as a controllable financial variable.
+🏗️ Project Ecosystem
+Project 1: SaaS Performance Intelligence
 
----
+Outcome: Identified 12% revenue leakage via Power BI churn analysis, driving 25% growth targets.
 
-## 🏗️ Intelligence Assets (Project Ecosystem)
+Project 2: Global Alpha Engine (Python)
 
-### **1. SaaS Performance Intelligence**
+Outcome: Automated asset consolidation across USD, GBP, EUR, and NGN, cutting reporting latency by 90%.
 
-* **Mandate:** Yield Leakage & Revenue Protection.
-* **Outcome:** Engineered churn-modeling systems in **Power BI** to identify 12% yield leakage, driving the 25% growth targets identified in investment analysis.
+Project 3: Lumina Cloud Economics (FinOps)
 
-### **2. Global Alpha Engine (Python)**
+Outcome: Identified R107M Annual Capital Recovery potential through deterministic compute audits.
 
-* **Mandate:** Multi-Currency Portfolio Oversight.
-* **Outcome:** Automated multi-currency asset consolidation using **Python** to collapse reporting latency by 90% across USD, GBP, EUR, and NGN operations.
+Project 4: Axiom Settlement Risk
 
-### **3. Lumina Cloud Economics**
+Outcome: Engineered risk-gating systems achieving 99.57% settlement accuracy under high volatility.
 
-* **Mandate:** Technical Waste & Capital Recovery.
-* **Outcome:** Identified **R107M Annual Capital Recovery** potential through deterministic compute auditing and FinOps logic.
+Project 5: Equinox Agentic Finance (2026 Core)
 
-### **4. Axiom Settlement Risk**
+Outcome: Deployed AI “Sentinel” agents using Gemini CLI to monitor system health and financial variance.
 
-* **Mandate:** Pre-Execution Risk Governance.
-* **Outcome:** Achieved a **99.57% settlement accuracy** rate under high volatility by engineering strategic risk-gating systems.
+🛠️ Technical Stack & Governance
+Strategic: Capital Allocation, ROIC Tracking, Risk Governance, IFRS Compliance.
 
-### **5. Equinox Agentic Finance (2026 Core)**
+Technical: Python (Automation), SQL, Power BI (Advanced DAX), Gemini CLI (AI Automation).
 
-* **Mandate:** Autonomous Governance.
-* **Outcome:** Deployment of AI "Sentinel" agents to monitor system health and financial variance in real-time.
-
----
-
-## 🛠️ Technical Stack & Governance
-
-| Focus Area | Competencies |
-| --- | --- |
-| **Strategic** | Capital Allocation, ROIC Tracking, Risk Governance, IFRS Compliance. |
-| **Data Engineering** | Python (Automation), SQL, Power BI (Advanced DAX). |
-| **Intelligence** | Predictive Modeling, Gemini CLI, Agentic Workflows. |
-
----
-
-## 📈 Performance Benchmarks
-
-* **30%** Average Efficiency Gain in Reporting Cycles.
-* **20%** Alpha generated through Forecast Accuracy.
-* **R107M** Identified in Technical Capital Recovery.
-
-> *"I don't just report history; I engineer the systems that protect the future of capital."*
+"I don’t just report history; I engineer systems that safeguard the future of capital."
