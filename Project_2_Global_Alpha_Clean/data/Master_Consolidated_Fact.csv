@@ -1,0 +1,25 @@
+DATE,Account_Code,Local_Amount,TRANSACTIONTYPE,DEPARTMENT,DESCRIPTION,Entity,Entity_Name,Local_Account_Code,Local_Account_Name,Group_Category,Strategic_Bucket,Reporting_Standard,Country,Currency_Code,FX_Rate_to_USD,Volatility_Index,Amount_USD
+2024-01-01,4000,520000,Credit,Finance,Grant Revenue,BioGrowth,,,,,,,Switzerland,CHF,1.18,Low,613600.0
+2024-01-15,6001,245000,Debit,R&D,Phase II Lab Testing,BioGrowth,BioGrowth,6001,Clinical Trial Costs,OpEx,Value Creation,IFRS 38,Switzerland,CHF,1.18,Low,289100.0
+2024-02-01,4000,515000,Credit,Finance,Grant Revenue,BioGrowth,,,,,,,Switzerland,CHF,1.18,Low,607700.0
+2024-02-15,6001,260000,Debit,R&D,Clinical Trial Staffing,BioGrowth,BioGrowth,6001,Clinical Trial Costs,OpEx,Value Creation,IFRS 38,Switzerland,CHF,1.18,Low,306800.0
+2024-01-15,4200,1200000,Credit,Treasury,Staking Yield (ETH),CryptoFlow,CryptoFlow,4200,Staking Rewards,Revenue,Digital Yield,Digital Asset Std,Brazil,BRL,0.18,High,216000.0
+2024-01-25,1100,500000,Debit,Ops,BTC Purchase for Reserve,CryptoFlow,CryptoFlow,1100,BTC/ETH Treasury,Assets,Liquidity Buffer,IFRS 9,Brazil,BRL,0.18,High,90000.0
+2024-02-15,4200,1150000,Credit,Treasury,Staking Yield (SOL),CryptoFlow,CryptoFlow,4200,Staking Rewards,Revenue,Digital Yield,Digital Asset Std,Brazil,BRL,0.18,High,207000.0
+2024-02-25,1100,550000,Debit,Ops,ETH Purchase for Reserve,CryptoFlow,CryptoFlow,1100,BTC/ETH Treasury,Assets,Liquidity Buffer,IFRS 9,Brazil,BRL,0.18,High,99000.0
+2024-01-05,4001,2100000,Credit,Underwriting,Quarterly Premiums,FinShield Re,FinShield Re,4001,Gross Written Premium,Revenue,Yield on Risk,IFRS 17,United Kingdom,GBP,1.27,Low,2667000.0
+2024-01-20,2010,850000,Debit,Claims,Life Insurance Payout,FinShield Re,FinShield Re,2010,Claims Reserve,Liabilities,Risk Buffer,IFRS 17,United Kingdom,GBP,1.27,Low,1079500.0
+2024-02-05,4001,2050000,Credit,Underwriting,Quarterly Premiums,FinShield Re,FinShield Re,4001,Gross Written Premium,Revenue,Yield on Risk,IFRS 17,United Kingdom,GBP,1.27,Low,2603500.0
+2024-02-20,2010,920000,Debit,Claims,Disability Payout,FinShield Re,FinShield Re,2010,Claims Reserve,Liabilities,Risk Buffer,IFRS 17,United Kingdom,GBP,1.27,Low,1168400.0
+2024-01-10,4100,8500000,Credit,Consulting,Strategy Advisory Fee,Nexus Strategic,Nexus Strategic,4100,Advisory Fees,Revenue,Professional Fees,IFRS 15,South Africa,ZAR,0.053,High,450500.0
+2024-01-30,6200,4500000,Debit,HR,Partner Bonus Accrual,Nexus Strategic,Nexus Strategic,6200,Partner Bonus Pool,OpEx,Human Capital,IAS 19,South Africa,ZAR,0.053,High,238500.0
+2024-02-10,4100,7900000,Credit,Consulting,M&A Advisory Fee,Nexus Strategic,Nexus Strategic,4100,Advisory Fees,Revenue,Professional Fees,IFRS 15,South Africa,ZAR,0.053,High,418700.0
+2024-02-28,6200,4500000,Debit,HR,Partner Bonus Accrual,Nexus Strategic,Nexus Strategic,6200,Partner Bonus Pool,OpEx,Human Capital,IAS 19,South Africa,ZAR,0.053,High,238500.0
+2024-01-10,4300,4500000,Credit,Sales,E-commerce Monthly Sales,Omni-Retail,Omni-Retail,4300,E-commerce Sales,Revenue,Core Earnings,IFRS 15,Germany (EU),EUR,1.09,Low,4905000.0
+2024-01-20,5000,2800000,Debit,Logistics,COGS - Inventory Sold,Omni-Retail,,,,,,,Germany (EU),EUR,1.09,Low,3052000.0
+2024-02-10,4300,4200000,Credit,Sales,E-commerce Monthly Sales,Omni-Retail,Omni-Retail,4300,E-commerce Sales,Revenue,Core Earnings,IFRS 15,Germany (EU),EUR,1.09,Low,4578000.0
+2024-02-20,5000,2600000,Debit,Logistics,COGS - Inventory Sold,Omni-Retail,,,,,,,Germany (EU),EUR,1.09,Low,2834000.0
+2024-01-01,4000,125000000,Credit,Operations,Grid Power Sales,Terra-Grid,,,,,,,India,INR,0.012,Medium,1500000.0
+2024-01-15,1500,85000000,Debit,CAPEX,New Solar Array Phase 1,Terra-Grid,Terra-Grid,1500,Solar Array Build,Assets,Growth CAPEX,IAS 16,India,INR,0.012,Medium,1020000.0
+2024-02-01,4000,130000000,Credit,Operations,Grid Power Sales,Terra-Grid,,,,,,,India,INR,0.012,Medium,1560000.0
+2024-02-15,1500,90000000,Debit,CAPEX,New Solar Array Phase 2,Terra-Grid,Terra-Grid,1500,Solar Array Build,Assets,Growth CAPEX,IAS 16,India,INR,0.012,Medium,1080000.0
