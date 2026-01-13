@@ -3,65 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jatin Chotoo | Strategic Finance & Decision Intelligence</title>
+    <title>Jatin Chotoo | Strategic Finance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
     <style>
         :root { --bg: #030303; --accent: #3b82f6; }
         body { background: var(--bg); color: #fff; font-family: 'Plus Jakarta Sans', sans-serif; margin: 0; }
         .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.3s ease; }
-        .glass-panel:hover { border-color: var(--accent); background: rgba(255, 255, 255, 0.05); }
         .neural-grid { background-image: radial-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px); background-size: 40px 40px; }
-        .project-link { display: block; text-decoration: none; color: inherit; transition: transform 0.3s ease; }
-        .project-link:hover { transform: translateY(-5px); }
     </style>
 </head>
-<body class="neural-grid overflow-x-hidden">
+<body class="neural-grid">
 
     <nav class="fixed top-6 left-1/2 -translate-x-1/2 z-50 px-6 py-3 glass-panel rounded-full flex items-center gap-6 text-[10px] uppercase tracking-[0.3em] font-bold">
         <a href="#intelligence-assets" class="hover:text-blue-400 transition">Intelligence</a>
-        <a href="https://github.com/jatinchotoo" target="_blank" class="text-blue-400 border border-blue-400/30 px-4 py-1.5 rounded-full hover:bg-blue-400 hover:text-white transition">GitHub Profile</a>
+        <a href="https://github.com/jatinchotoo" target="_blank" class="text-blue-400">GitHub Profile</a>
     </nav>
 
-    <section class="min-h-screen flex flex-col items-center justify-center text-center px-6">
+    <section class="h-screen flex flex-col items-center justify-center text-center px-6">
         <h2 class="text-blue-500 font-mono text-[11px] tracking-[0.6em] mb-8 uppercase opacity-80">Strategic Finance // Decision Intelligence</h2>
         <h1 class="text-4xl md:text-7xl font-extralight tracking-tighter leading-none mb-8">Engineering <span class="font-semibold italic text-blue-500 underline decoration-blue-500/30">Capital Discipline</span></h1>
+        <p class="max-w-2xl text-gray-400 text-sm md:text-base font-light leading-relaxed">Bridging the gap between traditional finance and modern data engineering to build automated, high-fidelity decision systems.</p>
+    </section>
+
+    <section class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-blue-500 font-mono text-xl mb-2">04</div>
+                <div class="text-[9px] uppercase tracking-[0.3em] text-gray-500">Active Mandates</div>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-blue-500 font-mono text-xl mb-2">Python</div>
+                <div class="text-[9px] uppercase tracking-[0.3em] text-gray-500">Automation Core</div>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-blue-500 font-mono text-xl mb-2">Power BI</div>
+                <div class="text-[9px] uppercase tracking-[0.3em] text-gray-500">Visual Intelligence</div>
+            </div>
+        </div>
     </section>
 
     <section id="intelligence-assets" class="py-32 px-6 max-w-7xl mx-auto">
         <h3 class="text-center text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-20">Intelligence Assets</h3>
         <div class="grid md:grid-cols-2 gap-12">
             
-            <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="project-link group glass-panel rounded-3xl p-6">
+            <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="group glass-panel rounded-3xl p-6 transition hover:-translate-y-2 block">
                 <h4 class="text-xl font-semibold mb-2">Performance Intelligence</h4>
                 <p class="text-blue-400 text-[10px] uppercase tracking-widest mb-4">Mandate: SaaS Financial Performance</p>
-                <div class="h-48 rounded-2xl overflow-hidden bg-black/50">
-                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard/main/screenshots/Executive_summary.png" class="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition duration-700">
+                <div class="h-64 rounded-2xl overflow-hidden bg-black/50 border border-white/5">
+                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard/main/screenshots/Executive_summary.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
                 </div>
             </a>
 
-            <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="project-link group glass-panel rounded-3xl p-6">
+            <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="group glass-panel rounded-3xl p-6 transition hover:-translate-y-2 block">
                 <h4 class="text-xl font-semibold mb-2">Global Alpha Engine</h4>
                 <p class="text-blue-400 text-[10px] uppercase tracking-widest mb-4">Mandate: Finance Automation</p>
-                <div class="h-48 rounded-2xl overflow-hidden bg-black/50">
-                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency/main/images/roic_results.png" class="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition duration-700">
+                <div class="h-64 rounded-2xl overflow-hidden bg-black/50 border border-white/5">
+                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency/main/images/roic_results.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
                 </div>
             </a>
 
-            <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="project-link group glass-panel rounded-3xl p-6">
+            <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="group glass-panel rounded-3xl p-6 transition hover:-translate-y-2 block">
                 <h4 class="text-xl font-semibold mb-2">Lumina Cloud Economics</h4>
                 <p class="text-blue-400 text-[10px] uppercase tracking-widest mb-4">Mandate: FinOps & Audit</p>
-                <div class="h-48 rounded-2xl overflow-hidden bg-black/50">
-                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit/main/Lumina_Main_Dashboard.png" class="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition duration-700">
+                <div class="h-64 rounded-2xl overflow-hidden bg-black/50 border border-white/5">
+                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit/main/Lumina_Main_Dashboard.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
                 </div>
             </a>
 
-            <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="project-link group glass-panel rounded-3xl p-6">
+            <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="group glass-panel rounded-3xl p-6 transition hover:-translate-y-2 block">
                 <h4 class="text-xl font-semibold mb-2">Axiom Settlement Risk</h4>
                 <p class="text-blue-400 text-[10px] uppercase tracking-widest mb-4">Mandate: Liquidity Risk</p>
-                <div class="h-48 rounded-2xl overflow-hidden bg-black/50">
-                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk/main/assets/Axiom_Dashboard_Green.png" class="w-full h-full object-cover grayscale opacity-50 group-hover:grayscale-0 group-hover:opacity-100 transition duration-700">
+                <div class="h-64 rounded-2xl overflow-hidden bg-black/50 border border-white/5">
+                    <img src="https://raw.githubusercontent.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk/main/assets/Axiom_Dashboard_Green.png" class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition duration-700">
                 </div>
             </a>
         </div>
