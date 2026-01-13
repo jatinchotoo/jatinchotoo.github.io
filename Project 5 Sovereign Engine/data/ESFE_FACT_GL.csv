@@ -1,0 +1,51 @@
+txn_date,account_code,account_name,debit,credit,entity,description
+2025-03-14,1000,Cash,0.0,845.26,Equinox Corp,General entry for Cash
+2025-03-15,1200,Accounts Receivable,0.0,781.53,Equinox Corp,General entry for Accounts Receivable
+2025-02-03,5000,Cost of Goods Sold,0.0,1931.24,Sovereign Ltd,General entry for Cost of Goods Sold
+2025-01-18,2000,Accounts Payable,4711.84,0.0,Equinox Corp,General entry for Accounts Payable
+2025-01-22,1200,Accounts Receivable,0.0,2302.54,Equinox Corp,General entry for Accounts Receivable
+2025-01-06,2000,Accounts Payable,0.0,351.14,Equinox Corp,General entry for Accounts Payable
+2025-03-18,6000,Operating Expenses,0.0,736.29,Sovereign Ltd,General entry for Operating Expenses
+2025-01-12,1000,Cash,0.0,2026.38,Sovereign Ltd,General entry for Cash
+2025-02-19,1000,Cash,4173.24,0.0,Equinox Corp,General entry for Cash
+2025-03-12,5000,Cost of Goods Sold,0.0,4095.83,Equinox Corp,General entry for Cost of Goods Sold
+2025-02-14,4000,Revenue,0.0,548.56,Equinox Corp,General entry for Revenue
+2025-02-18,2000,Accounts Payable,3735.23,0.0,Sovereign Ltd,General entry for Accounts Payable
+2025-01-25,4000,Revenue,3430.99,0.0,Sovereign Ltd,General entry for Revenue
+2025-01-18,1000,Cash,987.05,0.0,Equinox Corp,General entry for Cash
+2025-01-02,2000,Accounts Payable,476.88,0.0,Sovereign Ltd,General entry for Accounts Payable
+2025-03-22,2000,Accounts Payable,1523.24,0.0,Equinox Corp,General entry for Accounts Payable
+2025-01-14,5000,Cost of Goods Sold,0.0,4495.44,Sovereign Ltd,General entry for Cost of Goods Sold
+2025-03-27,1000,Cash,0.0,4464.94,Sovereign Ltd,General entry for Cash
+2025-03-31,2000,Accounts Payable,0.0,1909.29,Equinox Corp,General entry for Accounts Payable
+2025-01-25,5000,Cost of Goods Sold,2397.57,0.0,Equinox Corp,General entry for Cost of Goods Sold
+2025-01-23,1000,Cash,1357.5,0.0,Equinox Corp,General entry for Cash
+2025-02-07,5000,Cost of Goods Sold,0.0,4516.58,Equinox Corp,General entry for Cost of Goods Sold
+2025-01-15,5000,Cost of Goods Sold,3892.23,0.0,Sovereign Ltd,General entry for Cost of Goods Sold
+2025-03-16,5000,Cost of Goods Sold,3669.02,0.0,Equinox Corp,General entry for Cost of Goods Sold
+2025-03-13,1200,Accounts Receivable,0.0,2468.58,Equinox Corp,General entry for Accounts Receivable
+2025-01-12,1200,Accounts Receivable,299.44,0.0,Sovereign Ltd,General entry for Accounts Receivable
+2025-01-22,6000,Operating Expenses,0.0,2980.29,Sovereign Ltd,General entry for Operating Expenses
+2025-02-26,5000,Cost of Goods Sold,0.0,4389.97,Equinox Corp,General entry for Cost of Goods Sold
+2025-03-19,4000,Revenue,0.0,995.74,Sovereign Ltd,General entry for Revenue
+2025-03-01,1200,Accounts Receivable,1190.22,0.0,Equinox Corp,General entry for Accounts Receivable
+2025-02-13,5000,Cost of Goods Sold,0.0,3499.74,Sovereign Ltd,General entry for Cost of Goods Sold
+2025-01-15,1200,Accounts Receivable,0.0,4873.89,Equinox Corp,General entry for Accounts Receivable
+2025-02-14,5000,Cost of Goods Sold,0.0,285.56,Equinox Corp,General entry for Cost of Goods Sold
+2025-01-14,5000,Cost of Goods Sold,0.0,4090.22,Equinox Corp,General entry for Cost of Goods Sold
+2025-03-06,1200,Accounts Receivable,0.0,4197.39,Sovereign Ltd,General entry for Accounts Receivable
+2025-03-06,1200,Accounts Receivable,4510.31,0.0,Sovereign Ltd,General entry for Accounts Receivable
+2025-03-01,6000,Operating Expenses,4971.95,0.0,Sovereign Ltd,General entry for Operating Expenses
+2025-01-28,1000,Cash,102.28,0.0,Equinox Corp,General entry for Cash
+2025-01-10,1200,Accounts Receivable,0.0,3525.32,Equinox Corp,General entry for Accounts Receivable
+2025-01-20,1000,Cash,835.18,0.0,Sovereign Ltd,General entry for Cash
+2025-03-14,1000,Cash,4202.28,0.0,Sovereign Ltd,General entry for Cash
+2025-03-17,4000,Revenue,0.0,593.47,Equinox Corp,General entry for Revenue
+2025-02-23,5000,Cost of Goods Sold,831.81,0.0,Equinox Corp,General entry for Cost of Goods Sold
+2025-01-03,4000,Revenue,0.0,2973.92,Sovereign Ltd,General entry for Revenue
+2025-03-14,1000,Cash,380.8,0.0,Equinox Corp,General entry for Cash
+2025-01-16,1000,Cash,2246.93,0.0,Equinox Corp,General entry for Cash
+2025-01-16,4000,Revenue,0.0,2507.24,Equinox Corp,General entry for Revenue
+2025-01-24,5000,Cost of Goods Sold,0.0,4483.95,Equinox Corp,General entry for Cost of Goods Sold
+2025-03-04,4000,Revenue,0.0,1830.55,Sovereign Ltd,General entry for Revenue
+2025-01-16,6000,Operating Expenses,1259.23,0.0,Sovereign Ltd,General entry for Operating Expenses

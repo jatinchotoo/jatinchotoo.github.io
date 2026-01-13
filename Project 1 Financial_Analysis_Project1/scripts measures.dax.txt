@@ -1,0 +1,114 @@
+1. Revenue CAGR Measure
+
+Revenue CAGR = 
+VAR MinYear =
+    CALCULATE(
+        MIN('Financials.csv'[Year]),
+        ALLEXCEPT('Financials.csv', 'Financials.csv'[Company])
+    )
+VAR MaxYear =
+    CALCULATE(
+        MAX('Financials.csv'[Year]),
+        ALLEXCEPT('Financials.csv', 'Financials.csv'[Company])
+    )
+VAR StartRevenue =
+    CALCULATE(
+        MAX('Financials.csv'[Revenue]),
+        'Financials.csv'[Year] = MinYear,
+        ALLEXCEPT('Financials.csv', 'Financials.csv'[Company])
+    )
+VAR EndRevenue =
+    CALCULATE(
+        MAX('Financials.csv'[Revenue]),
+        'Financials.csv'[Year] = MaxYear,
+        ALLEXCEPT('Financials.csv', 'Financials.csv'[Company])
+    )
+VAR YearCount = MaxYear - MinYear
+RETURN
+    IF(
+        NOT ISBLANK(StartRevenue) &&
+        NOT ISBLANK(EndRevenue) &&
+        YearCount > 0,
+        POWER(EndRevenue / StartRevenue, 1 / YearCount) - 1,
+        BLANK()
+    )
+
+
+2. DebtEquity_TrafficLight = 
+SWITCH(
+    TRUE(),
+    [DebtToEquity] < 0.6, "🟢",
+    [DebtToEquity] <= 1, "🟡",
+    "🔴"
+)
+
+
+3. DebtToEquity = DIVIDE(SUM('financials.csv'[Total_Liabilities]), SUM('financials.csv'[Shareholders_Equity]))
+
+4. Revenue CAGR (Financials) = 
+VAR MinYear = MIN('Financials.csv'[Year])
+VAR MaxYear = MAX('Financials.csv'[Year])
+VAR StartRevenue = CALCULATE([Total Revenue], 'Financials.csv'[Year] = MinYear)
+VAR EndRevenue = CALCULATE([Total Revenue], 'Financials.csv'[Year] = MaxYear)
+VAR YearCount = MaxYear - MinYear
+RETURN
+    IF(
+        NOT ISBLANK(StartRevenue) &&
+        NOT ISBLANK(EndRevenue) &&
+        YearCount > 0,
+        POWER(DIVIDE(EndRevenue, StartRevenue), DIVIDE(1, YearCount)) - 1,
+        BLANK()
+    )
+
+5. Revenue CAGR Alpha = 
+VAR MinYear = MIN('Financials.csv'[Year])
+VAR MaxYear = MAX('Financials.csv'[Year])
+VAR StartRevenue =
+    CALCULATE(
+        MAX('Financials.csv'[Revenue]),
+        'Financials.csv'[Year] = MinYear,
+        'Financials.csv'[Company] = "Alpha Foods Holdings Ltd"
+    )
+VAR EndRevenue =
+    CALCULATE(
+        MAX('Financials.csv'[Revenue]),
+        'Financials.csv'[Year] = MaxYear,
+        'Financials.csv'[Company] = "Alpha Foods Holdings Ltd"
+    )
+VAR YearCount = MaxYear - MinYear
+RETURN
+    IF(
+        NOT ISBLANK(StartRevenue) &&
+        NOT ISBLANK(EndRevenue) &&
+        YearCount > 0,
+        POWER(EndRevenue / StartRevenue, 1 / YearCount) - 1,
+        BLANK()
+    )
+
+6. ROE = DIVIDE(SUM('financials.csv'[Net_Profit]), SUM('financials.csv'[Shareholders_Equity]))
+
+7. ROE_TrafficLight = 
+SWITCH(
+    TRUE(),
+    [ROE] >= 0.15, "🟢",
+    [ROE] >= 0.05, "🟡",
+    "🔴"
+)
+
+8. TotalRevenue = SUM('financials.csv'[Revenue])
+
+9. Ratios = DATATABLE("Dummy", STRING, {{"x"}})
+
+10. RiskSignal = 
+SWITCH(
+    TRUE(),
+    [Debt-to-Equity] > 1.5 && [Net Profit Margin (%)] < 0.05, "High",
+    [Debt-to-Equity] > 1.0 && [Net Profit Margin (%)] < 0.10, "Moderate",
+    "Low"
+)
+
+11. Total Revenue = 
+SUM('Charts data'[Alpha Foods Holdings Ltd]) +
+SUM('Charts data'[Beta Retail Group Ltd]) +
+SUM('Charts data'[Gamma Consumer Stores Ltd])
+
