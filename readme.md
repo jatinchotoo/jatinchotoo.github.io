@@ -1,35 +1,61 @@
 # Jatin Chotoo | Strategic Finance & Decision Engineering
 
-### Transforming complex accounting principles into automated, decision-ready systems.
+## Transforming Accounting Principles into Automated, Decision-Ready Systems
 
-As a Strategic Finance professional (BCompt/SAIPA), I bridge the gap between financial theory and real-world capital efficiency. I don’t just report on the past—I build deterministic systems that enable real-time decision-making and deliver measurable business outcomes.
-
----
-
-### 🚀 2026 Mandate
-Aligned with the global "Finance Talent Squeeze," my work focuses on:
-- **Decision Latency Reduction:** Replacing manual workflows with Python-driven data telemetry.
-- **Process Automation:** Systematizing FP&A tasks to free up 30%+ of team bandwidth.
-- **Capital Engineering:** Building scenario-modeling engines for $150M+ global portfolios.
+I build deterministic workflows and predictive analytics that transform Finance from reporting to strategic decision-making. By merging deep Accounting Science knowledge with **Python**, **SQL**, and **Power BI** automation, I accelerate decisions, optimize capital, and deliver measurable enterprise impact.
 
 ---
 
-### 🛠 Technical Toolkit
-- **Logic:** Python (Scripted Financial Logic, Pandas, NumPy)
-- **Data:** SQL (Data Integrity, Pipeline Architecture)
-- **Intelligence:** Power BI (Advanced DAX, Scenario Modeling)
-- **Standard:** IFRS Governance & NQF Level 8 Accounting Science
+## 🚀 Core Mandates & Measured Impact
+
+- **Capital Efficiency:** Directed $150M+ portfolios, delivering R7.5M in cost savings via automated treasury oversight.  
+- **Finance Transformation:** Accelerated month-end cycles by 30% through Python-driven automation and Power BI dashboards.  
+- **Growth Orchestration:** Enabled 25% projected revenue growth via multi-scenario spend models.  
+- **Executive Intelligence:** Engineered board-ready telemetry for operations across Africa, Europe, and North America.  
 
 ---
 
-### 📂 Featured Toolkits
-- **[Project 5 | Sovereign Alpha](https://github.com/jatinchotoo):** Multi-entity capital allocation engine. (In Active Development)
-- **[Project 1 | SaaS Analytics](https://github.com/jatinchotoo):** End-to-end KPI telemetry for revenue leakage.
-- **[Project 2 | Global Alpha](https://github.com/jatinchotoo):** Python-based liquidity and portfolio tracking engine.
-- **[Project 3 | Lumina Cloud Economics](https://github.com/jatinchotoo):** FinOps audit and cloud spend optimization framework.
+## 🛠 Technical Toolkit
+
+- **Python:** Scripted Financial Logic, Pandas, NumPy  
+- **SQL:** Data Integrity & Pipeline Architecture  
+- **Power BI:** Advanced DAX & Scenario Modeling  
+- **Advanced Excel:** VBA, Macros, Model Automation  
+- **ERP Systems:** SAP, Oracle, Adams  
+- **Standards & Governance:** IFRS, NQF Level 8 Accounting Science  
 
 ---
 
-### 🔗 Let's Connect
-- **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io)
-- **Credentials:** BCOMPT NQF 7 AND FASSET NQF 8
+## 🎓 Professional Credentials & Learning
+
+- **BCompt (Accounting Science)** – NQF 7  
+- **SAIPA Professional Accountant**  
+- **Forage Internships:** FP&A, Treasury Operations  
+- **Courses & Certificates:** Python for Finance, SQL, Power BI Advanced, Advanced Excel/VBA  
+
+---
+
+## 📂 Featured Decision Toolkits
+
+| Project | Description | Skills | Link |
+|---------|-------------|--------|------|
+| **P1 | SaaS KPI Telemetry** | SQL pipeline for revenue leakage detection and automated reporting cycles | SQL, Power BI | [View on GitHub](https://github.com/jatinchotoo/saas-kpi-telemetry) |
+| **P2 | Global Alpha Engine** | Python-driven tracking of multi-currency financial assets and automated liquidity oversight | Python, FP&A Automation | [View on GitHub](https://github.com/jatinchotoo/global-alpha-engine) |
+| **P5 | Sovereign Alpha** | Multi-entity capital allocation simulation engine built in Python to replace static FP&A models | Python, Scenario Modeling | [View on GitHub](https://github.com/jatinchotoo/sovereign-alpha) |
+
+> **Note:** Project 5 is under active development and represents the strategic heart of my decision engineering approach.
+
+---
+
+## 🔗 Connect & Engage
+
+- **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io)  
+- **Email:** jatin.d.chotoo@gmail.com  
+- **GitHub:** [github.com/jatinchotoo](https://github.com/jatinchotoo)
+
+---
+
+### 🔑 Recruiter & Company Note
+
+I help companies reduce **decision latency**, automate FP&A processes, and optimize capital allocation.  
+If you are seeking someone who **builds deterministic, actionable financial systems**, I am ready to engage, contribute, and deliver measurable value from day one.
