@@ -3,18 +3,18 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Mandate-Capital_Stewardship-0052FF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/System-Decision_Intelligence-000000?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Finance_Technologist-white?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Finance_Architect-white?style=for-the-badge" />
 </p>
 
 <p align="center">
   <strong>Engineering Clarity for High-Stakes Decisions.</strong><br>
   I deliver capital-efficient, analytics-driven decision systems for CFOs and executive teams.<br>
-  Bridging the gap between complex financial data telemetry and high-confidence capital allocation.
+  Bridging the gap between <b>Accounting Science (BCompt)</b> and high-confidence capital allocation.
 </p>
 
 <p align="center">
-  <a href="https://jatinchotoo.github.io/portfolio/"><b>🌐 View Live Dossier</b></a> • 
-  <a href="https://www.linkedin.com/in/jatin-chotoo-48b4b749/"><b>🔗 LinkedIn</b></a>
+  <a href="https://jatinchotoo.github.io/"><b>🌐 View Live Portfolio</b></a> • 
+  <a href="https://www.linkedin.com/in/jatin-chotoo/"><b>🔗 LinkedIn</b></a>
 </p>
 
 ---
@@ -23,11 +23,11 @@
 *Solving three critical modern financial challenges through deterministic logic:*
 
 > [!IMPORTANT]
+> **Capital Defense:** Automating governance-aligned investment memos to secure Board approval.
+>
 > **Yield Protection:** Identifying "Metric Noise" in SaaS models to stop revenue leakage.
 >
-> **Latency Alpha:** Reducing 5-day manual Excel cycles to 8-hour automated Python/SQL workflows.
->
-> **Capital Recovery:** Treating Cloud and Infrastructure spend as a controllable financial variable.
+> **Latency Alpha:** Reducing 5-day manual Excel cycles to automated Python/SQL workflows.
 
 ---
 
@@ -35,40 +35,34 @@
 
 | Asset | Mandate | Primary Outcome |
 | :--- | :--- | :--- |
+| **05. Sovereign Alpha** | **Capital Defense** | **Flagship Engine:** Generates Board-ready Capital Defense Memos via automated governance. |
 | **01. SaaS Intelligence** | Yield Protection | Identified **12% revenue leakage** via Power BI churn analysis. |
-| **02. Global Alpha Engine** | Latency Alpha | Automated multi-currency consolidation; **90% latency reduction**. |
+| **02. Global Alpha** | Latency Alpha | Automated multi-currency consolidation; **90% latency reduction**. |
 | **03. Lumina Cloud Econ** | Capital Recovery | Uncovered **R107M annual recovery** through compute audits. |
-| **04. Axiom Risk** | Governance | Achieved **99.57% settlement accuracy** under high volatility. |
-| **05. Equinox Agentic** | Automation | Deployed AI **"Sentinel" agents** via Gemini CLI for real-time monitoring. |
 
 ---
 
 ### 🛠️ Technical Stack & Governance
 
-* **Strategic Core:** Capital Allocation, ROIC Tracking, Risk Governance, IFRS Compliance.
-* **Data Engineering:** Python (Automation), SQL, Power BI (Advanced DAX).
-* **Decision Intelligence:** Predictive Modeling, Gemini CLI (AI Automation), Agentic Workflows.
+* **Strategic Core:** Capital Allocation, ROIC Tracking, IFRS 9/15/16 Compliance, Risk Governance.
+* **Data Engineering:** Python (Pandas, NumPy), SQL (ERP Extraction), Power BI (Advanced DAX).
+* **Decision Intelligence:** Predictive Modeling, Scenario Stress-Testing, Capital Strategy.
 
 ---
 
 ### 📈 Performance Benchmarks
 
 `EFFICIENCY GAIN`
-![30%](https://geps.dev/progress/30?dangerColor=0052FF&accColor=0052FF&lightColor=e0e0e0) **30% reduction in reporting cycles**
+![30%](https://geps.dev/progress/30?dangerColor=0052FF&accColor=0052FF&lightColor=e0e0e0) **30% faster month-end close**
 
 `FORECAST ALPHA`
 ![20%](https://geps.dev/progress/20?dangerColor=0052FF&accColor=0052FF&lightColor=e0e0e0) **20% accuracy improvement vs. baseline**
 
-`CAPITAL RECOVERY`
-**R107,000,000 Total Identified Potential**
+`PORTFOLIO OVERSIGHT`
+**$150,000,000+ Under Management**
 
 ---
 
 <p align="center">
   <i>"I don’t just report history; I engineer systems that safeguard the future of capital."</i>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/System_Secure-Verified-059669?style=flat-square" />
-  <img src="https://img.shields.io/badge/Core-Strategic_Finance-blue?style=flat-square" />
 </p>
