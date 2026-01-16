@@ -3,83 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jatin Chotoo | Strategic Finance & Decision Engineering</title>
+    <title>Jatin Chotoo | Strategic Finance Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #030712; color: #f3f4f6; scroll-behavior: smooth; }
-        .mono { font-family: 'JetBrains Mono', monospace; }
-        .glass { background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .hero-gradient { background: linear-gradient(135deg, #1e293b 0%, #334155 100%); }
+        .card { background: white; border: 1px solid #e2e8f0; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-4px); box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
 <body>
 
-<nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
-    <div class="mono text-xl font-bold tracking-tighter text-blue-500">JC // <span class="text-white opacity-60">Strategic Finance</span></div>
-    <div class="flex gap-6">
-        <a href="#projects" class="text-[10px] uppercase font-bold tracking-widest hover:text-blue-400">Toolkits</a>
-        <a href="#contact" class="text-[10px] uppercase font-bold tracking-widest border-b border-blue-500 pb-1">Contact</a>
+<header class="hero-gradient text-white py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl font-extrabold mb-2">Jatin Chotoo</h1>
+                <p class="text-blue-400 font-mono mb-6 uppercase tracking-widest text-sm">Strategic Finance & Decision Engineering</p>
+                <p class="text-gray-300 max-w-2xl text-lg leading-relaxed mb-8">
+                    Merging **NQF Level 8 Accounting Science** with Python, SQL, and Power BI to transform Finance from a reporting function into a **Strategic Value Engine**.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold text-sm transition">2-Page Strategic Brief</a>
+                    <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="bg-transparent border border-gray-400 hover:bg-white hover:text-slate-900 text-white px-6 py-3 rounded-lg font-bold text-sm transition">Full Professional CV</a>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <div class="w-40 h-40 rounded-full border-4 border-blue-500 overflow-hidden shadow-2xl">
+                    <img src="assets/images/jc_logo.jpg" alt="Profile" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
     </div>
-</nav>
+</header>
 
-<section class="py-20 px-6 max-w-5xl mx-auto text-center">
-    <div class="text-center mb-8">
-        <img src="assets/images/jc_logo.jpg" alt="JC Logo" class="mx-auto w-32 h-32 rounded-full mb-4">
-    </div>
-    <h1 class="text-4xl md:text-6xl font-bold mb-8 tracking-tight leading-tight">
-        Transforming Accounting Principles into <span class="text-blue-500 italic">Automated Systems.</span>
-    </h1>
-    <p class="text-gray-400 text-lg md:text-xl font-light mb-10 max-w-3xl mx-auto leading-relaxed">
-        I build deterministic finance systems that reduce decision latency. By merging <strong>NQF Level 8 Accounting Science</strong> with <strong>Python, SQL, and Power BI</strong>, I transform Finance from a reporting function into a Strategic Value Engine.
-    </p>
-    <div class="flex flex-wrap justify-center gap-4">
-        <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg text-xs font-bold uppercase tracking-widest transition">2-Page Strategic Brief</a>
-        <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="glass px-8 py-3 rounded-lg text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition border border-blue-500/50">Full Professional CV (3-Page)</a>
-    </div>
-</section>
-
-<section id="projects" class="py-16 px-6 max-w-6xl mx-auto">
-    <h2 class="mono text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-12 text-center">Strategic Decision Toolkits</h2>
-    
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="glass p-6 rounded-2xl border-l-4 border-emerald-500 flex flex-col">
-            <h3 class="text-lg font-bold mb-3 italic">SaaS Financial Performance</h3>
-            <p class="text-gray-400 text-xs mb-4"><strong>Strategic Impact:</strong> Detects revenue leakage and automates KPI telemetry. Protects recurring revenue by identifying churn signals via SQL pipelines.</p>
-            <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="mt-auto text-emerald-400 text-[9px] font-bold uppercase tracking-widest">View System Architecture →</a>
+<section class="py-12 px-6 max-w-5xl mx-auto -mt-8">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div class="text-2xl font-bold text-blue-600">R7.5M</div>
+            <div class="text-xs text-gray-500 uppercase font-bold tracking-tighter">Cost Savings</div>
         </div>
-
-        <div class="glass p-6 rounded-2xl border-l-4 border-purple-500 flex flex-col">
-            <h3 class="text-lg font-bold mb-3 italic">Global Finance Automation</h3>
-            <p class="text-gray-400 text-xs mb-4"><strong>Strategic Impact:</strong> Optimizes multi-currency capital efficiency. Automates liquidity oversight across global entities to reduce idle cash flows.</p>
-            <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="mt-auto text-purple-400 text-[9px] font-bold uppercase tracking-widest">View Python Logic →</a>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div class="text-2xl font-bold text-blue-600">30%</div>
+            <div class="text-xs text-gray-500 uppercase font-bold tracking-tighter">Faster Month-End</div>
         </div>
-
-        <div class="glass p-6 rounded-2xl border-l-4 border-orange-500 flex flex-col">
-            <h3 class="text-lg font-bold mb-3 italic">Lumina AI Cloud Economics</h3>
-            <p class="text-gray-400 text-xs mb-4"><strong>Strategic Impact:</strong> FinOps audit framework identifying waste in enterprise tech spend. Merges cloud consumption data with financial governance for ROI.</p>
-            <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="mt-auto text-orange-400 text-[9px] font-bold uppercase tracking-widest">View Audit Framework →</a>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div class="text-2xl font-bold text-blue-600">$150M+</div>
+            <div class="text-xs text-gray-500 uppercase font-bold tracking-tighter">Portfolio Oversight</div>
         </div>
-
-        <div class="glass p-6 rounded-2xl border-l-4 border-pink-500 flex flex-col">
-            <h3 class="text-lg font-bold mb-3 italic">Axiom Zero Settlement</h3>
-            <p class="text-gray-400 text-xs mb-4"><strong>Strategic Impact:</strong> Mitigates liquidity risk via high-volume settlement reconciliation. Ensures data integrity in complex global financial flows.</p>
-            <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="mt-auto text-pink-400 text-[9px] font-bold uppercase tracking-widest">View Risk Engine →</a>
-        </div>
-
-        <div class="glass p-6 rounded-2xl border-l-4 border-blue-500 bg-blue-500/5 flex flex-col">
-            <h3 class="text-lg font-bold mb-3 italic">Sovereign Engine</h3>
-            <p class="text-gray-400 text-xs mb-4"><strong>Strategic Impact:</strong> Python-based capital allocation simulation. Replaces static models with predictive, multi-scenario outcomes for strategic planning.</p>
-            <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="mt-auto text-blue-400 text-[9px] font-bold uppercase tracking-widest">View Simulation Logic →</a>
+        <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div class="text-2xl font-bold text-blue-600">25%</div>
+            <div class="text-xs text-gray-500 uppercase font-bold tracking-tighter">Revenue Growth</div>
         </div>
     </div>
 </section>
 
-<footer id="contact" class="py-20 px-6 text-center border-t border-white/5">
-    <h2 class="text-2xl font-bold mb-2 italic text-blue-500">Bridge the Talent Squeeze.</h2>
-    <p class="text-gray-500 text-[10px] mb-8 mono uppercase tracking-[0.3em]">Professional Accountant | NQF Level 8 | Decision Engineering</p>
-    <div class="flex justify-center gap-4">
-        <a href="mailto:jatin.d.chotoo@gmail.com" class="bg-white text-black px-10 py-3 rounded-lg text-xs font-bold uppercase tracking-widest">Email Me</a>
-        <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" class="glass px-10 py-3 rounded-lg text-xs font-bold uppercase tracking-widest">LinkedIn</a>
+<main class="py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-2 text-slate-800 text-center">Strategic Decision Toolkits</h2>
+    <p class="text-center text-gray-500 mb-12">Click a project to view the system architecture and financial logic on GitHub.</p>
+
+    <div class="grid md:grid-cols-2 gap-8">
+        
+        <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="card p-8 rounded-2xl flex flex-col group">
+            <span class="text-blue-600 font-mono text-xs font-bold mb-2">PROJECT 01</span>
+            <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">SaaS Financial Performance</h3>
+            <p class="text-gray-600 text-sm mb-6">Uses SQL pipelines to detect revenue leakage and automate KPI telemetry. Protects recurring revenue via real-time churn signaling.</p>
+            <span class="mt-auto font-bold text-sm text-blue-600">View System Architecture →</span>
+        </a>
+
+        <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="card p-8 rounded-2xl flex flex-col group">
+            <span class="text-blue-600 font-mono text-xs font-bold mb-2">PROJECT 02</span>
+            <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Global Finance Automation</h3>
+            <p class="text-gray-600 text-sm mb-6">A Python-driven engine for multi-currency capital efficiency. Automates liquidity oversight across global entities to reduce idle cash.</p>
+            <span class="mt-auto font-bold text-sm text-blue-600">View Python Logic →</span>
+        </a>
+
+        <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="card p-8 rounded-2xl flex flex-col group">
+            <span class="text-blue-600 font-mono text-xs font-bold mb-2">PROJECT 03</span>
+            <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Lumina AI Cloud Economics</h3>
+            <p class="text-gray-600 text-sm mb-6">FinOps audit framework for tech spend optimization. Merges cloud consumption data with financial governance to increase ROI.</p>
+            <span class="mt-auto font-bold text-sm text-blue-600">View Audit Framework →</span>
+        </a>
+
+        <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="card p-8 rounded-2xl flex flex-col group">
+            <span class="text-blue-600 font-mono text-xs font-bold mb-2">PROJECT 04</span>
+            <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Axiom Zero Settlement</h3>
+            <p class="text-gray-600 text-sm mb-6">Mitigates liquidity risk via high-volume settlement reconciliation. Ensures data integrity in complex global financial flows.</p>
+            <span class="mt-auto font-bold text-sm text-blue-600">View Risk Engine →</span>
+        </a>
+
+        <div class="md:col-span-2">
+            <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="card p-8 rounded-2xl flex flex-col group border-l-4 border-l-blue-600">
+                <span class="text-blue-600 font-mono text-xs font-bold mb-2">PROJECT 05</span>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Sovereign Engine (Capital Allocation Simulation)</h3>
+                <p class="text-gray-600 text-sm mb-6">Python-based simulation that replaces static FP&A models with predictive, multi-scenario outcomes for executive planning.</p>
+                <span class="font-bold text-sm text-blue-600">View Simulation Logic →</span>
+            </a>
+        </div>
+
+    </div>
+</main>
+
+<footer class="bg-slate-900 text-white py-16 px-6 text-center">
+    <h2 class="text-2xl font-bold mb-4">Bridge the Talent Squeeze.</h2>
+    <p class="text-gray-400 mb-8 max-w-lg mx-auto">Professional Accountant (SAIPA) | NQF Level 8 | Decision Engineering</p>
+    <div class="flex justify-center gap-6">
+        <a href="mailto:jatin.d.chotoo@gmail.com" class="text-blue-400 font-bold hover:text-blue-300">Email Me</a>
+        <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" class="text-blue-400 font-bold hover:text-blue-300">LinkedIn</a>
+        <a href="https://github.com/jatinchotoo" target="_blank" class="text-blue-400 font-bold hover:text-blue-300">GitHub</a>
     </div>
 </footer>
 
