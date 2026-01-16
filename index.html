@@ -14,14 +14,13 @@
         .btn-filled:hover { background-color: #1d4ed8; transform: translateY(-2px); }
         .btn-outline { border: 1px solid #1e293b; background-color: rgba(255, 255, 255, 0.02); transition: all 0.3s ease; }
         .btn-outline:hover { background-color: rgba(255, 255, 255, 0.05); transform: translateY(-2px); }
-        .project-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease; }
+        .project-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; }
         .project-card:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
     </style>
 </head>
 <body>
 
     <section class="max-w-6xl mx-auto px-6 py-24 text-center">
-        <img src="assets/images/image_4ccf8c.png" alt="JC Logo" class="mx-auto w-24 h-24 mb-8">
         <h1 class="hero-title mb-8">
             Transforming Accounting Principles into <br>
             <span class="text-blue-accent italic">Automated Systems.</span>
@@ -34,8 +33,7 @@
 
         <div class="flex flex-wrap justify-center gap-4 mb-20">
             <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="btn-filled text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">2-Page Brief</a>
-            <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="btn-outline text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">Full Prof. CV</a>
-            <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="btn-outline text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">3-Page CV</a>
+            <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="btn-outline text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">Full Prof. CV (3-Page)</a>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-y border-white/10 py-12 mb-24">
@@ -48,40 +46,58 @@
         <h2 class="text-xs font-bold tracking-[0.4em] uppercase text-blue-500 mb-12">Decision Intelligence Toolkits</h2>
         <div class="grid md:grid-cols-3 gap-6 text-left">
             <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="project-card p-8 rounded-2xl">
-                <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 01</div>
-                <h3 class="text-lg font-bold mb-2">SaaS Performance</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">SQL pipeline for revenue leakage detection and automated reporting.</p>
+                <div>
+                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 01</div>
+                    <h3 class="text-lg font-bold mb-2">SaaS Performance</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">SQL pipeline for revenue leakage detection and automated reporting.</p>
+                </div>
+                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Architecture →</div>
             </a>
             <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="project-card p-8 rounded-2xl">
-                <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 02</div>
-                <h3 class="text-lg font-bold mb-2">Global Alpha</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">Python-driven tracking of multi-currency assets and liquidity oversight.</p>
+                <div>
+                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 02</div>
+                    <h3 class="text-lg font-bold mb-2">Global Alpha</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Python-driven tracking of multi-currency assets and liquidity oversight.</p>
+                </div>
+                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Python Logic →</div>
             </a>
             <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="project-card p-8 rounded-2xl">
-                <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 03</div>
-                <h3 class="text-lg font-bold mb-2">Lumina Cloud</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">FinOps framework to optimize enterprise tech spend governance.</p>
+                <div>
+                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 03</div>
+                    <h3 class="text-lg font-bold mb-2">Lumina Cloud</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">FinOps framework to optimize enterprise tech spend governance.</p>
+                </div>
+                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Audit Framework →</div>
             </a>
             <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="project-card p-8 rounded-2xl">
-                <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 04</div>
-                <h3 class="text-lg font-bold mb-2">Axiom Settlement</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">Automated settlement reconciliation engine to mitigate liquidity risk.</p>
+                <div>
+                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 04</div>
+                    <h3 class="text-lg font-bold mb-2">Axiom Settlement</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Automated settlement reconciliation engine to mitigate liquidity risk.</p>
+                </div>
+                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Risk Engine →</div>
             </a>
             <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="project-card p-8 rounded-2xl">
-                <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 05</div>
-                <h3 class="text-lg font-bold mb-2">Sovereign Engine</h3>
-                <p class="text-gray-400 text-xs leading-relaxed">Python capital allocation simulation for multi-scenario planning.</p>
+                <div>
+                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 05</div>
+                    <h3 class="text-lg font-bold mb-2">Sovereign Engine</h3>
+                    <p class="text-gray-400 text-xs leading-relaxed">Python capital allocation simulation for multi-scenario planning.</p>
+                </div>
+                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Simulation →</div>
             </a>
-            <div class="rounded-2xl overflow-hidden relative group border border-white/10">
-                <img src="assets/images/image_4dc463.png" alt="Profile" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-blue-600/20 group-hover:bg-transparent transition"></div>
+            
+            <div class="rounded-2xl overflow-hidden border border-white/10 bg-slate-900 flex items-center justify-center">
+                 <img src="assets/images/jc_logo.jpg" alt="Profile" class="w-full h-full object-cover">
             </div>
         </div>
     </section>
 
     <footer class="py-20 text-center border-t border-white/5">
-        <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4">Professional Accountant | Decision Engineering</p>
-        <a href="mailto:jatin.d.chotoo@gmail.com" class="text-white font-bold hover:text-blue-500 transition">jatin.d.chotoo@gmail.com</a>
+        <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4 italic">Professional Accountant | Decision Engineering | NQF 8</p>
+        <div class="flex justify-center gap-8 mb-4">
+            <a href="mailto:jatin.d.chotoo@gmail.com" class="text-white font-bold hover:text-blue-500 transition">jatin.d.chotoo@gmail.com</a>
+            <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" class="text-white font-bold hover:text-blue-500 transition">LinkedIn</a>
+        </div>
     </footer>
 
 </body>
