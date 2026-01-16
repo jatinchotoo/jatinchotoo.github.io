@@ -1,37 +1,38 @@
 # Jatin Chotoo | Strategic Finance & Decision Intelligence
 
-**Strategic Finance Leader | Capital Allocation | Enterprise Risk Optimization**
+### **Executive Summary**
+I bridge the gap between complex financial theory and real-world capital efficiency. With a **BCompt in Accounting Science** and **SAIPA** accreditation, I transform Finance from a cost center into a **Value Engine** by integrating Python, Power BI, and advanced automation into the FP&A lifecycle.
 
 ---
 
-## 🏛️ Professional Summary
-I bridge the gap between financial governance and technical execution. With a **BCompt in Accounting Science** and **SAIPA** accreditation, I design automated systems that transform manual finance workflows into real-time decision engines.
+## 🏛️ Intelligence Assets (Portfolio)
+
+| Asset | Strategic Mandate | Status |
+| :--- | :--- | :--- |
+| **01. SaaS Intelligence** | Revenue Leakage & Churn Analysis | **Deployed** |
+| **02. Global Alpha** | Portfolio Analytics & Telemetry | **Deployed** |
+| **03. Lumina Cloud** | Cloud Economics & OpEx Optimization | **Deployed** |
+| **04. Axiom Settlement** | Automated Reconciliations | **Deployed** |
+| **05. Sovereign Alpha** | Capital Defense Scenario Engine | **Active Mandate** |
 
 ---
 
-## 🏗️ Intelligence Assets (Full Ecosystem)
+## 📁 Repository Navigation
 
-| Asset | Mandate | Primary Tech | Status |
-| :--- | :--- | :--- | :--- |
-| **05. Sovereign Alpha** | Capital Defense & ROI Scenario Engine | Python / Risk Modeling | **Active Mandate** |
-| **04. Axiom Settlement** | Automated Reconciliations & Clearing | Excel VBA | Deployed |
-| **03. Lumina Cloud** | Cloud Economics & OpEx Optimization | SQL | Deployed |
-| **02. Global Alpha** | Multi-Currency Portfolio Analytics | Python | Deployed |
-| **01. SaaS Intelligence** | Revenue Leakage & Churn Modeling | Power BI | Deployed |
+### `executive_brief/`
+Contains my dual-path CVs:
+* **Strategic Summary (2-Page):** Optimized for executive review.
+* **Full Professional CV:** Detailed history of multi-entity management ($150M+ portfolios).
 
----
-
-## 🛠️ Core Competencies
-- **Finance Science:** Capital Allocation, IFRS Reporting, ROIC Tracking, Treasury Oversight.
-- **Technical Stack:** Python (Pandas), SQL, Power BI (DAX), Advanced Excel/VBA.
-- **Impact:** Focused on reducing cycle times and increasing forecast reliability for $150M+ portfolios.
+### `assets/images/`
+Visual documentation of my **Strategic Planning** and **Risk Governance** frameworks.
 
 ---
 
-## 📬 Contact
-- **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io)
-- **LinkedIn:** [linkedin.com/in/jatin-chotoo](https://www.linkedin.com/in/jatin-chotoo)
-- **Email:** jatin.d.chotoo@gmail.com
+## 🛡️ Core Credentials
+* **BCompt Accounting Science** (UNISA)
+* **Postgraduate Diploma: Professional Accountant** (SAIPA/FASSET)
+* **Technical Stack:** Python (Pandas/NumPy), SQL, Power BI (DAX), Excel/VBA.
 
 ---
-**© 2026 Jatin Chotoo // Engineered Strategic Finance**
+*Contact: [jatin.d.chotoo@gmail.com](mailto:jatin.d.chotoo@gmail.com)* *Web: [jatinchotoo.github.io](https://jatinchotoo.github.io)*
