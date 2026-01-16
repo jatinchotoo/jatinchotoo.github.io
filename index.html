@@ -7,9 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px); background-size: 24px 24px; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px); background-size: 24px 24px; scroll-behavior: smooth; }
         .hero-title { font-size: 4.5rem; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; }
-        .nav-pill { border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); }
+        .nav-pill { border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); position: fixed; top: 2rem; left: 50%; transform: translateX(-50%); z-index: 50; }
         .asset-card { background: #0f172a; border: 1px solid #1e293b; border-radius: 24px; transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column; }
         .asset-card:hover { border-color: #3b82f6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.1); }
         .mandate-label { color: #3b82f6; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
@@ -18,16 +18,14 @@
 </head>
 <body class="pb-20">
 
-    <nav class="flex justify-center pt-12">
-        <div class="nav-pill rounded-full px-8 py-3 flex items-center gap-8 text-[10px] font-bold tracking-[0.2em] uppercase">
-            <span class="text-gray-500">Strategy</span>
-            <a href="#intelligence" class="text-blue-500">Intelligence</a>
-            <span class="text-gray-500">Advisor</span>
-            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="btn-dossier px-4 py-1.5 rounded-full text-white ml-4">Download Dossier</a>
-        </div>
+    <nav class="nav-pill rounded-full px-8 py-3 flex items-center gap-8 text-[10px] font-bold tracking-[0.2em] uppercase">
+        <a href="#strategy" class="hover:text-blue-500 transition">Strategy</a>
+        <a href="#intelligence" class="hover:text-blue-500 transition">Intelligence</a>
+        <a href="#contact" class="hover:text-blue-500 transition">Advisor</a>
+        <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="btn-dossier px-4 py-1.5 rounded-full text-white ml-4">Download Dossier</a>
     </nav>
 
-    <section class="max-w-6xl mx-auto px-6 py-24 text-center">
+    <section id="strategy" class="max-w-6xl mx-auto px-6 py-32 text-center pt-48">
         <h1 class="hero-title mb-8">
             Transforming Accounting Principles into <br>
             <span class="text-blue-400 italic">Automated Systems.</span>
@@ -39,12 +37,16 @@
         </p>
 
         <div class="flex flex-wrap justify-center gap-4 mb-24">
-            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition shadow-lg shadow-blue-900/20">2-Page Brief</a>
+            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition">2-Page Brief</a>
             <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="border border-slate-800 bg-slate-900/50 text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition">Full 3-Page CV</a>
+        </div>
+        
+        <div class="max-w-4xl mx-auto rounded-3xl overflow-hidden border border-slate-800 h-64 bg-slate-900 mb-24">
+            <img src="assets/images/planning_process.JPG" alt="Strategy Visual" class="w-full h-full object-cover opacity-50 hover:opacity-100 transition duration-700">
         </div>
     </section>
 
-    <section id="intelligence" class="max-w-7xl mx-auto px-8">
+    <section id="intelligence" class="max-w-7xl mx-auto px-8 py-20 border-t border-slate-900">
         <div class="text-center mb-16">
             <h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500">Intelligence Assets & Mandates</h2>
         </div>
@@ -55,8 +57,8 @@
                     <h3 class="text-2xl font-bold text-white mb-2 italic">Performance Intelligence</h3>
                     <div class="mandate-label">Mandate: SaaS Financial Performance</div>
                 </div>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">Managed FP&A for multi-currency operations (<strong>R750M budgets</strong>), supporting <strong>double-digit revenue growth</strong> across six countries.</p>
-                <div class="mt-auto w-full bg-slate-950 rounded-xl overflow-hidden border border-slate-800 h-32 flex items-center justify-center font-mono text-blue-500 text-[10px]">
+                <p class="text-gray-400 text-sm leading-relaxed">Managed FP&A for multi-currency operations (<strong>R750M budgets</strong>), supporting <strong>double-digit revenue growth</strong> across six countries.</p>
+                <div class="mt-auto w-full bg-slate-950 rounded-xl p-4 border border-slate-800 font-mono text-blue-500 text-[10px]">
                     SQL PIPELINE // REVENUE LEAKAGE DETECTION
                 </div>
             </a>
@@ -66,18 +68,17 @@
                     <h3 class="text-2xl font-bold text-white mb-2 italic">Global Alpha Engine</h3>
                     <div class="mandate-label">Mandate: Finance Automation</div>
                 </div>
-                <p class="text-gray-400 text-sm leading-relaxed mb-6">Automated asset consolidation across USD, GBP, EUR, and NGN, reducing reporting cycles by <strong>30%</strong> via Python automation.</p>
+                <p class="text-gray-400 text-sm leading-relaxed">Automated asset consolidation across USD, GBP, EUR, and NGN, reducing reporting cycles by <strong>30%</strong>.</p>
                 <div class="mt-auto w-full bg-slate-950 rounded-xl p-6 border border-slate-800 font-mono text-[10px] text-green-500/70">
                     Group_Category | Revenue | NOPAT <br>
-                    CryptoFlow | 423000.0 | 317250.0 <br>
-                    Terra-Grid | 0.0 | 0.0
+                    CryptoFlow | 423000.0 | 317250.0
                 </div>
             </a>
 
             <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="asset-card p-10">
                 <h3 class="text-2xl font-bold text-white mb-2 italic">Lumina AI Cloud Economics</h3>
                 <div class="mandate-label mb-6">Mandate: FinOps Auditing Framework</div>
-                <p class="text-gray-400 text-sm leading-relaxed">Framework to optimize enterprise tech spend and audit cloud-based capital efficiency for large-scale operations.</p>
+                <p class="text-gray-400 text-sm leading-relaxed">Framework to optimize enterprise tech spend and audit cloud-based capital efficiency.</p>
             </a>
 
             <div class="grid grid-cols-1 gap-8">
@@ -85,17 +86,23 @@
                     <h3 class="text-xl font-bold text-white mb-2 italic">Axiom Settlement</h3>
                     <div class="mandate-label">Mandate: Liquidity Risk Mitigation</div>
                 </a>
-                <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="asset-card p-8 border-blue-500/30">
+                <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="asset-card p-8">
                     <h3 class="text-xl font-bold text-white mb-2 italic">Sovereign Engine</h3>
                     <div class="mandate-label">Mandate: Capital Allocation Simulation</div>
                 </a>
+                <div class="rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 h-48">
+                    <img src="assets/images/risk_management.jpg" alt="Profile/Risk Management" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500">
+                </div>
             </div>
         </div>
     </section>
 
-    <footer class="mt-32 text-center border-t border-slate-900 pt-20">
+    <footer id="contact" class="mt-32 text-center border-t border-slate-900 pt-20">
         <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4">Professional Accountant (SAIPA) | Decision Intelligence | NQF 8</p>
         <p class="text-white font-bold text-lg italic">jatin.d.chotoo@gmail.com</p>
+        <div class="mt-8">
+            <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" class="text-blue-500 text-[10px] font-bold tracking-widest uppercase hover:underline transition">LinkedIn Profile</a>
+        </div>
     </footer>
 
 </body>
