@@ -1,50 +1,48 @@
-# <p align="center">Strategic Finance & FP&A | Jatin Chotoo</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Mandate-Capital_Stewardship-0052FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Finance_Technologist-white?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <strong>Engineering Clarity for High-Stakes Decisions.</strong><br>
-  Bridging the gap between <b>Accounting Science (BCompt)</b> and data-driven finance operations.<br>
-  Focused on capital-efficient systems for FP&A and executive decision support.
-</p>
-
-<p align="center">
-  <a href="https://jatinchotoo.github.io/"><b>🌐 View Live Portfolio</b></a> • 
-  <a href="https://www.linkedin.com/in/jatin-chotoo/"><b>🔗 LinkedIn</b></a>
-</p>
+# Strategic Finance & Decision Intelligence Portfolio
+### Jatin Chotoo | BCompt Accounting Science | SAIPA Professional Accountant
 
 ---
 
-### 🚀 Strategic Mandate
-*Solving complex finance challenges through hands-on technical execution:*
-
-> [!IMPORTANT]
-> **Operational Impact:** Delivering immediate efficiency gains in month-end cycles and multi-currency reporting.
->
-> **Execution:** Translating manual, high-latency workflows into automated, high-integrity Python/SQL pipelines.
-> 
-> **Decision Support:** Providing data-backed ROI models and governance layers to safeguard capital allocation.
+## 🎯 Executive Mandate
+I bridge the gap between **Accounting Science (IFRS/Governance)** and **Decision Technology**. I don't just report numbers; I build deterministic engines in **Python, SQL, and Power BI** that protect capital and identify revenue leakage.
 
 ---
 
-### 🏗️ Intelligence Assets (Project Ecosystem)
-
-| Asset | Mandate | Primary Outcome |
-| :--- | :--- | :--- |
-| **Asset 05** | **Capital Support** | ROI/Risk engine generating automated investment analysis summaries. |
-| **Asset 01** | Yield Protection | Identified **12% revenue leakage** via Power BI churn analysis. |
-| **Asset 02** | Latency Alpha | Automated multi-currency consolidation; **90% reduction** in manual processing. |
-| **Asset 03** | Capital Recovery | Uncovered **R107M annual recovery** potential through infrastructure audits. |
+## 🛠️ Execution Stack
+| Pillar | Technologies |
+| :--- | :--- |
+| **Finance Science** | BCompt Accounting Science, IFRS, Capital Allocation (ROIC) |
+| **Data Engineering** | SQL (ERP Telemetry), Python (Pandas/NumPy), VBA Macros |
+| **Intelligence** | Power BI (Advanced DAX), Decision Modeling, Forecasting |
+| **Environment** | Visual Studio Code, Git, ERP Systems (SAP/Oracle/Sage) |
 
 ---
 
-### 📈 Performance Benchmarks
+## 📂 Intelligence Assets (Projects)
 
-`EFFICIENCY GAIN`
-![30%](https://geps.dev/progress/30?dangerColor=0052FF&accColor=0052FF&lightColor=e0e0e0) **30% faster month-end close**
+### 05. Sovereign Alpha (Active Development)
+**Mandate:** Capital Defense & ROI Automation  
+- **Tech:** Python, Decision Logic  
+- **Outcome:** Generates board-ready Capital Defense Memos by simulating risk/reward scenarios for capital allocation.
 
-`PORTFOLIO OVERSIGHT`
-**$150,000,000+ Global Assets Under Management**
+### 01. SaaS Revenue Intelligence
+**Mandate:** Yield Protection & Churn Modeling  
+- **Tech:** Power BI, Advanced DAX, Excel  
+- **Outcome:** Identified 12% revenue leakage through automated churn/leakage modeling in a multi-million dollar SaaS environment.
+
+### 03. Lumina Cloud Economics
+**Mandate:** FinOps Audit & Capital Recovery  
+- **Tech:** Cloud Audit Logs, Excel, Python  
+- **Outcome:** Uncovered R107M in potential recovery through automated compute-cost audits and lifecycle tracking.
+
+### 04. Axiom Settlement Engine
+**Mandate:** Deterministic Ledger Settlement  
+- **Tech:** SQL, VBA Macros  
+- **Outcome:** Automated settlement of high-volume transaction ledgers, reducing month-end latency by 30%.
+
+---
+
+## 🤝 Connect
+- **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io/)
+- **Email:** [jatin.d.chotoo@gmail.com](mailto:jatin.d.chotoo@gmail.com)
+- **Focus:** FP&A, Strategic Finance, Decision Engineering.
