@@ -23,8 +23,10 @@ Aligned with the global "Finance Talent Squeeze," my work focuses on:
 ---
 
 ### 📂 Featured Toolkits
-- **[Project 5 | Sovereign Alpha](https://github.com/jatinchotoo):** Multi-entity capital allocation engine.
+- **[Project 5 | Sovereign Alpha](https://github.com/jatinchotoo):** Multi-entity capital allocation engine. (In Active Development)
 - **[Project 1 | SaaS Analytics](https://github.com/jatinchotoo):** End-to-end KPI telemetry for revenue leakage.
+- **[Project 2 | Global Alpha](https://github.com/jatinchotoo):** Python-based liquidity and portfolio tracking engine.
+- **[Project 3 | Lumina Cloud Economics](https://github.com/jatinchotoo):** FinOps audit and cloud spend optimization framework.
 
 ---
 
