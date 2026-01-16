@@ -3,101 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jatin Chotoo | Strategic Finance & Decision Intelligence</title>
+    <title>Jatin Chotoo | Strategic Finance</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; scroll-behavior: smooth; }
-        .hero-title { font-size: 4rem; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; }
-        .text-blue-accent { color: #3b82f6; }
-        .btn-filled { background-color: #2563eb; transition: all 0.3s ease; }
-        .btn-filled:hover { background-color: #1d4ed8; transform: translateY(-2px); }
-        .btn-outline { border: 1px solid #1e293b; background-color: rgba(255, 255, 255, 0.02); transition: all 0.3s ease; }
-        .btn-outline:hover { background-color: rgba(255, 255, 255, 0.05); transform: translateY(-2px); }
-        .project-card { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.3s ease; min-height: 200px; display: flex; flex-direction: column; justify-content: space-between; }
-        .project-card:hover { border-color: #3b82f6; background: rgba(59, 130, 246, 0.05); }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; color: #f3f4f6; background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px); background-size: 24px 24px; }
+        .hero-title { font-size: 4.5rem; line-height: 1.1; font-weight: 800; letter-spacing: -0.02em; }
+        .nav-pill { border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); }
+        .asset-card { background: #0f172a; border: 1px solid #1e293b; border-radius: 24px; transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column; }
+        .asset-card:hover { border-color: #3b82f6; box-shadow: 0 0 20px rgba(59, 130, 246, 0.1); }
+        .mandate-label { color: #3b82f6; font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+        .btn-dossier { background: linear-gradient(to right, #1e293b, #334155); border: 1px solid #3b82f6; }
     </style>
 </head>
-<body>
+<body class="pb-20">
+
+    <nav class="flex justify-center pt-12">
+        <div class="nav-pill rounded-full px-8 py-3 flex items-center gap-8 text-[10px] font-bold tracking-[0.2em] uppercase">
+            <span class="text-gray-500">Strategy</span>
+            <a href="#intelligence" class="text-blue-500">Intelligence</a>
+            <span class="text-gray-500">Advisor</span>
+            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="btn-dossier px-4 py-1.5 rounded-full text-white ml-4">Download Dossier</a>
+        </div>
+    </nav>
 
     <section class="max-w-6xl mx-auto px-6 py-24 text-center">
         <h1 class="hero-title mb-8">
             Transforming Accounting Principles into <br>
-            <span class="text-blue-accent italic">Automated Systems.</span>
+            <span class="text-blue-400 italic">Automated Systems.</span>
         </h1>
-        <p class="text-xl md:text-2xl text-gray-400 font-light leading-relaxed mb-12 max-w-4xl mx-auto">
+        <p class="text-xl text-gray-400 font-light leading-relaxed mb-12 max-w-4xl mx-auto">
             I build deterministic finance systems that reduce decision latency. By merging 
             <strong>NQF Level 8 Accounting Science</strong> with <strong>Python, SQL, and Power BI</strong>, 
             I transform Finance into a Strategic Value Engine.
         </p>
 
-        <div class="flex flex-wrap justify-center gap-4 mb-20">
-            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="btn-filled text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">2-Page Brief</a>
-            <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="btn-outline text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase">Full Prof. CV (3-Page)</a>
+        <div class="flex flex-wrap justify-center gap-4 mb-24">
+            <a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition shadow-lg shadow-blue-900/20">2-Page Brief</a>
+            <a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="border border-slate-800 bg-slate-900/50 text-white px-10 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition">Full 3-Page CV</a>
+        </div>
+    </section>
+
+    <section id="intelligence" class="max-w-7xl mx-auto px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500">Intelligence Assets & Mandates</h2>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-y border-white/10 py-12 mb-24">
-            <div><div class="text-3xl font-bold text-white mb-1">$150M+</div><div class="text-[10px] uppercase tracking-widest text-gray-500">Portfolio Oversight</div></div>
-            <div><div class="text-3xl font-bold text-white mb-1">R7.5M</div><div class="text-[10px] uppercase tracking-widest text-gray-500">Treasury Savings</div></div>
-            <div><div class="text-3xl font-bold text-white mb-1">30%</div><div class="text-[10px] uppercase tracking-widest text-gray-500">Close Acceleration</div></div>
-            <div><div class="text-3xl font-bold text-white mb-1">25%</div><div class="text-[10px] uppercase tracking-widest text-gray-500">Revenue Growth</div></div>
-        </div>
+        <div class="grid md:grid-cols-2 gap-8">
+            <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="asset-card p-10">
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-white mb-2 italic">Performance Intelligence</h3>
+                    <div class="mandate-label">Mandate: SaaS Financial Performance</div>
+                </div>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">Managed FP&A for multi-currency operations (<strong>R750M budgets</strong>), supporting <strong>double-digit revenue growth</strong> across six countries.</p>
+                <div class="mt-auto w-full bg-slate-950 rounded-xl overflow-hidden border border-slate-800 h-32 flex items-center justify-center font-mono text-blue-500 text-[10px]">
+                    SQL PIPELINE // REVENUE LEAKAGE DETECTION
+                </div>
+            </a>
 
-        <h2 class="text-xs font-bold tracking-[0.4em] uppercase text-blue-500 mb-12">Decision Intelligence Toolkits</h2>
-        <div class="grid md:grid-cols-3 gap-6 text-left">
-            <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="project-card p-8 rounded-2xl">
-                <div>
-                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 01</div>
-                    <h3 class="text-lg font-bold mb-2">SaaS Performance</h3>
-                    <p class="text-gray-400 text-xs leading-relaxed">SQL pipeline for revenue leakage detection and automated reporting.</p>
+            <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="asset-card p-10">
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-white mb-2 italic">Global Alpha Engine</h3>
+                    <div class="mandate-label">Mandate: Finance Automation</div>
                 </div>
-                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Architecture →</div>
-            </a>
-            <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="project-card p-8 rounded-2xl">
-                <div>
-                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 02</div>
-                    <h3 class="text-lg font-bold mb-2">Global Alpha</h3>
-                    <p class="text-gray-400 text-xs leading-relaxed">Python-driven tracking of multi-currency assets and liquidity oversight.</p>
+                <p class="text-gray-400 text-sm leading-relaxed mb-6">Automated asset consolidation across USD, GBP, EUR, and NGN, reducing reporting cycles by <strong>30%</strong> via Python automation.</p>
+                <div class="mt-auto w-full bg-slate-950 rounded-xl p-6 border border-slate-800 font-mono text-[10px] text-green-500/70">
+                    Group_Category | Revenue | NOPAT <br>
+                    CryptoFlow | 423000.0 | 317250.0 <br>
+                    Terra-Grid | 0.0 | 0.0
                 </div>
-                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Python Logic →</div>
             </a>
-            <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="project-card p-8 rounded-2xl">
-                <div>
-                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 03</div>
-                    <h3 class="text-lg font-bold mb-2">Lumina Cloud</h3>
-                    <p class="text-gray-400 text-xs leading-relaxed">FinOps framework to optimize enterprise tech spend governance.</p>
-                </div>
-                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Audit Framework →</div>
+
+            <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="asset-card p-10">
+                <h3 class="text-2xl font-bold text-white mb-2 italic">Lumina AI Cloud Economics</h3>
+                <div class="mandate-label mb-6">Mandate: FinOps Auditing Framework</div>
+                <p class="text-gray-400 text-sm leading-relaxed">Framework to optimize enterprise tech spend and audit cloud-based capital efficiency for large-scale operations.</p>
             </a>
-            <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="project-card p-8 rounded-2xl">
-                <div>
-                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 04</div>
-                    <h3 class="text-lg font-bold mb-2">Axiom Settlement</h3>
-                    <p class="text-gray-400 text-xs leading-relaxed">Automated settlement reconciliation engine to mitigate liquidity risk.</p>
-                </div>
-                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Risk Engine →</div>
-            </a>
-            <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="project-card p-8 rounded-2xl">
-                <div>
-                    <div class="text-blue-500 font-bold text-[10px] mb-4 uppercase tracking-widest">Project 05</div>
-                    <h3 class="text-lg font-bold mb-2">Sovereign Engine</h3>
-                    <p class="text-gray-400 text-xs leading-relaxed">Python capital allocation simulation for multi-scenario planning.</p>
-                </div>
-                <div class="mt-4 text-[10px] text-blue-400 font-bold uppercase tracking-widest">View Simulation →</div>
-            </a>
-            
-            <div class="rounded-2xl overflow-hidden border border-white/10 bg-slate-900 flex items-center justify-center">
-                 <img src="assets/images/jc_logo.jpg" alt="Profile" class="w-full h-full object-cover">
+
+            <div class="grid grid-cols-1 gap-8">
+                <a href="https://github.com/jatinchotoo/Project_4_Axiom_Zero_Global_Settlement_and_Liquidity_Risk" target="_blank" class="asset-card p-8">
+                    <h3 class="text-xl font-bold text-white mb-2 italic">Axiom Settlement</h3>
+                    <div class="mandate-label">Mandate: Liquidity Risk Mitigation</div>
+                </a>
+                <a href="https://github.com/jatinchotoo/Project_5_Sovereign_Engine" target="_blank" class="asset-card p-8 border-blue-500/30">
+                    <h3 class="text-xl font-bold text-white mb-2 italic">Sovereign Engine</h3>
+                    <div class="mandate-label">Mandate: Capital Allocation Simulation</div>
+                </a>
             </div>
         </div>
     </section>
 
-    <footer class="py-20 text-center border-t border-white/5">
-        <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4 italic">Professional Accountant | Decision Engineering | NQF 8</p>
-        <div class="flex justify-center gap-8 mb-4">
-            <a href="mailto:jatin.d.chotoo@gmail.com" class="text-white font-bold hover:text-blue-500 transition">jatin.d.chotoo@gmail.com</a>
-            <a href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" class="text-white font-bold hover:text-blue-500 transition">LinkedIn</a>
-        </div>
+    <footer class="mt-32 text-center border-t border-slate-900 pt-20">
+        <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4">Professional Accountant (SAIPA) | Decision Intelligence | NQF 8</p>
+        <p class="text-white font-bold text-lg italic">jatin.d.chotoo@gmail.com</p>
     </footer>
 
 </body>
