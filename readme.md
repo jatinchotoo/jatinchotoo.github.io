@@ -2,7 +2,7 @@
 
 ## Transforming Accounting Principles into Automated, Decision-Ready Systems
 
-I build deterministic workflows and predictive analytics that transform Finance from reporting to strategic decision-making. By merging deep Accounting Science knowledge with **Python**, **SQL**, and **Power BI** automation, I accelerate decisions, optimize capital, and deliver measurable enterprise impact.
+I build deterministic workflows and predictive analytics that transform Finance from reporting to strategic decision-making. By merging deep Accounting Science knowledge with **Python**, **SQL**, and **Power BI**, I accelerate decisions, optimize capital, and deliver measurable enterprise impact.
 
 ---
 
@@ -37,20 +37,23 @@ I build deterministic workflows and predictive analytics that transform Finance 
 
 ## 📂 Featured Decision Toolkits
 
-| Project | Description | Skills | Link |
-|---------|-------------|--------|------|
-| **P1 | SaaS KPI Telemetry** | SQL pipeline for revenue leakage detection and automated reporting cycles | SQL, Power BI | [View on GitHub](https://github.com/jatinchotoo/saas-kpi-telemetry) |
-| **P2 | Global Alpha Engine** | Python-driven tracking of multi-currency financial assets and automated liquidity oversight | Python, FP&A Automation | [View on GitHub](https://github.com/jatinchotoo/global-alpha-engine) |
-| **P5 | Sovereign Alpha** | Multi-entity capital allocation simulation engine built in Python to replace static FP&A models | Python, Scenario Modeling | [View on GitHub](https://github.com/jatinchotoo/sovereign-alpha) |
+| Project | Description | Skills |
+|---------|-------------|--------|
+| **P1 | SaaS KPI Telemetry** | SQL pipeline for revenue leakage detection and automated reporting cycles | SQL, Power BI |
+| **P2 | Global Alpha Engine** | Python-driven tracking of multi-currency financial assets and automated liquidity oversight | Python, FP&A Automation |
+| **P3 | Lumina AI Cloud Economics** | FinOps auditing framework to optimize enterprise tech spend | Python, Power BI |
+| **P4 | Axiom Zero Settlement** | Automated reconciliation for high-volume financial flows | Python, Data Integrity |
+| **P5 | Sovereign Alpha** | Multi-entity capital allocation simulation engine built in Python | Python, Scenario Modeling |
 
-> **Note:** Project 5 is under active development and represents the strategic heart of my decision engineering approach.
+> Projects 1–5 show my approach to decision engineering and FP&A automation.
 
 ---
 
 ## 🔗 Connect & Engage
 
-- **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io)  
+- **Portfolio:** [https://jatinchotoo.github.io](https://jatinchotoo.github.io)  
 - **Email:** jatin.d.chotoo@gmail.com  
+- **LinkedIn:** [linkedin.com/in/jatin-chotoo](https://www.linkedin.com/in/jatin-chotoo)  
 - **GitHub:** [github.com/jatinchotoo](https://github.com/jatinchotoo)
 
 ---
