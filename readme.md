@@ -1,34 +1,33 @@
 # Jatin Chotoo | Strategic Finance & Decision Engineering
 
-### The Bridge Between Accounting Logic and Technical Execution
+### Transforming complex accounting principles into automated, decision-ready systems.
 
-I specialize in modernizing corporate finance workflows. By combining an **NQF Level 8/BCompt** background with a modern tech stack (**Python, SQL, Power BI**), I solve the 2026 "Tech Talent Squeeze" by building automated, deterministic systems for CFOs and Finance Leaders.
+As a Strategic Finance professional (BCompt/SAIPA), I bridge the gap between financial theory and real-world capital efficiency. I don’t just report on the past—I build deterministic systems that enable real-time decision-making and deliver measurable business outcomes.
 
 ---
 
-### 🚀 2026 Strategic Focus
-Aligned with global finance trends (Deloitte 2026), my current work focuses on:
-- **Decision Latency Reduction:** Building pipelines that move beyond static monthly reporting to daily scenario telemetry.
-- **Process Automation:** Using Python to eliminate manual bandwidth bottlenecks in FP&A and Treasury.
-- **Risk Governance:** Engineering "Agentic Insights" that proactively flag working capital and IFRS compliance risks.
+### 🚀 2026 Mandate
+Aligned with the global "Finance Talent Squeeze," my work focuses on:
+- **Decision Latency Reduction:** Replacing manual workflows with Python-driven data telemetry.
+- **Process Automation:** Systematizing FP&A tasks to free up 30%+ of team bandwidth.
+- **Capital Engineering:** Building scenario-modeling engines for $150M+ global portfolios.
 
 ---
 
 ### 🛠 Technical Toolkit
-- **Finance Architecture:** Capital Allocation Engines, Scenario Simulation, Treasury Ops.
-- **Data Engineering:** Python (Pandas/NumPy), Advanced SQL, API Integrations.
-- **Intelligence Design:** Power BI Dashboarding, Excel/VBA Automation, IFRS-Aligned Logic.
+- **Logic:** Python (Scripted Financial Logic, Pandas, NumPy)
+- **Data:** SQL (Data Integrity, Pipeline Architecture)
+- **Intelligence:** Power BI (Advanced DAX, Scenario Modeling)
+- **Standard:** IFRS Governance & NQF Level 8 Accounting Science
 
 ---
 
-### 📂 Featured Mandates
-- **Project 5 | Sovereign Alpha:** A multi-entity capital allocation engine for multi-currency operations.
-- **Project 1 | SaaS Performance Analytics:** Automated KPI telemetry to detect revenue leakage and churn risk.
-- **Project 3 | Lumina Cloud Economics:** Engineering FinOps transparency for scalable tech-first enterprises.
+### 📂 Featured Toolkits
+- **[Project 5 | Sovereign Alpha](https://github.com/jatinchotoo):** Multi-entity capital allocation engine.
+- **[Project 1 | SaaS Analytics](https://github.com/jatinchotoo):** End-to-end KPI telemetry for revenue leakage.
 
 ---
 
 ### 🔗 Let's Connect
 - **Portfolio:** [jatinchotoo.github.io](https://jatinchotoo.github.io)
-- **LinkedIn:** [Insert Link]
-- **Professional Credential:** SAIPA Professional Accountant (SA)
+- **Credentials:** BCOMPT NQF 7 AND FASSET NQF 8
