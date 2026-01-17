@@ -10,63 +10,125 @@
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f3f4f6; scroll-behavior: smooth; }
         .glass-card { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); transition: 0.3s ease; }
-        .glass-card:hover { border-color: #3b82f6; transform: translateY(-5px); }
+        .glass-card:hover { border-color: #3b82f6; transform: translateY(-5px); box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1); }
         .nav-pill { border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%); z-index: 50; }
+        .gradient-text { background: linear-gradient(90deg, #3b82f6, #9333ea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
 <body class="pb-20">
 
-    <nav class="nav-pill rounded-full px-5 py-2.5 flex items-center gap-6 text-[10px] font-bold tracking-[0.2em] uppercase">
+    <nav class="nav-pill rounded-full px-6 py-3 flex items-center gap-8 text-[10px] font-bold tracking-[0.2em] uppercase">
         <a href="#strategy" class="hover:text-blue-500 transition">Strategy</a>
-        <a href="#skills" class="hover:text-blue-500 transition">Mandates</a>
-        <a href="#intelligence" class="hover:text-blue-500 transition">Assets</a>
-        <a href="mailto:jatin.d.chotoo@gmail.com" class="bg-blue-600 px-4 py-1.5 rounded-full text-white italic">Contact Architect</a>
+        <a href="#matrix" class="hover:text-blue-500 transition">Mandates</a>
+        <a href="#assets" class="hover:text-blue-500 transition">Assets</a>
+        <a href="mailto:jatin.d.chotoo@gmail.com" class="bg-blue-600 px-4 py-2 rounded-full text-white">Contact</a>
     </nav>
 
     <section id="strategy" class="max-w-6xl mx-auto px-6 py-32 text-center pt-48">
-        <div class="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-4 underline decoration-blue-500/30 underline-offset-8">Draft Version 2.0</div>
+        <div class="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-4 underline decoration-blue-500/30 underline-offset-8">Draft Version 2.0 // Review Mode</div>
         <h1 class="text-5xl md:text-7xl font-extrabold mb-8 text-white tracking-tighter">
-            Architecting <span class="text-blue-500 italic">Capital Logic.</span>
+            Architecting <span class="gradient-text italic">Decision Intelligence.</span>
         </h1>
-        <p class="text-lg text-gray-400 font-light max-w-2xl mx-auto mb-12">
-            Translating NQF Level 8 Accounting principles into deterministic data pipelines for high-velocity finance.
+        <p class="text-lg text-gray-400 font-light max-w-3xl mx-auto mb-12 leading-relaxed">
+            Bridging the gap between <strong>NQF Level 8 Accounting Science</strong> and <strong>Modern Data Architecture</strong> to reduce decision latency in $150M+ portfolios.
         </p>
     </section>
 
-    <section id="intelligence" class="max-w-7xl mx-auto px-8 py-20 border-t border-slate-900">
-        <h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500 mb-16 text-center">Intelligence Assets</h2>
+    <section id="matrix" class="py-24 bg-slate-900/40 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center text-white font-mono uppercase tracking-widest text-blue-500">Professional Mandate Matrix</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                
+                <div class="space-y-8">
+                    <h3 class="text-xl font-bold text-blue-400 border-b border-blue-400/20 pb-4 flex items-center gap-3 uppercase tracking-tighter">
+                        <i class="fas fa-chart-pie"></i> Strategic Finance (NQF 8)
+                    </h3>
+                    <ul class="space-y-5 text-slate-300">
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-blue-500 mt-1">✓</span>
+                            <div><strong>Capital Allocation:</strong> Frameworks for entity-level deployment and liquidity optimization for multi-national operations.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-blue-500 mt-1">✓</span>
+                            <div><strong>Board Reporting:</strong> Translating complex financial requirements into ExCo-ready executive briefs and board packs.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-blue-500 mt-1">✓</span>
+                            <div><strong>Risk & Treasury:</strong> Managing currency-driven volatility and reducing margin erosion through R7.5M+ in process savings.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-blue-500 mt-1">✓</span>
+                            <div><strong>Advanced Excel:</strong> VBA, Power Query, and complex scenario modeling to bridge legacy systems.</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="space-y-8">
+                    <h3 class="text-xl font-bold text-purple-400 border-b border-purple-400/20 pb-4 flex items-center gap-3 uppercase tracking-tighter">
+                        <i class="fas fa-code"></i> Financial Technology (FinTech)
+                    </h3>
+                    <ul class="space-y-5 text-slate-300">
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-purple-500 mt-1">✓</span>
+                            <div><strong>Python (Pandas/NumPy):</strong> Engineering automated ETL pipelines to eliminate manual reporting lags by 30%+.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-purple-500 mt-1">✓</span>
+                            <div><strong>SQL (T-SQL):</strong> Designing high-performance queries for ERP data extraction and data integrity audits.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-purple-500 mt-1">✓</span>
+                            <div><strong>Power BI (DAX):</strong> Real-time performance dashboards for EBITDA protection and revenue leakage detection.</div>
+                        </li>
+                        <li class="flex items-start gap-4 text-sm">
+                            <span class="text-purple-500 mt-1">✓</span>
+                            <div><strong>Cloud FinOps:</strong> Auditing and governing variable cloud infrastructure spend for capital efficiency.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assets" class="py-24 max-w-7xl mx-auto px-8">
+        <h2 class="text-3xl font-bold mb-16 text-white font-mono uppercase text-center tracking-widest">Intelligence Assets</h2>
         <div class="grid md:grid-cols-2 gap-8">
             
             <div class="glass-card p-10 rounded-3xl">
                 <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">SaaS Economics</div>
-                <h3 class="text-2xl font-bold text-white mb-4 italic text-purple-400">Project 1: Financial Performance</h3>
-                <p class="text-gray-400 text-sm mb-8">Identifying revenue leakage in $750M portfolios using Power BI.</p>
-                <a href="../Project 1 Financial_Analysis_Project1/" class="text-blue-400 font-bold text-xs uppercase tracking-widest hover:underline">Open Folder Contents →</a>
+                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 1: Performance Dashboard</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Identifying revenue leakage in $750M portfolios. Leveraging Power BI and automated Python pipelines.</p>
+                <a href="https://github.com/jatinchotoo/Project-1-Financial_Analysis_Project1" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
             </div>
 
             <div class="glass-card p-10 rounded-3xl">
-                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Risk Modeling</div>
-                <h3 class="text-2xl font-bold text-white mb-4 italic text-purple-400">Project 2: Global Alpha</h3>
-                <p class="text-gray-400 text-sm mb-8">Currency-driven volatility analysis using Python (Pandas/NumPy).</p>
-                <a href="../Project_2_Global_Alpha_Clean/" class="text-blue-400 font-bold text-xs uppercase tracking-widest hover:underline">Open Folder Contents →</a>
+                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Investment Analytics</div>
+                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 2: Global Alpha</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Currency-driven volatility analysis for multi-currency asset pools using Python statistical modeling.</p>
+                <a href="https://github.com/jatinchotoo/Project_2_Global_Alpha_Clean" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
             </div>
 
             <div class="glass-card p-10 rounded-3xl">
-                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Cloud FinOps</div>
-                <h3 class="text-2xl font-bold text-white mb-4 italic text-purple-400">Project 3: Lumina Economics</h3>
-                <p class="text-gray-400 text-sm mb-8">Auditing cloud infrastructure spend for EBITDA protection.</p>
-                <a href="../Project 3 Project_3-_Lumina_AI-_Cloud_Econo.../" class="text-blue-400 font-bold text-xs uppercase tracking-widest hover:underline">Open Folder Contents →</a>
+                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Cloud Economics</div>
+                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 3: Lumina FinOps</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Auditing enterprise tech spend and governing cloud-based capital efficiency through predictive modeling.</p>
+                <a href="https://github.com/jatinchotoo/Project-3-Project_3-_Lumina_AI-_Cloud_Econo..." target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
             </div>
 
             <div class="glass-card p-10 rounded-3xl">
-                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Treasury Velocity</div>
-                <h3 class="text-2xl font-bold text-white mb-4 italic text-purple-400">Project 4: Axiom Settlement</h3>
-                <p class="text-gray-400 text-sm mb-8">Deterministic logic for high-velocity global settlements.</p>
-                <a href="../Project_4_Axiom-Zero/" class="text-blue-400 font-bold text-xs uppercase tracking-widest hover:underline">Open Folder Contents →</a>
+                <div class="text-blue-500 text-[10px] font-bold tracking-widest uppercase mb-4">Treasury Strategy</div>
+                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 4: Axiom Settlement</h3>
+                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Deterministic logic for high-velocity global settlements and capital risk mitigation via Python.</p>
+                <a href="https://github.com/jatinchotoo/Project_4_Axiom-Zero" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
             </div>
 
         </div>
     </section>
+
+    <footer class="mt-32 text-center border-t border-slate-900 pt-20">
+        <p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4">Decision Intelligence | Strategic Finance | NQF 8</p>
+        <p class="text-white font-bold text-lg italic uppercase tracking-tighter">jatin.d.chotoo@gmail.com</p>
+    </footer>
 
 </body>
 </html>
