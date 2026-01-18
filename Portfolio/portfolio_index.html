@@ -1,132 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Draft | Jatin Chotoo - Strategic Finance Architect</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #020617; color: #f3f4f6; scroll-behavior: smooth; }
-        .glass-card { background: rgba(30, 41, 59, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.05); transition: 0.3s ease; }
-        .glass-card:hover { border-color: #3b82f6; transform: translateY(-5px); box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1); }
-        .nav-pill { border: 1px solid #1e293b; background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px); position: fixed; top: 1.5rem; left: 50%; transform: translateX(-50%); z-index: 50; }
-        .gradient-text { background: linear-gradient(90deg, #3b82f6, #9333ea); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jatin Chotoo | Strategic Finance & Decision Intelligence</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --bg:#030712;
+      --surface:#0b1220;
+      --card:#0f172a;
+      --border:#1e293b;
+      --accent:#3b82f6;
+      --accent2:#60a5fa;
+      --text:#f3f4f6;
+      --muted:#9ca3af;
+
+      --radius:22px;
+      --shadow: 0 18px 45px rgba(0,0,0,.45);
+    }
+
+    *{ box-sizing:border-box; }
+    html{ scroll-behavior:smooth; }
+    body{
+      margin:0;
+      background:
+        radial-gradient(1200px 600px at 50% -10%, rgba(59,130,246,.18), transparent 60%),
+        radial-gradient(900px 500px at 10% 20%, rgba(96,165,250,.12), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      font-family:"Plus Jakarta Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+
+    a{ color:inherit; }
+    .container{ max-width:1040px; margin:0 auto; padding:0 22px; }
+
+    /* NAV */
+    .nav{
+      position:sticky;
+      top:0;
+      z-index:50;
+      backdrop-filter: blur(10px);
+      background: rgba(3,7,18,.65);
+      border-bottom:1px solid rgba(30,41,59,.65);
+    }
+    .nav-inner{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:14px 0;
+      gap:14px;
+    }
+    .brand{
+      font-weight:800;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      font-size:12px;
+      color:var(--accent2);
+      text-decoration:none;
+      white-space:nowrap;
+    }
+    .nav-links{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+    }
+    .nav-links a{
+      color:var(--muted);
+      text-decoration:none;
+      font-size:13px;
+      font-weight:650;
+      transition: color .2s ease;
+    }
+    .nav-links a:hover{ color:var(--text); }
+
+    /* HERO */
+    header{
+      padding:96px 0 34px;
+      text-align:center;
+    }
+    .badge{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      justify-content:center;
+      padding:8px 12px;
+      border-radius:999px;
+      border:1px solid rgba(59,130,246,.35);
+      background: rgba(15,23,42,.65);
+      color: var(--accent2);
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.2em;
+      text-transform:uppercase;
+    }
+    h1{
+      margin:18px 0 14px;
+      font-size:clamp(2.3rem, 7vw, 4rem);
+      line-height:1.06;
+      letter-spacing:-0.02em;
+      font-weight:800;
+    }
+    .hero-p{
+      margin:0 auto 28px;
+      max-width:740px;
+      color:var(--muted);
+      font-size:1.05rem;
+    }
+
+    /* CTA */
+    .cta{
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:13px 18px;
+      border-radius:14px;
+      text-decoration:none;
+      font-weight:750;
+      font-size:14px;
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+      border:1px solid rgba(30,41,59,.9);
+      background: rgba(15,23,42,.55);
+      color: var(--text);
+    }
+    .btn-primary{
+      background: linear-gradient(135deg, rgba(59,130,246,1), rgba(96,165,250,1));
+      border-color: rgba(96,165,250,.55);
+      color:#07101f;
+    }
+    .btn:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 14px 35px rgba(59,130,246,.18);
+      border-color: rgba(96,165,250,.55);
+    }
+
+    /* SECTIONS */
+    section{ padding:56px 0; }
+    .section-head{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:18px;
+      margin-bottom:20px;
+    }
+    .kicker{
+      display:block;
+      font-size:12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--muted);
+      font-weight:800;
+    }
+    .section-title{
+      margin:10px 0 0;
+      font-size:22px;
+      letter-spacing:-0.01em;
+    }
+    .subnote{
+      color:var(--muted);
+      font-size:13px;
+      margin:0;
+      max-width:520px;
+    }
+
+    /* METRICS */
+    .metrics{
+      display:grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap:14px;
+      margin-top:26px;
+    }
+    .metric{
+      background: rgba(15,23,42,.6);
+      border: 1px solid rgba(30,41,59,.85);
+      border-radius: 18px;
+      padding:16px 16px 14px;
+      text-align:left;
+      box-shadow: 0 10px 26px rgba(0,0,0,.25);
+    }
+    .metric strong{
+      display:block;
+      font-size:18px;
+      letter-spacing:-0.01em;
+    }
+    .metric span{
+      display:block;
+      color:var(--muted);
+      font-size:12px;
+      margin-top:6px;
+      line-height:1.35;
+    }
+
+    /* PROJECT GRID */
+    .project-grid{
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap:18px;
+      margin-top:16px;
+    }
+    .card{
+      position:relative;
+      background: linear-gradient(180deg, rgba(15,23,42,.92), rgba(11,18,32,.92));
+      border:1px solid rgba(30,41,59,.9);
+      border-radius: var(--radius);
+      padding:26px 24px 22px;
+      transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+      overflow:hidden;
+    }
+    .card::before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background: radial-gradient(700px 260px at 20% 0%, rgba(59,130,246,.18), transparent 60%);
+      opacity:.9;
+      pointer-events:none;
+    }
+    .card:hover{
+      transform: translateY(-4px);
+      border-color: rgba(96,165,250,.7);
+      box-shadow: 0 26px 70px rgba(0,0,0,.55);
+    }
+    .mandate{
+      position:relative;
+      display:inline-block;
+      color: var(--accent2);
+      font-size:11px;
+      font-weight:850;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      margin-bottom:12px;
+    }
+    .card h3{
+      position:relative;
+      margin:0 0 10px;
+      font-size:20px;
+      letter-spacing:-0.01em;
+      font-style: italic;
+    }
+    .card p{
+      position:relative;
+      margin:0 0 18px;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    .card a{
+      position:relative;
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      color:var(--accent2);
+      text-decoration:none;
+      font-weight:800;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      font-size:12px;
+    }
+    .card a:hover{ text-decoration:underline; }
+
+    .pillrow{
+      margin-top:10px;
+      display:flex;
+      gap:10px;
+      justify-content:center;
+      flex-wrap:wrap;
+      color: rgba(243,244,246,.85);
+      font-size:12px;
+    }
+    .pill{
+      border:1px solid rgba(30,41,59,.85);
+      background: rgba(15,23,42,.45);
+      padding:8px 10px;
+      border-radius:999px;
+      color: var(--muted);
+      font-weight:700;
+    }
+
+    /* FOOTER */
+    footer{
+      padding:54px 0 70px;
+      border-top:1px solid rgba(30,41,59,.7);
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+    }
+    footer a{ color: var(--accent2); text-decoration:none; font-weight:800; }
+    footer a:hover{ text-decoration:underline; }
+
+    /* RESPONSIVE */
+    @media (max-width: 980px){
+      .metrics{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 600px){
+      header{ padding-top:72px; }
+      .nav-links{ gap:12px; }
+      .metrics{ grid-template-columns: 1fr; }
+      .project-grid{ grid-template-columns: 1fr; }
+    }
+
+    /* ACCESSIBILITY: reduce motion */
+    @media (prefers-reduced-motion: reduce){
+      html{ scroll-behavior:auto; }
+      .btn, .card{ transition:none; }
+      .btn:hover, .card:hover{ transform:none; }
+    }
+  </style>
 </head>
-<body class="pb-20">
 
-    <nav class="nav-pill rounded-full px-6 py-3 flex items-center gap-8 text-[10px] font-bold tracking-[0.2em] uppercase">
-        <a href="#strategy" class="hover:text-blue-500 transition text-white">Strategy</a>
-        <a href="#matrix" class="hover:text-blue-500 transition text-white">Mandates</a>
-        <a href="#assets" class="hover:text-blue-500 transition text-white">Assets</a>
-        <a href="#contact" class="bg-blue-600 px-4 py-2 rounded-full text-white">Connect</a>
-    </nav>
+<body>
+  <!-- NAV -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="#top">JATIN CHOTOO</a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <section id="strategy" class="max-w-6xl mx-auto px-6 py-32 text-center pt-48">
-        <div class="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-4 underline decoration-blue-500/30 underline-offset-8">Draft Version 2.0 // Review Mode</div>
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-8 text-white tracking-tighter">
-            Architecting <span class="gradient-text italic">Decision Intelligence.</span>
-        </h1>
-        <p class="text-lg text-gray-400 font-light max-w-3xl mx-auto mb-12 leading-relaxed">
-            Bridging <strong>NQF Level 8 Accounting Science</strong> and <strong>Modern Data Architecture</strong> to reduce decision latency in $150M+ portfolios.
+  <div class="container" id="top">
+    <!-- HERO -->
+    <header>
+      <span class="badge">Decision Intelligence • NQF Level 8</span>
+      <h1>Strategic Finance<br />Architect</h1>
+      <p class="hero-p">
+        I build deterministic finance systems that bridge Accounting Science and Modern Data Architecture—designed for
+        multi-entity reporting, capital allocation, and risk governance.
+      </p>
+
+      <div class="cta" id="cv">
+        <a class="btn btn-primary" href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" rel="noopener noreferrer">
+          Executive Brief (2 pages)
+        </a>
+        <a class="btn" href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" rel="noopener noreferrer">
+          Full Technical CV
+        </a>
+      </div>
+
+      <div class="pillrow" aria-label="Focus areas">
+        <span class="pill">FP&amp;A</span>
+        <span class="pill">Automation</span>
+        <span class="pill">Power BI (DAX)</span>
+        <span class="pill">Risk &amp; Capital Allocation</span>
+      </div>
+
+      <!-- METRICS (from CV) -->
+      <div class="metrics" aria-label="Impact metrics">
+        <div class="metric">
+          <strong>30% faster close</strong>
+          <span>Month-end acceleration across 7+ subsidiaries via ERP automation. [Source](https://www.genspark.ai/api/files/s/k2Zj8Itx)</span>
+        </div>
+        <div class="metric">
+          <strong>$150M+ portfolio</strong>
+          <span>Planning & forecasting with scenario modeling + predictive analytics. [Source](https://www.genspark.ai/api/files/s/k2Zj8Itx)</span>
+        </div>
+        <div class="metric">
+          <strong>20% better accuracy</strong>
+          <span>Improved forecast accuracy through analytics-driven planning. [Source](https://www.genspark.ai/api/files/s/k2Zj8Itx)</span>
+        </div>
+        <div class="metric">
+          <strong>15% lower risk</strong>
+          <span>Reduction in portfolio risk exposure across 100+ investment accounts. [Source](https://www.genspark.ai/api/files/s/k2Zj8Itx)</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Intelligence Assets / Project Repository</span>
+          <h2 class="section-title">Four finance systems—built for decision velocity</h2>
+        </div>
+        <p class="subnote">
+          Each asset is framed as a mandate: outcome-first, CFO-grade clarity, and repeatable logic.
         </p>
-        
-        <div class="flex justify-center gap-6 mt-8">
-            <a href="https://github.com/jatinchotoo/jatinchotoo.github.io/tree/main/cv" target="_blank" class="glass-card px-8 py-4 rounded-2xl flex items-center gap-3 border border-blue-500/30 hover:bg-blue-500/10 transition">
-                <i class="fas fa-file-pdf text-red-500"></i>
-                <span class="text-sm font-bold uppercase tracking-wider">Access Professional CVs</span>
-            </a>
-        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="card">
+          <span class="mandate">SaaS Financial Performance</span>
+          <h3>Performance Intelligence</h3>
+          <p>FP&amp;A for large budgets—executive dashboards designed to isolate revenue leakage and protect EBITDA through insight cadence.</p>
+          <a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" rel="noopener noreferrer">
+            View Pipeline →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="mandate">Finance Automation</span>
+          <h3>Global Alpha Engine</h3>
+          <p>Automated multi-currency asset consolidation (USD, GBP, EUR, NGN) to reduce reporting cycles and increase control.</p>
+          <a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" rel="noopener noreferrer">
+            View Logic →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="mandate">FinOps Auditing</span>
+          <h3>Lumina Cloud Economics</h3>
+          <p>Framework to audit enterprise tech spend and translate cloud economics into capital-efficiency decisions.</p>
+          <a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" rel="noopener noreferrer">
+            View Framework →
+          </a>
+        </article>
+
+        <article class="card">
+          <span class="mandate">Liquidity Risk</span>
+          <h3>Axiom Settlement</h3>
+          <p>Deterministic logic for high-velocity global settlements and capital risk mitigation—designed for predictable governance.</p>
+          <a href="https://github.com/jatinchotoo/Project_4_Axiom_Settlement" target="_blank" rel="noopener noreferrer">
+            View Repo →
+          </a>
+        </article>
+      </div>
     </section>
 
-    <section id="matrix" class="py-24 bg-slate-900/40 border-y border-slate-800">
-        <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-bold mb-16 text-center text-white font-mono uppercase tracking-widest text-blue-500">Professional Mandate Matrix</h2>
-            <div class="grid md:grid-cols-2 gap-12">
-                
-                <div class="space-y-8">
-                    <h3 class="text-xl font-bold text-blue-400 border-b border-blue-400/20 pb-4 flex items-center gap-3 uppercase tracking-tighter">
-                        <i class="fas fa-chart-pie"></i> Strategic Finance (NQF 8)
-                    </h3>
-                    <ul class="space-y-5 text-slate-300">
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-blue-500 mt-1">✓</span>
-                            <div><strong>Capital Allocation:</strong> Frameworks for entity-level deployment and liquidity optimization.</div>
-                        </li>
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-blue-500 mt-1">✓</span>
-                            <div><strong>Board Reporting:</strong> Translating complex requirements into ExCo-ready executive briefs.</div>
-                        </li>
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-blue-500 mt-1">✓</span>
-                            <div><strong>Advanced Excel:</strong> VBA, Power Query, and complex modeling for legacy systems.</div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="space-y-8">
-                    <h3 class="text-xl font-bold text-purple-400 border-b border-purple-400/20 pb-4 flex items-center gap-3 uppercase tracking-tighter">
-                        <i class="fas fa-code"></i> Financial Technology (FinTech)
-                    </h3>
-                    <ul class="space-y-5 text-slate-300">
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-purple-500 mt-1">✓</span>
-                            <div><strong>Python (Pandas/NumPy):</strong> Engineering automated ETL pipelines for financial datasets.</div>
-                        </li>
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-purple-500 mt-1">✓</span>
-                            <div><strong>SQL (T-SQL):</strong> High-performance queries for ERP data extraction and audits.</div>
-                        </li>
-                        <li class="flex items-start gap-4 text-sm">
-                            <span class="text-purple-500 mt-1">✓</span>
-                            <div><strong>Power BI (DAX):</strong> Real-time performance dashboards for EBITDA protection.</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-head">
+        <div>
+          <span class="kicker">Contact</span>
+          <h2 class="section-title">Let’s talk: finance systems, automation, and decision intelligence</h2>
         </div>
+        <p class="subnote">Fastest response via email.</p>
+      </div>
+
+      <div class="cta" style="justify-content:flex-start;">
+        <a class="btn btn-primary" href="mailto:jatin.d.chotoo@gmail.com">Email Me</a>
+        <a class="btn" href="https://www.linkedin.com/in/jatin-chotoo" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://github.com/jatinchotoo" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
     </section>
 
-    <section id="assets" class="py-24 max-w-7xl mx-auto px-8">
-        <h2 class="text-3xl font-bold mb-16 text-white font-mono uppercase text-center tracking-widest">Intelligence Assets</h2>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="glass-card p-10 rounded-3xl">
-                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 1: SaaS Economics</h3>
-                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Identifying revenue leakage in $750M portfolios using Power BI and Python.</p>
-                <a href="https://github.com/jatinchotoo/Project-1-Financial_Analysis_Project1" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
-            </div>
-            <div class="glass-card p-10 rounded-3xl">
-                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 2: Global Alpha</h3>
-                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Currency-driven volatility analysis for multi-currency asset pools via Python.</p>
-                <a href="https://github.com/jatinchotoo/Project_2_Global_Alpha_Clean" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
-            </div>
-            <div class="glass-card p-10 rounded-3xl">
-                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 3: Lumina FinOps</h3>
-                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Auditing enterprise tech spend and governing cloud-based capital efficiency.</p>
-                <a href="https://github.com/jatinchotoo/Project-3-Project_3-_Lumina_AI-_Cloud_Econo..." target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
-            </div>
-            <div class="glass-card p-10 rounded-3xl">
-                <h3 class="text-2xl font-bold text-white mb-4 italic">Project 4: Axiom Settlement</h3>
-                <p class="text-gray-400 text-sm mb-8 leading-relaxed">Deterministic logic for high-velocity global settlements and risk mitigation.</p>
-                <a href="https://github.com/jatinchotoo/Project_4_Axiom-Zero" target="_blank" class="text-blue-500 font-bold text-xs uppercase tracking-widest hover:underline">Verify Logic on GitHub →</a>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="mt-32 text-center border-t border-slate-900 pt-20">
-        <h2 class="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-8">Strategic Contact Hub</h2>
-        <div class="flex flex-col gap-6 items-center">
-            <a href="mailto:jatin.d.chotoo@gmail.com" class="text-white font-bold text-2xl hover:text-blue-500 transition">jatin.d.chotoo@gmail.com</a>
-            <p class="text-slate-500 text-sm">Alternative: jatinchotoo@outlook.com</p>
-            <div class="flex gap-10 mt-6 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition">
-                <a href="https://github.com/jatinchotoo" target="_blank" class="text-2xl text-white"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank" class="text-2xl text-white"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-        <p class="mt-20 text-gray-600 text-[10px] uppercase tracking-[0.5em]">Decision Intelligence | Strategic Finance | NQF 8</p>
+    <footer>
+      <div>Jatin Chotoo • Strategic Finance & Decision Intelligence</div>
+      <div><a href="mailto:jatin.d.chotoo@gmail.com">jatin.d.chotoo@gmail.com</a></div>
     </footer>
-
+  </div>
 </body>
 </html>
+
