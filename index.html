@@ -1,213 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jatin Chotoo | Strategic Finance</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Chotoo | Finance Transformation Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617;
+            color: #f8fafc;
+            scroll-behavior: smooth;
+        }
 
-<style>
-body {
-font-family: 'Plus Jakarta Sans', sans-serif;
-background-color: #030712;
-color: #f3f4f6;
-background-image: radial-gradient(#1e293b 0.5px, transparent 0.5px);
-background-size: 24px 24px;
-scroll-behavior: smooth;
-}
-.hero-title {
-font-size: clamp(2.5rem, 8vw, 4.5rem);
-line-height: 1.1;
-font-weight: 800;
-letter-spacing: -0.02em;
-}
-.nav-pill {
-border: 1px solid #1e293b;
-background: rgba(15, 23, 42, 0.8);
-backdrop-filter: blur(8px);
-position: fixed;
-top: 1.5rem;
-left: 50%;
-transform: translateX(-50%);
-z-index: 50;
-white-space: nowrap;
-}
-.asset-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-gap: 2rem;
-}
-.asset-card {
-background: #0f172a;
-border: 1px solid #1e293b;
-border-radius: 24px;
-padding: 2.5rem;
-display: flex;
-flex-direction: column;
-height: 100%;
-transition: all 0.4s ease;
-}
-.asset-card:hover {
-border-color: #3b82f6;
-transform: translateY(-5px);
-box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1);
-}
-.mandate-label {
-color: #3b82f6;
-font-size: 10px;
-font-weight: 700;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-margin-bottom: 1rem;
-}
-.skill-badge {
-background: rgba(30, 41, 59, 0.3);
-border: 1px solid rgba(59, 130, 246, 0.1);
-transition: all 0.3s ease;
-}
-.skill-badge:hover {
-border-color: #3b82f6;
-background: rgba(59, 130, 246, 0.1);
-transform: scale(1.05);
-}
-</style>
+        .glass-card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .badge-hover:hover {
+            transform: scale(1.1);
+            filter: brightness(1.2);
+        }
+    </style>
 </head>
-<body class="pb-20">
+<body class="selection:bg-blue-500/30">
 
-<nav class="nav-pill rounded-full px-5 py-2.5 flex items-center gap-6 text-[10px] font-bold tracking-[0.2em] uppercase">
-<a href="#strategy" class="hover:text-blue-500 transition">Strategy</a>
-<a href="#about" class="hover:text-blue-500 transition">About</a>
-<a href="#skills" class="hover:text-blue-500 transition">Mandates</a>
-<a href="#intelligence" class="hover:text-blue-500 transition">Assets</a>
-<a href="https://linkedin.com/in/jatin-chotoo" target="_blank" class="hover:text-blue-500 transition"><i class="fab fa-linkedin text-sm"></i></a>
-<a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 px-4 py-1.5 rounded-full text-white">Dossier</a>
-</nav>
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 glass-card border-b border-white/5 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">JC.FINANCE</span>
+            <div class="hidden md:flex gap-8 text-sm font-medium text-slate-400">
+                <a href="#hero" class="hover:text-white transition-colors">Home</a>
+                <a href="#about-me" class="hover:text-white transition-colors">About</a>
+                <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+                <a href="#kpi" class="hover:text-white transition-colors">Impact</a>
+                <a href="#target-roles" class="hover:text-white transition-colors">Target Roles</a>
+                <a href="#tech-contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<section id="strategy" class="max-w-6xl mx-auto px-6 py-32 text-center pt-48">
-<div class="text-blue-500 font-bold tracking-[0.4em] uppercase text-[10px] mb-4">Finance Technologist | Decision Intelligence</div>
-<h1 class="hero-title mb-8">
-Transforming Accounting Principles into <br />
-<span class="bg-gradient-to-r from-blue-400 to-indigo-500 bg-clip-text text-transparent italic font-light">Automated Systems.</span>
-</h1>
-<p class="text-lg md:text-xl text-gray-400 font-light leading-relaxed mb-12 max-w-3xl mx-auto">
-I engineer deterministic systems that bridge the gap between <strong>NQF Level 8 Accounting Science</strong> and <strong>Modern Data Architecture</strong>.
-</p>
-<div class="flex flex-wrap justify-center gap-4 mb-24">
-<a href="cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" target="_blank" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition hover:bg-blue-700 shadow-lg shadow-blue-900/30">2-Page Brief</a>
-<a href="cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" target="_blank" class="border border-slate-700 text-white px-8 py-4 rounded-xl font-bold text-xs tracking-widest uppercase transition hover:bg-slate-800">Full CV</a>
-</div>
-</section>
+    <!-- HERO SECTION -->
+    <section id="hero" class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
+                Senior Finance <span class="text-blue-500">Business Partner</span>
+            </h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Transforming FP&A, Treasury, and Corporate Finance into decision-ready, performance-driven systems.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full font-semibold transition-all">View Projects</a>
+                <a href="#about-me" class="glass-card px-8 py-3 rounded-full font-semibold transition-all">About Me</a>
+            </div>
+        </div>
+    </section>
 
-<section id="about" class="max-w-5xl mx-auto px-8 py-20 border-t border-slate-900">
-<div class="grid md:grid-cols-2 gap-12 items-center text-left">
-<div>
-<h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500 mb-6">Professional Profile</h2>
-<p class="text-gray-300 leading-relaxed mb-6">
-Strategic Finance professional with an <strong>NQF Level 8 in Accounting Science</strong>, specialized in converting high-stakes financial requirements into automated, decision-grade systems. I build actionable data pipelines that focus on reducing decision latency.
-</p>
-<ul class="text-gray-400 text-sm leading-relaxed list-disc pl-5 space-y-3">
-<li>Oversight of <strong>$150M+ portfolios</strong> across multi-national operations</li>
-<li>Delivered <strong>R7.5M in treasury savings</strong> through process automation</li>
-<li>Led multi-entity ERP migrations and predictive analytics frameworks</li>
-<li>Regularly present risk and liquidity insights to <strong>ExCo and board committees</strong></li>
-</ul>
-</div>
-<div class="flex justify-center">
-<div class="rounded-3xl overflow-hidden border border-slate-800 max-w-md shadow-2xl shadow-blue-900/10 transition-all hover:border-blue-500/30">
-<img src="assets/images/risk_management.jpg" alt="Risk Management Process" class="w-full h-auto opacity-80 hover:opacity-100 transition-opacity" />
-</div>
-</div>
-</div>
-</section>
+    <!-- INTEGRATED ABOUT ME SECTION -->
+    <section id="about-me" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            
+            <!-- Left Column: Summary & Badges -->
+            <div class="lg:col-span-1 space-y-8">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">Professional Identity</h2>
+                    <p id="bio-text" class="text-slate-400 leading-relaxed"></p>
+                </div>
 
-<section id="skills" class="max-w-6xl mx-auto px-8 py-20 border-t border-slate-900 text-center">
-<h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500 mb-12">Technical Mandates & Tooling</h2>
-<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-gray-300 text-[11px] font-bold tracking-widest uppercase text-center">
-<div class="skill-badge rounded-2xl p-6">
-<i class="fab fa-python text-blue-500 text-2xl mb-3"></i><br>Python
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Automation, Pandas for financial modeling, and algorithmic simulations.</p>
-</div>
+                <div>
+                    <h3 class="text-sm font-bold uppercase tracking-widest text-blue-500 mb-4">Verified Credentials</h3>
+                    <div id="badge-container" class="grid grid-cols-2 gap-4">
+                        <!-- Badges injected here -->
+                    </div>
+                </div>
+            </div>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-database text-blue-500 text-2xl mb-3"></i><br>SQL / ETL
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Relational database design and automated data cleaning pipelines.</p>
-</div>
+            <!-- Right Column: Exp, Edu, Skills -->
+            <div class="lg:col-span-2 glass-card rounded-3xl p-8 md:p-12">
+                <div class="space-y-12">
+                    <!-- Experience -->
+                    <div>
+                        <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                            <span class="text-blue-500">01.</span> Career Trajectory
+                        </h3>
+                        <div id="experience-list" class="space-y-8">
+                            <!-- Experience injected here -->
+                        </div>
+                    </div>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-chart-line text-blue-500 text-2xl mb-3"></i><br>Power BI
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Advanced DAX and executive-level performance dashboards.</p>
-</div>
+                    <!-- Skills & Education Grid -->
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-emerald-400">Finance Expertise</h3>
+                            <div id="skills-tags" class="flex flex-wrap gap-2">
+                                <!-- Skills injected here -->
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-purple-400">Education</h3>
+                            <div id="education-list" class="space-y-4">
+                                <!-- Education injected here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-file-excel text-blue-500 text-2xl mb-3"></i><br>Advanced Excel
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">VBA/Macros, Power Query, and complex scenario modeling.</p>
-</div>
+    <!-- STRATEGIC PROJECTS SECTION -->
+    <section id="projects" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <h2 class="text-4xl font-bold mb-12 text-center">Strategic Projects</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h4 class="text-blue-400 font-bold mb-2">Project 1</h4>
+                <h3 class="text-2xl font-bold mb-4">SaaS Power BI Dashboard</h3>
+                <p class="text-slate-400 mb-6">Comprehensive revenue leakage analysis and MRR tracking for high-growth subscription models.</p>
+                <div class="flex gap-2">
+                    <span class="text-xs bg-blue-500/10 text-blue-400 px-2 py-1 rounded">Power BI</span>
+                    <span class="text-xs bg-blue-500/10 text-blue-400 px-2 py-1 rounded">DAX</span>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h4 class="text-emerald-400 font-bold mb-2">Project 2</h4>
+                <h3 class="text-2xl font-bold mb-4">Global Alpha Python</h3>
+                <p class="text-slate-400 mb-6">Automated treasury workflows and multi-currency valuation using Python scripts for high-frequency reporting.</p>
+                <div class="flex gap-2">
+                    <span class="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded">Python</span>
+                    <span class="text-xs bg-emerald-500/10 text-emerald-400 px-2 py-1 rounded">Automation</span>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h4 class="text-purple-400 font-bold mb-2">Project 3</h4>
+                <h3 class="text-2xl font-bold mb-4">Lumina Cloud Economics</h3>
+                <p class="text-slate-400 mb-6">Optimizing cloud spend and unit economics through granular cost-allocation models.</p>
+                <div class="flex gap-2">
+                    <span class="text-xs bg-purple-500/10 text-purple-400 px-2 py-1 rounded">Cloud FinOps</span>
+                    <span class="text-xs bg-purple-500/10 text-purple-400 px-2 py-1 rounded">DCF</span>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h4 class="text-orange-400 font-bold mb-2">Project 4</h4>
+                <h3 class="text-2xl font-bold mb-4">Axiom Settlement</h3>
+                <p class="text-slate-400 mb-6">Redesigning intercompany settlement processes to reduce manual reconciliation time by 60%.</p>
+                <div class="flex gap-2">
+                    <span class="text-xs bg-orange-500/10 text-orange-400 px-2 py-1 rounded">Process Re-eng</span>
+                    <span class="text-xs bg-orange-500/10 text-orange-400 px-2 py-1 rounded">Treasury</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-code text-blue-500 text-2xl mb-3"></i><br>VS Code / Git
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Source control and streamlined code deployment for models.</p>
-</div>
+    <!-- KPI SECTION -->
+    <section id="kpi" class="bg-blue-600 py-20 px-6">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-4xl font-black mb-2">30%</div>
+                <div class="text-blue-100 text-sm">Faster Month-End</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black mb-2">80%</div>
+                <div class="text-blue-100 text-sm">Manual Effort Cut</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black mb-2">R500K</div>
+                <div class="text-blue-100 text-sm">Annual Cost Savings</div>
+            </div>
+            <div>
+                <div class="text-4xl font-black mb-2">20%</div>
+                <div class="text-blue-100 text-sm">Forecast Accuracy</div>
+            </div>
+        </div>
+    </section>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-project-diagram text-blue-500 text-2xl mb-3"></i><br>SAP / S4HANA
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">ERP migration lead and high-volume data extraction.</p>
-</div>
+    <!-- TARGET ROLES SECTION -->
+    <section id="target-roles" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <h2 class="text-4xl font-bold mb-12 text-center">Target Roles</h2>
+        <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-6 text-blue-400">Primary Finance Focus</h3>
+                <ul class="space-y-4 text-slate-300 text-sm">
+                    <li class="flex gap-2"><span>•</span> <strong>Senior Finance Business Partner / FP&A Lead:</strong> Multi-entity FP&A, forecasting, treasury – SA & remote.</li>
+                    <li class="flex gap-2"><span>•</span> <strong>Finance Transformation Manager:</strong> Process automation, performance management, redesign of finance operations.</li>
+                    <li class="flex gap-2"><span>•</span> <strong>Decision Intelligence Lead:</strong> Advanced dashboards, predictive modeling, scenario analysis (Power BI, Python).</li>
+                    <li class="flex gap-2"><span>•</span> <strong>Corporate Finance Lead:</strong> Multi-currency and cross-border portfolios, capital allocation.</li>
+                    <li class="flex gap-2"><span>•</span> <strong>Strategic Finance Manager:</strong> Driving strategic projects with measurable outcomes (PE-backed/Scale-ups).</li>
+                </ul>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-xl font-bold mb-6 text-slate-400">Secondary / Adjacent Roles</h3>
+                <ul class="space-y-4 text-slate-400 text-sm">
+                    <li class="flex gap-2"><span>•</span> Treasury Manager</li>
+                    <li class="flex gap-2"><span>•</span> Finance Automation / Analytics Manager</li>
+                    <li class="flex gap-2"><span>•</span> Portfolio Controller</li>
+                    <li class="flex gap-2"><span>•</span> Business Performance Lead</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-microchip text-blue-500 text-2xl mb-3"></i><br>FinOps AI
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Cloud economics and spend optimization frameworks.</p>
-</div>
+    <!-- TECH & CONTACT SECTION -->
+    <section id="tech-contact" class="max-w-7xl mx-auto px-6 py-24 border-t border-white/5">
+        <h2 class="text-4xl font-bold mb-12 text-center">Skills & Connectivity</h2>
+        <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <!-- Technical Skills -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-2xl font-semibold mb-6 text-emerald-400">Technical Skills</h3>
+                <ul class="space-y-3 text-slate-300 text-sm">
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> Python – Automation, analytics, workflow optimization</li>
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> Power BI & DAX – Executive dashboards, predictive forecasting</li>
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> SAP & Oracle ERP – Multi-entity accounting</li>
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> Excel / Advanced Financial Modeling / Scenario Planning</li>
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> Cloud FinOps / Treasury Automation</li>
+                    <li class="flex items-center gap-2"><span class="text-emerald-500">→</span> Data Integration & Visualization (BI, SQL, APIs)</li>
+                </ul>
+                <div class="mt-8 p-3 bg-blue-500/5 border border-blue-500/20 rounded-lg">
+                    <p class="text-[11px] text-blue-400 italic">✅ Note: Technology is utilized as a force-multiplier for Finance impact, not as a career shift into pure tech.</p>
+                </div>
+            </div>
 
-<div class="skill-badge rounded-2xl p-6">
-<i class="fas fa-brain text-blue-500 text-2xl mb-3"></i><br>Deterministic Logic
-<p class="text-[9px] font-normal mt-2 lowercase normal-case">Building systems that eliminate heuristic bias in risk decisions.</p>
-</div>
+            <!-- Contact & Links -->
+            <div class="glass-card p-8 rounded-2xl">
+                <h3 class="text-2xl font-semibold mb-6 text-purple-400">Connect</h3>
+                <div class="space-y-6">
+                    <a href="mailto:jatin.d.chotoo@gmail.com" class="flex items-center gap-4 group p-3 hover:bg-white/5 rounded-xl transition-all">
+                        <div class="p-2 bg-purple-500/10 rounded-lg group-hover:bg-purple-500/20">
+                            <svg class="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-bold">Email</p>
+                            <p class="text-slate-300">jatin.d.chotoo@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/jatin-chotoo" target="_blank" class="flex items-center gap-4 group p-3 hover:bg-white/5 rounded-xl transition-all">
+                        <div class="p-2 bg-blue-500/10 rounded-lg group-hover:bg-blue-500/20">
+                            <svg class="w-5 h-5 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-bold">LinkedIn</p>
+                            <p class="text-slate-300">jatin-chotoo</p>
+                        </div>
+                    </a>
+                    <a href="https://jatinchotoo.github.io" target="_blank" class="flex items-center gap-4 group p-3 hover:bg-white/5 rounded-xl transition-all">
+                        <div class="p-2 bg-emerald-500/10 rounded-lg group-hover:bg-emerald-500/20">
+                            <svg class="w-5 h-5 text-emerald-400" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-500 uppercase font-bold">GitHub Portfolio</p>
+                            <p class="text-slate-300">jatinchotoo.github.io</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</div>
-</section>
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-white/5 text-center text-slate-500 text-sm">
+        <p>&copy; 2024 Jatin Chotoo. Built for Finance Innovation.</p>
+    </footer>
 
-<section id="intelligence" class="max-w-7xl mx-auto px-8 py-20 border-t border-slate-900">
-<div class="text-center mb-16">
-<h2 class="text-[10px] font-bold tracking-[0.5em] uppercase text-gray-500">Intelligence Assets</h2>
-</div>
+    <script>
+        // Integrated JSON Data
+        const aboutData = {
+            "name": "Jatin Chotoo",
+            "summary": "I turn finance into a strategic engine. I help organisations transform FP&A, Treasury, and Corporate Finance into decision-ready, performance-driven systems. I partner with CFOs and executives to convert complex financial data into actionable insights.",
+            "skills": ["FP&A", "Treasury Management", "Financial Modelling", "Process Automation", "Reporting Accuracy", "KPI Management", "Risk Analysis", "Business Intelligence", "Cloud FinOps"],
+            "experience": [
+                {
+                    "role": "Financial Reporting Manager",
+                    "company": "Havas",
+                    "period": "2024 - Present",
+                    "highlights": ["Accelerated close by 30%", "Improved accuracy by 20%", "Automated reporting via Power BI"]
+                },
+                {
+                    "role": "Finance Transformation Lead",
+                    "company": "J Segel & Associates",
+                    "period": "2017 - 2024",
+                    "highlights": ["R500K annual cost savings", "40% reduction in credit risk review time", "IFRS consolidation accuracy +25%"]
+                }
+            ],
+            "education": [
+                { "degree": "BCompt Accounting Science", "inst": "UNISA", "year": "2023" },
+                { "degree": "PG Dip Professional Accountant", "inst": "SAIPA", "year": "2016" }
+            ],
+            "badges": [
+                { "name": "Google Data", "platform": "Google", "color": "from-blue-500 to-red-500" },
+                { "name": "Power BI", "platform": "Microsoft", "color": "from-yellow-400 to-yellow-600" },
+                { "name": "Finance Model", "platform": "Udemy", "color": "from-purple-500 to-indigo-600" },
+                { "name": "SAP ERP", "platform": "SAP", "color": "from-blue-600 to-blue-800" }
+            ]
+        };
 
-<div class="asset-grid">
-<div class="asset-card">
-<div class="mandate-label">SaaS Financial Performance</div>
-<h3 class="text-2xl font-bold text-white mb-4 italic">Performance Intelligence</h3>
-<p class="text-gray-400 text-sm leading-relaxed mb-6">FP&A for multi-currency operations ($750M budgets), supporting double-digit revenue growth.</p>
-<a href="https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard" target="_blank" class="mt-auto text-blue-500 text-[10px] font-bold uppercase tracking-widest hover:underline">View Pipeline →</a>
-</div>
+        // Populating the UI
+        document.addEventListener('DOMContentLoaded', () => {
+            // Bio
+            document.getElementById('bio-text').textContent = aboutData.summary;
 
-<div class="asset-card">
-<div class="mandate-label">Finance Automation</div>
-<h3 class="text-2xl font-bold text-white mb-4 italic">Global Alpha Engine</h3>
-<p class="text-gray-400 text-sm leading-relaxed mb-6">Automated asset consolidation across USD, GBP, EUR, and NGN, reducing reporting cycles by 30%.</p>
-<a href="https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency" target="_blank" class="mt-auto text-blue-500 text-[10px] font-bold uppercase tracking-widest hover:underline">View Logic →</a>
-</div>
+            // Badges
+            const badgeBox = document.getElementById('badge-container');
+            aboutData.badges.forEach(b => {
+                const div = document.createElement('div');
+                div.className = `glass-card p-4 rounded-xl text-center badge-hover cursor-pointer`;
+                div.innerHTML = `
+                    <div class="h-8 w-8 mx-auto mb-2 rounded-full bg-gradient-to-br ${b.color} opacity-80"></div>
+                    <div class="text-[10px] font-bold uppercase text-white">${b.name}</div>
+                    <div class="text-[8px] text-slate-500">${b.platform}</div>
+                `;
+                badgeBox.appendChild(div);
+            });
 
-<div class="asset-card">
-<div class="mandate-label">FinOps Auditing</div>
-<h3 class="text-2xl font-bold text-white mb-4 italic">Lumina AI Cloud Economics</h3>
-<p class="text-gray-400 text-sm leading-relaxed mb-6">Framework to optimize enterprise tech spend and audit cloud-based capital efficiency.</p>
-<a href="https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit" target="_blank" class="mt-auto text-blue-500 text-[10px] font-bold uppercase tracking-widest hover:underline">View Framework →</a>
-</div>
+            // Experience
+            const expList = document.getElementById('experience-list');
+            aboutData.experience.forEach(job => {
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="font-bold text-lg text-white">${job.role}</h4>
+                        <span class="text-xs font-mono text-slate-500 bg-white/5 px-2 py-1 rounded">${job.period}</span>
+                    </div>
+                    <p class="text-blue-400 text-sm mb-3">${job.company}</p>
+                    <ul class="space-y-2">
+                        ${job.highlights.map(h => `<li class="text-slate-400 text-sm flex gap-2">
+                            <span class="text-blue-500">→</span> ${h}
+                        </li>`).join('')}
+                    </ul>
+                `;
+                expList.appendChild(div);
+            });
 
-<div class="asset-card">
-<div class="mandate-label">Liquidity Risk</div>
-<h3 class="text-2xl font-bold text-white mb-4 italic">Axiom Settlement</h3>
-<p class="text-gray-400 text-sm leading-relaxed mb-6">Deterministic logic for high-velocity global settlements and capital risk mitigation.</p>
-<a href="#" class="mt-auto text-blue-500 text-[10px] font-bold uppercase tracking-widest hover:underline">Coming Soon →</a>
-</div>
-</div>
-</section>
+            // Skills
+            const skillBox = document.getElementById('skills-tags');
+            aboutData.skills.forEach(s => {
+                const span = document.createElement('span');
+                span.className = "px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs text-slate-300";
+                span.textContent = s;
+                skillBox.appendChild(span);
+            });
 
-<footer id="contact" class="mt-32 text-center border-t border-slate-900 pt-20">
-<p class="text-gray-500 text-[10px] uppercase tracking-[0.5em] mb-4">Decision Intelligence | Strategic Finance | NQF 8</p>
-<p class="text-white font-bold text-lg italic">jatin.d.chotoo@gmail.com</p>
-</footer>
-
+            // Education
+            const eduBox = document.getElementById('education-list');
+            aboutData.education.forEach(e => {
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <p class="text-white font-semibold text-sm">${e.degree}</p>
+                    <p class="text-slate-500 text-xs">${e.inst} | ${e.year}</p>
+                `;
+                eduBox.appendChild(div);
+            });
+        });
+    </script>
 </body>
 </html>
