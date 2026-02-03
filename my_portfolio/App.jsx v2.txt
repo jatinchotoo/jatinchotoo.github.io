@@ -1,0 +1,283 @@
+import React from 'react';
+import { 
+  BarChart3, 
+  Code2, 
+  Database, 
+  ShieldCheck, 
+  ExternalLink, 
+  Github, 
+  Linkedin, 
+  Mail, 
+  Globe2,
+  TrendingUp,
+  FileText,
+  Briefcase,
+  Layers,
+  Zap,
+  LineChart,
+  Activity
+} from 'lucide-react';
+
+/**
+ * STRATEGIC FINANCE & TECH PORTFOLIO - JATIN CHOTTOO
+ * V2: Strategic Impact & Expanded Capabilities
+ */
+
+const App = () => {
+  const bgColor = "#030712";
+
+  const projects = [
+    {
+      id: 1,
+      title: "Project 1: SaaS Financial Performance",
+      mandate: "Finance & Operations",
+      tech: "Power BI / DAX / Excel",
+      description: "Executive-grade dashboard connecting revenue telemetry to cash metrics. Visualizes MRR/ARR growth, churn, and LTV to drive board-level decision making.",
+      link: "https://github.com/jatinchotoo/Project_1_Executive_SaaS_Financial_Performance_Dashboard"
+    },
+    {
+      id: 2,
+      title: "Project 2: Global Alpha Engine",
+      mandate: "Treasury & Capital Efficiency",
+      tech: "Python / Pandas / NumPy",
+      description: "Automated asset consolidation across USD, GBP, and EUR. Replaces manual reconciliation with deterministic logic to improve liquidity oversight.",
+      link: "https://github.com/jatinchotoo/Project_2_Global_Finance_Automation_and_Capital_Efficiency"
+    },
+    {
+      id: 3,
+      title: "Project 3: Lumina AI Economics",
+      mandate: "Cloud Economics & FinOps",
+      tech: "SQL / Cloud Cost Mgmt",
+      description: "An audit framework for Enterprise AI cloud spend. Relates infrastructure consumption directly to financial ROI and budget compliance.",
+      link: "https://github.com/jatinchotoo/Project_3_Lumina_AI_Cloud_Economics_FinOps_Audit"
+    },
+    {
+      id: 4,
+      title: "Project 4: Axiom Settlement",
+      mandate: "Risk & Settlement",
+      tech: "Advanced Excel / VBA",
+      description: "Risk mitigation engine for high-velocity environments. Minimizes settlement exposure and capital lock-up through automated stress testing.",
+      link: "https://github.com/jatinchotoo"
+    }
+  ];
+
+  const techStack = [
+    { name: "Python", category: "Automation / Analytics", icon: <Code2 size={20}/> },
+    { name: "SQL / ETL", category: "Data Pipelines", icon: <Database size={20}/> },
+    { name: "Power BI / DAX", category: "Visualization", icon: <BarChart3 size={20}/> },
+    { name: "Advanced Excel", category: "Modelling / VBA", icon: <FileText size={20}/> },
+    { name: "FinOps", category: "Cloud Economics", icon: <Layers size={20}/> },
+    { name: "FP&A", category: "Strategic Planning", icon: <LineChart size={20}/> },
+    { name: "Treasury Tech", category: "Risk & Liquidity", icon: <Zap size={20}/> },
+    { name: "Decision Intel", category: "System Architecture", icon: <Activity size={20}/> }
+  ];
+
+  const targetRoles = [
+    { 
+      title: "Finance Consultant", 
+      desc: "Advisory on strategic financial structures, reporting, and operational efficiency.",
+      impact: "Process Optimization"
+    },
+    { 
+      title: "Fractional CFO", 
+      desc: "Part-time executive financial leadership for scale-ups and high-growth ventures.",
+      impact: "Strategic Growth"
+    },
+    { 
+      title: "Decision Intelligence Specialist", 
+      desc: "Engineering data-driven systems to enhance executive decision-making accuracy.",
+      impact: "Systems Engineering"
+    },
+    { 
+      title: "FP&A Transformation Lead", 
+      desc: "Modernizing forecasting, scenario modeling, and analytics pipelines.",
+      impact: "Predictive Insights"
+    },
+    { 
+      title: "Finance Systems Architect", 
+      desc: "Building deterministic systems for treasury and capital planning.",
+      impact: "Automation"
+    },
+    { 
+      title: "Strategic Advisor", 
+      desc: "Multi-entity, multi-currency oversight and executive decision support.",
+      impact: "Risk Mitigation"
+    }
+  ];
+
+  return (
+    <div className="min-h-screen font-sans text-slate-200" style={{ backgroundColor: bgColor }}>
+      {/* Decorative Grid Background */}
+      <div className="fixed inset-0 pointer-events-none" 
+           style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0)', backgroundSize: '24px 24px', opacity: 0.5 }}>
+      </div>
+
+      {/* Navigation */}
+      <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50">
+        <div className="flex items-center gap-6 px-6 py-3 rounded-full border bg-slate-900/80 backdrop-blur-md border-slate-800 shadow-2xl">
+          <a href="#home" className="text-sm font-medium hover:text-sky-400 transition-colors">Home</a>
+          <a href="#roles" className="text-sm font-medium hover:text-sky-400 transition-colors">Target Roles</a>
+          <a href="#mandates" className="text-sm font-medium hover:text-sky-400 transition-colors">Intelligence Assets</a>
+          <a href="#tech" className="text-sm font-medium hover:text-sky-400 transition-colors">Stack</a>
+          <div className="w-px h-4 bg-slate-700 mx-1"></div>
+          <a href="https://linkedin.com/in/jatin-chotoo" target="_blank" className="hover:text-sky-400 transition-all"><Linkedin size={18}/></a>
+          <a href="https://github.com/jatinchotoo" target="_blank" className="hover:text-sky-400 transition-all"><Github size={18}/></a>
+        </div>
+      </nav>
+
+      {/* Hero Section - Updated */}
+      <header id="home" className="relative pt-32 pb-20 px-6 max-w-6xl mx-auto text-center">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-bold tracking-widest uppercase mb-6">
+          NQF Level 8 Accounting Science | Decision Intelligence
+        </div>
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-8">
+          Bridging Accounting Science with <br/>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-indigo-400 italic">
+            Decision Intelligence
+          </span>
+        </h1>
+        <p className="max-w-3xl mx-auto text-lg text-slate-400 leading-relaxed mb-10">
+          I architect high-impact financial systems that automate FP&A, treasury, and analytics workflows, 
+          delivering scalable insights across multi-currency, multi-entity operations.
+        </p>
+        <div className="flex flex-wrap justify-center gap-4">
+          <a href="https://jatinchotoo.github.io/cv/Jatin_chotoo_Strategic_finance_CV_2_page.pdf" 
+             className="px-8 py-4 bg-sky-500 hover:bg-sky-400 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-sky-500/20">
+            2-PAGE BRIEF
+          </a>
+          <a href="https://jatinchotoo.github.io/cv/Jatin_Chotoo_Strategic_Finance_CV_Jan_26.pdf" 
+             className="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-xl border border-slate-700 transition-all transform hover:-translate-y-1">
+            FULL CV
+          </a>
+        </div>
+      </header>
+
+      {/* Profile Metric - Updated */}
+      <section className="max-w-6xl mx-auto px-6 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="md:col-span-2 p-8 rounded-3xl border border-slate-800 bg-slate-900/50 backdrop-blur-sm flex flex-col justify-center">
+            <h3 className="text-sky-400 font-bold text-sm uppercase tracking-widest mb-4">Strategic Finance Architect</h3>
+            <p className="text-slate-300 text-lg leading-relaxed italic">
+              "I design deterministic financial systems that compress decision latency, automate multi-entity reporting, 
+              and transform high-velocity data into executive insights."
+            </p>
+          </div>
+          <div className="p-8 rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 to-sky-950 flex flex-col justify-center items-center text-center">
+            <span className="text-sky-400 font-bold text-xs tracking-tighter uppercase mb-2">Portfolio Oversight</span>
+            <span className="text-5xl font-black text-white">$150M+</span>
+            <span className="text-slate-400 text-xs mt-2 uppercase">Global Mandates Delivered</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Target Roles / Engagements - Expanded */}
+      <section id="roles" className="max-w-6xl mx-auto px-6 mb-24">
+        <div className="mb-10 text-center md:text-left">
+          <h2 className="text-3xl font-bold text-white mb-2">Target Roles & Engagements</h2>
+          <p className="text-slate-400">Communicating hybrid finance/tech positioning for executive impact.</p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {targetRoles.map((role, i) => (
+            <div key={i} className="p-6 rounded-2xl border border-slate-800 bg-slate-900/30 hover:border-sky-500/40 transition-all group">
+              <div className="flex justify-between items-start mb-4">
+                <div className="p-2 rounded-lg bg-sky-500/10 text-sky-400 group-hover:bg-sky-500 group-hover:text-white transition-all">
+                  <Briefcase size={18} />
+                </div>
+                <span className="text-[9px] font-black text-slate-600 uppercase tracking-widest bg-slate-950 px-2 py-1 rounded border border-slate-800">
+                  {role.impact}
+                </span>
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">{role.title}</h3>
+              <p className="text-slate-400 text-xs leading-relaxed">{role.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Intelligence Assets - Projects */}
+      <section id="mandates" className="max-w-6xl mx-auto px-6 mb-24">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+          <div>
+            <h2 className="text-3xl font-bold text-white mb-2">Intelligence Assets</h2>
+            <p className="text-slate-400">Proof-driven financial mandates delivered through technical engineering.</p>
+          </div>
+          <div className="flex gap-2">
+            <span className="px-4 py-1 rounded-full border border-slate-800 bg-slate-900 text-xs font-semibold">Active Repository</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {projects.map((p) => (
+            <div key={p.id} className="group p-8 rounded-3xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/60 transition-all hover:border-sky-500/50 flex flex-col h-full">
+              <div className="flex justify-between items-start mb-6">
+                <div className="p-3 rounded-2xl bg-sky-500/10 text-sky-400 border border-sky-500/20">
+                  {p.id === 1 && <BarChart3 size={24}/>}
+                  {p.id === 2 && <TrendingUp size={24}/>}
+                  {p.id === 3 && <Globe2 size={24}/>}
+                  {p.id === 4 && <ShieldCheck size={24}/>}
+                </div>
+                <div className="text-[10px] font-black tracking-widest text-slate-500 uppercase border border-slate-800 px-2 py-1 rounded">
+                  P-{p.id}
+                </div>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-sky-400 transition-colors">{p.title}</h3>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-[11px] font-bold text-sky-400 uppercase tracking-wide">{p.mandate}</span>
+                <span className="w-1 h-1 rounded-full bg-slate-700"></span>
+                <span className="text-[11px] font-medium text-slate-500 uppercase">{p.tech}</span>
+              </div>
+              <p className="text-slate-400 text-sm leading-relaxed mb-8 flex-grow">
+                {p.description}
+              </p>
+              <a href={p.link} target="_blank" 
+                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-slate-800 group-hover:bg-sky-500 group-hover:text-white transition-all text-sm font-bold border border-slate-700 group-hover:border-sky-400">
+                View on GitHub <ExternalLink size={14}/>
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Technology & Finance Capability Stack - Expanded */}
+      <section id="tech" className="max-w-6xl mx-auto px-6 mb-32">
+        <div className="p-12 rounded-3xl border border-slate-800 bg-slate-900/20 backdrop-blur-sm">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-white mb-4">Technical & Strategic Mandates</h2>
+            <p className="text-slate-400">The tools and competencies I leverage to scale financial intelligence.</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {techStack.map((tech, i) => (
+              <div key={i} className="p-6 rounded-2xl border border-slate-800 bg-slate-950 flex flex-col items-center text-center hover:border-sky-500/30 transition-all group">
+                <div className="text-sky-400 mb-3 group-hover:scale-110 transition-transform">{tech.icon}</div>
+                <div className="font-bold text-white text-sm">{tech.name}</div>
+                <div className="text-[9px] text-slate-500 uppercase mt-1 tracking-widest">{tech.category}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Footer / Contact */}
+      <footer className="border-t border-slate-900 pt-20 pb-12 px-6 text-center">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-xs font-bold text-slate-500 tracking-[0.4em] uppercase mb-4">Decision Intelligence | Strategic Finance | NQF 8</div>
+          <h2 className="text-3xl md:text-4xl font-black text-white mb-8">jatin.d.chotoo@gmail.com</h2>
+          <div className="flex justify-center gap-8 mb-12 text-slate-400">
+            <a href="https://linkedin.com/in/jatin-chotoo" target="_blank" className="hover:text-sky-400 transition-colors flex items-center gap-2 text-sm font-medium">
+              <Linkedin size={18}/> LinkedIn
+            </a>
+            <a href="https://github.com/jatinchotoo" target="_blank" className="hover:text-sky-400 transition-colors flex items-center gap-2 text-sm font-medium">
+              <Github size={18}/> GitHub
+            </a>
+            <a href="mailto:jatin.d.chotoo@gmail.com" className="hover:text-sky-400 transition-colors flex items-center gap-2 text-sm font-medium">
+              <Mail size={18}/> Email
+            </a>
+          </div>
+          <p className="text-slate-600 text-[10px] uppercase tracking-widest">© 2026 Jatin Chotoo • Engineered for Financial Clarity</p>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default App;
